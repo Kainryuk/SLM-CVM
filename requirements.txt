@@ -1,0 +1,4 @@
+# UC01 Sem01 — Kelvin (Trilha B: IA & SLM)
+# Ollama client + Pydantic (ficha rígida / JSON Schema)
+ollama>=0.4
+pydantic>=2.0
