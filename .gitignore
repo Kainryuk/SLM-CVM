@@ -1,0 +1,40 @@
+# ==========================================
+# Tasks e anotações individuais de trabalho
+# ==========================================
+task-*.md
+KELVIN_TASKS.md
+*tasks*.md
+tasks/
+
+# ==========================================
+# Ambientes virtuais e dependências
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Bytecode e caches do Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ==========================================
+# Variáveis de ambiente e segredos
+# ==========================================
+.env
+*.env
+
+# ==========================================
+# Arquivos de sistema e temporários
+# ==========================================
+.DS_Store
+Thumbs.db
+*.tmp
+~$*.docx
+.vscode/
+.idea/
+
