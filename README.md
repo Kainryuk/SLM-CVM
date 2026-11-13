@@ -59,22 +59,18 @@ O projeto é conduzido em conjunto, organizado em duas trilhas complementares:
 5. **PostgreSQL + pgvector (etapa 02 — RAG)**:
    - Tabela `chunks_regulatorios` com `embedding vector(1024)` (`db/init.sql`), pronta para BGE-M3 e busca semântica.
 6. **Modelo-alias com trava de domínio (`cvm-resolucoes`)**:
-   - Registro no Ollama (via `src/criar_modelo_trava.py`) a partir de `qwen2.5-coder:7b` com system prompt **embutido no modelo**.
-   - Qualquer executor/IDE chama `cvm-resolucoes` sem passar "primeiro prompt" e ele já responde só assunto CVM (pt-BR, sem código, sem história) e, fora do tema, devolve exatamente: `Não consta na base de conhecimento da CVM.`
+   - Registro no Ollama (via [`src/criar_modelo_trava.py`](./src/criar_modelo_trava.py)) a partir de `qwen2.5-coder:7b` (`num_ctx=16384`, `temperature=0`, `repeat_penalty=1.1`) com system prompt **embutido no modelo**.
+   - **Escopo estrito e triagem temática:** focado **exclusivamente nas Resoluções da CVM** em português (`pt-BR`), sem RAG/pgvector nesta fase. Antes de recusar perguntas de programação ou do dia a dia, verifica se há vínculo com alguma Resolução da biblioteca de 250 normas (23.724 chars / ~8,6K tokens); se houver, responde sob a ótica das Resoluções (sem código); se não houver, devolve exatamente: `Não consta na base de conhecimento da CVM.`
+   - **Validação da trava (`src/testar_trava_cvm.py`):** 7/7 testes aprovados (CVM + bloqueio de Python, história, receita e esportes).
+   - **Desempenho e Hardware:** consulte **[`DESEMPENHO.md`](./DESEMPENHO.md)** para benchmarks medidos em CPU-only (`num_gpu=0`), modo híbrido de ~4 GB na GPU (`num_gpu=16`) e limite de 4 vs. 2 núcleos (`num_thread`).
    - Uso: `ollama run cvm-resolucoes`, `POST /api/chat` ou a rota OpenAI-compatible `POST /v1/chat/completions` (`http://127.0.0.1:11434/v1`) — é essa última que os plugins de IDE consomem.
-   - **v4 (config registrada)**: trava + TABELA de 250 resoluções (número de
-     3 dígitos → ementa autoritativa) queimada no system prompt + regra 7 de
-     anti-confusão de normas. Sem RAG. Gera `cvm-resolucoes` que responde
-     ancorado no acervo. Medido: ~47% exato / ~67% aceitável em amostra de 30
-     (teto do modo só-prompt — veja seção 9 de `instrucao.md`).
    - **Hermes Desktop:** rejeita modelos com janela < 64K no init (o 7b tem 32K).
      Se a máquina aguentar o 30b, dá pra usar via `--base qwen3-coder:30b` — ver
      seção 8.1 de [`instrucao.md`](./instrucao.md).
    - **Outros apps/IDEs (VS Code/Cline, OpenCode, Cursor, Aider, Python-SDK, curl):**
      seção **8** de [`instrucao.md`](./instrucao.md) traz a receita única `base_url
      http://127.0.0.1:11434/v1` + `model cvm-resolucoes` — a trava vem queimada no
-     modelo, o app só nomeia ele. O 7b padrão serve pra todos (não há exigência de
-     64K nesses harnesses).
+     modelo, o app só nomeia ele.
    - **Avaliação quantitativa:** `src/avalia_bateria_cvm.py` (bateria automática
      30/250 normas, sem RAG) → `tests/avaliacao_cvm.json`. Evidências em
      `tests/bateria_cvm_v1.json`, `bateria_cvm_v2.json`, `avaliacao_v5_cvm.json`.
@@ -96,6 +92,8 @@ SLM-CVM/
 │   ├── resolucoes/                # acervo BRUTO da CVM (espelho do site, 253 .md + anexos)
 │   └── (deliberações, pareceres, ofícios, sandbox, ... )
 ├── src/
+│   ├── criar_modelo_trava.py      # Cria/atualiza o modelo cvm-resolucoes no Ollama
+│   ├── testar_trava_cvm.py        # Bateria rápida de validação da trava (7 testes)
 │   ├── organizar_resolucoes.py    # Etapa 1: limpa docs/resolucoes → data_lake/processed
 │   ├── compreender_resolucoes.py  # Etapa 2: SLM explica o assunto (PT-BR, trava de schema)
 │   ├── treino_resolucoes.py       # Batch de extração FichaNormativa sobre docs/resolucoes
@@ -106,6 +104,7 @@ SLM-CVM/
 │   └── compreensao_resolucoes.json     # 253 fichas de assunto (etapa 2)
 ├── docker-compose.yml             # pgvector + ollama
 ├── requirements.txt               # ollama + pydantic
+├── DESEMPENHO.md                  # Especificações de hardware e benchmarks reais
 ├── instrucao.md                   # runbook passo a passo
 ├── .gitignore
 └── README.md
@@ -208,6 +207,26 @@ pip install -r requirements.txt
 .venv/Scripts/python src/teste_extracao_slm.py --texto-arquivo docs/resolucoes/Atos expedidos pela CVM/resol001.md
 # -> tests/evidencia_extracao.json
 ```
+
+### 7. Criar e rodar o `cvm-resolucoes` (nesta ou em outra máquina)
+
+Para replicar o modelo focado em Resoluções da CVM em outra máquina:
+
+```powershell
+# 1. Clonar no Windows habilitando caminhos longos (necessário para docs/oficios-circulares)
+git clone -c core.longpaths=true <URL-DO-REPOSITORIO>
+cd SLM-CVM
+
+# 2. Baixar o modelo base no Ollama e gerar o cvm-resolucoes
+ollama pull qwen2.5-coder:7b
+python src/criar_modelo_trava.py
+
+# 3. Validar a trava de domínio e conversar
+python src/testar_trava_cvm.py
+ollama run cvm-resolucoes
+```
+
+> **Requisitos e Desempenho:** consulte **[`DESEMPENHO.md`](./DESEMPENHO.md)** para ver os testes reais de consumo de RAM/VRAM, limite de núcleos (`num_thread`) e simulação em GPU de 4 GB (`num_gpu=16`).
 
 > **Backend nativo vs Docker:** os scripts usam `OLLAMA_HOST` (padrão `http://127.0.0.1:11434`).
 > O modelo padrão é `qwen2.5-coder:7b`; troque com `--modelo` (ex.: `--modelo qwen2.5:3b` se
