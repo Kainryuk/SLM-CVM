@@ -1,0 +1,251 @@
+{
+  "modelo": "cvm-resolucoes",
+  "cases": [
+    {
+      "id": "CVM-01",
+      "categoria": "cvm",
+      "pergunta": "O que disciplina a Resolução CVM nº 21?",
+      "norma": "Resolução CVM nº 21",
+      "resposta_modelo": "A Resolução CVM nº 21 disciplina a constituição, a administração, o funcionamento, a divulgação de informações e a distribuição de cotas dos Clubes de Investimento.",
+      "uso_tokens": {
+        "prompt_tokens": 11873,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 46,
+        "total_tokens": 11919
+      },
+      "trava_disparada": false,
+      "fonte": {
+        "caminho": "Administradores_de_Carteiras/resol021.md",
+        "ementa": "Dispõe sobre o exercício profissional de administração de carteiras de valores mobiliários e revoga a Instrução CVM nº 426 , de 28 de dezembro de 2005, a Instrução CVM nº 557 , de 27 de janeiro de 2015, a Instrução CVM nº 558 , de 26 de março de 2015, a Instrução CVM nº 597 , de 26 de abril de 2018, a Deliberação CVM nº 51 , de 25 de junho de 1987, a Deliberação CVM nº 740 , de 11 de novembro de 2015 e a Deliberação CVM nº 764 , de 4 de abril de 2017.",
+        "excerto": "RESOLUÇÃO CVM Nº 21, DE 25 DE FEVEREIRO DE 2021 COM AS ALTERAÇÕES INTRODUZIDAS \nPELAS RESOLUÇÕES 162/22, 167/22, 179/23 E 209/24. \nDispõe sobre o exercício profissional de \nadministração de carteiras de valores mobiliários  e \nrevoga a Instrução CVM nº 426, de 28 de dezembro \nde 2005, a Instrução CVM nº 557, de 27 de janeiro de \n2015, a Instrução CVM nº 558, de 26 de março de \n2015, a Instrução CVM nº 597, de 26 de abril de \n2018, a Deliberação CVM nº 51, de 25 de junho de \n1987, a Deliberação CVM nº 740, de 11 de novembro \nde 2015 e a Deliberação CVM nº 764, de 4 de abril de \n2017. \n \nO PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS - CVM torna público que o Colegiado, em \nreunião realizada em 24 de fevereiro de 2021, com fundamento nos arts. 8º, inciso I, 15, inciso III e § 1º, \ne 23 da Lei no 6.385, de 7 de dezembro de 1976, APROVOU a seguinte Resolução: \nCAPÍTULO I – ÂMBITO E FINALIDADE \nArt. 1º  Esta Resolução dispõe sobre a administração profissional de carteiras de valores mobiliários, \nque consiste no exercício profissional de atividades relacionadas, direta ou indiretamente, ao \nfuncionamento, à manutenção e à gestão de uma carteira de valores mobiliários, incluindo a apl"
+      },
+      "sinal_correspondencia_ementa": 0.06
+    },
+    {
+      "id": "CVM-02",
+      "categoria": "cvm",
+      "pergunta": "O que são BDRs segundo a Resolução CVM nº 182?",
+      "norma": "Resolução CVM nº 182",
+      "resposta_modelo": "A Resolução CVM nº 182 disciplina os certificados de depósito emitidos no Brasil com lastro em ações ou valores mobiliários emitidos no exterior — os BDRs (Brazilian Depositary Receipts) — sua emissão, negociação e oferta pública.",
+      "uso_tokens": {
+        "prompt_tokens": 11877,
+        "prompt_tokens_details": {
+          "cached_tokens": 11855
+        },
+        "completion_tokens": 64,
+        "total_tokens": 11941
+      },
+      "trava_disparada": false,
+      "fonte": {
+        "caminho": "BDR/resol182.md",
+        "ementa": "Dispõe sobre certificados de depósito emitidos no Brasil com lastro em ações, certificados de depósito de ações ou em valores mobiliários representativos de dívida emitidos no exterior (BDR) e revoga a Instrução CVM nº 332 , de 4 de abril de 2000. (Publicada no DOU de 12.05.2023)",
+        "excerto": "RESOLUÇÃO CVM Nº 182, DE 11 DE MAIO DE 2023 \nDispõe sobre certificados de depósito emitidos no \nBrasil com lastro em ações, certificados de depósito \nde ações ou em valores mobiliários representativos \nde dívida emitidos no exterior (BDR)  e revoga a \nInstrução CVM nº 332, de 4 de abril de 2000. \nO PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS – CVM torna público que o Colegiado, em \nreunião realizada em 3 de maio de 2023 , com fundamento no d isposto nos arts. 8º, I, 19 e 21 da Lei nº \n6.385, de 7 de dezembro de 1976, APROVOU a seguinte Resolução: \nCAPÍTULO I – ÂMBITO E FINALIDADE \nArt. 1º  Esta Resolução dispõe sobre a emissão, a negociação e as ofertas públicas de distribuição \nde certificados de depósito emitidos no Brasil com lastro em ações, certificados de depósito de ações ou \nem valores mobiliários representativos de dívida emitidos no exterior.  \nCAPÍTULO II – DEFINIÇÕES \nArt. 2º  Para os efeitos dessa Resolução, entende-se por: \nI – Brazilian Depositary Receipts (BDR): certificados de depósito emitidos no Brasil com lastro em \nações, certificados de depósito de ações ou em valores mobiliários representativos de dívida, emitidos no \nexterior; \nII – emissor: emissor bras"
+      },
+      "sinal_correspondencia_ementa": 0.56
+    },
+    {
+      "id": "CVM-03",
+      "categoria": "cvm",
+      "pergunta": "O que disciplina a Resolução CVM nº 9 sobre classificação de risco de crédito?",
+      "norma": "Resolução CVM nº 9",
+      "resposta_modelo": "A Resolução CVM nº 9 disciplina a atividade de classificação de risco de crédito no âmbito do mercado de valores mobiliários.",
+      "uso_tokens": {
+        "prompt_tokens": 11880,
+        "prompt_tokens_details": {
+          "cached_tokens": 11855
+        },
+        "completion_tokens": 35,
+        "total_tokens": 11915
+      },
+      "trava_disparada": false,
+      "fonte": {
+        "caminho": "Agencias_de_Classificacao_de_Risco_de_Credito/resol009.md",
+        "ementa": "Dispõe sobre a atividade de classificação de risco de crédito no âmbito do mercado de valores mobiliários. (Publicada no DOU de 28.10.2020)",
+        "excerto": "RESOLUÇÃO CVM Nº 9, DE 27 DE OUTUBRO DE 2020 COM AS ALTERAÇÕES INTRODUZIDAS PELA \nRESOLUÇÃO CVM Nº 185/23. \nDispõe sobre a atividade de classificação de risco de \ncrédito no âmbito do mercado de valores \nmobiliários. \nO PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁ RIOS – CVM torna público que o Colegiado, \nem reunião realizad a nesta data, tendo em vista o disposto nos art. 5º e 14 do Decreto nº 10.139, de \n28 de novembro de 2019,  com fundamento nos arts. 8º, I, e 27 da Lei nº 6.385, de 7 de dezembro de \n1976, APROVOU a seguinte Resolução: \nCAPÍTULO I – DEFINIÇÕES \nArt. 1º  Considera-se, para os efeitos desta Resolução: \nI – agência de classificação de risco de crédito: pessoa jurídica registrada ou reconhecida pela CVM \nque exerce profissionalmente a atividade de classifica ção de risco de crédito no âmbito do mercado de \nvalores mobiliários; e \nII – classificação de risco de crédito: atividade de opinar sobre a qualidade de crédito de um \nemissor de títulos de participação ou de dívida, de uma operação estruturada, ou qualquer ativo \nfinanceiro emitido no mercado de valores mobiliários. \nParágrafo único.  Esta Resolução somente se aplica às classificações de risco de crédito dest"
+      },
+      "sinal_correspondencia_ementa": 0.8
+    },
+    {
+      "id": "CVM-04",
+      "categoria": "cvm",
+      "pergunta": "Quais são as obrigações de divulgação de fato relevante da Resolução CVM nº 44?",
+      "norma": "Resolução CVM nº 44",
+      "resposta_modelo": "A Resolução CVM nº 44 dispõe sobre a divulgação de informações sobre ato ou fato relevante, a negociação de valores mobiliários na pendência de ato ou fato relevante, bem como sobre a divulgação de informações sobre a negociação de valores mobiliários em mercados organizados.\n\nAs principais obrigações de divulgação estabelecidas na Resolução CVM nº 44 incluem:\n\n1. Divulgação de informações sobre atos ou fatos relevantes: As empresas devem divulgar informações sobre atos ou fatos que possam afetar significativamente o preço ou a liquidez dos valores mobiliários que estão sendo negociados.\n\n2. Divulgação de negociações em mercados organizados: As empresas devem divulgar informações sobre negociações de valores mobiliários em mercados organizados, incluindo detalhes sobre os participantes e os termos das negociações.\n\n3. Divulgação de negociações em negociações de valores mobiliários: As empresas devem divulgar informações sobre negociações de valores mobiliários em negociações de valores mobiliários, incluindo detalhes sobre os participantes e os termos das negociações.\n\n4. Divulgação de informações sobre a negociação de valores mobiliários na pendência de ato ou fato relevante: As empresas devem divulgar informações sobre a negociação de valores mobiliários na pendência de ato ou fato relevante, incluindo detalhes sobre o ato ou fato relevante e sua possível impacto na negociação.\n\n5. Divulgação de informações sobre a negociação de valores mobiliários em mercados organizados: As empresas devem divulgar informações sobre a negociação de valores mobiliários em mercados organizados, incluindo detalhes sobre os participantes e os termos das negociações.\n\n6. Divulgação de informações sobre a negociação de valores mobiliários em negociações de valores mobiliários: As empresas devem divulgar informações sobre a negociação de valores mobiliários em negociações de valores mobiliários, incluindo detalhes sobre os participantes e os termos das negociações.\n\n7. Divulgação de informações sobre a negociação de valores mobiliários na pendência de ato ou fato relevante: As empresas devem divulgar informações sobre a negociação de valores mobiliários na pendência de ato ou fato relevante, incluindo detalhes sobre o ato ou fato relevante e sua possível impacto na negociação.\n\n8. Divulgação de informações sobre a negociação de valores mobiliários em mercados organizados: As empresas devem divulgar informações sobre a negociação de valores mobiliários em mercados organizados, incluindo detalhes sobre os participantes e os termos das negociações.\n\n9. Divulgação de informações sobre a negociação de valores mobiliários em negociações de valores mobiliários: As empresas devem divulgar informações sobre a negociação de valores mobiliários em negociações de valores mobiliários, incluindo detalhes sobre os participantes e os termos das negociações.\n\n10. Divulgação de informações sobre a negociação de valores mobiliários na pendência de ato ou fato relevante: As empresas devem divulgar informações sobre a negociação de valores mobiliários na pendência de ato ou fato relevante, incluindo detalhes sobre o ato ou fato relevante e sua possível impacto na negociação.\n\nAs empresas devem garantir que as informações divulgadas sejam precisas, completas e atualizadas, e que sejam divulgadas no prazo estabelecido pela CVM. As penalidades para não cumprimento das obrigações de divulgação estabelecidas na Resolução CVM nº 44 são graves e podem incluir multas e sanções administrativas.",
+      "uso_tokens": {
+        "prompt_tokens": 11885,
+        "prompt_tokens_details": {
+          "cached_tokens": 11853
+        },
+        "completion_tokens": 908,
+        "total_tokens": 12793
+      },
+      "trava_disparada": false,
+      "fonte": {
+        "caminho": "Companhia/resol044.md",
+        "ementa": "Dispõe sobre a divulgação de informações sobre ato ou fato relevante, a negociação de valores mobiliários na pendência de ato ou fato relevante não divulgado e a divulgação de informações sobre a negociação de valores mobiliários, e revoga as Instruções CVM nº 358 , de 3 de janeiro de 2002, nº 369 , de 11 de junho de 2002, e nº 449 , de 15 de março de 2007. (Publicada no DOU de 24.08.2021)",
+        "excerto": "RESOLUÇÃO CVM Nº 44, DE 23 DE AGOSTO DE 2021, COM AS ALTERAÇÕES INTRODUZIDAS PELAS \nRESOLUÇÕES CVM Nº 60/21 E 216/24. \nDispõe sobre a divulgação de informações sobre ato \nou fato relevante, a negociação de valores \nmobiliários na pendência de ato ou fato relevante \nnão divulgado e a divulgação de informações sobre a \nnegociação de valores mobiliários,  e revoga as \nInstruções CVM nº 358, de 3 de janeiro de 2002, nº \n369, de 11 de junho de 2002, e nº 449, de 15 de \nmarço de 2007. \nO PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS – CVM torna público que o Colegiado, em \nreunião realizada em 11 de agosto de 2021, com fundamento no disposto nos arts.  4º, III, IV e VI, 8º, I e \nIII, 18, II, “a”, e 22, § 1º, I, III, V e VI, da Lei nº 6.385, de 7 de dezembro de 1976, no art. 157 da Lei nº 6.404, \nde 15 de dezembro de 1976, bem como  nos arts. 5º a 9º do Decreto nº 10.139, de 28 de novembro de \n2019, APROVOU a seguinte Resolução: \nCAPÍTULO I – ÂMBITO E FINALIDADE \nArt. 1º  Esta Resolução dispõe sobre: \nI – a divulgação de informações sobre ato ou fato relevante; \nII – a negociação de valores mobiliários na pendência de ato ou fato relevante não divulgado; e \nIII – a divulgação de informa"
+      },
+      "sinal_correspondencia_ementa": 0.53
+    },
+    {
+      "id": "CVM-05",
+      "categoria": "cvm",
+      "pergunta": "O que disciplina a Resolução CVM nº 11 sobre clubes de investimento?",
+      "norma": "Resolução CVM nº 11",
+      "resposta_modelo": "A Resolução CVM nº 11 dispõe sobre a constituição, a administração, o funcionamento, a divulgação de informações e a distribuição de cotas dos Clubes de Investimento.",
+      "uso_tokens": {
+        "prompt_tokens": 11879,
+        "prompt_tokens_details": {
+          "cached_tokens": 11853
+        },
+        "completion_tokens": 48,
+        "total_tokens": 11927
+      },
+      "trava_disparada": false,
+      "fonte": {
+        "caminho": "Clubes_de_Investimento/resol011.md",
+        "ementa": "Dispõe sobre a constituição, a administração, o funcionamento, a divulgação de informações e a distribuição de cotas dos Clubes de Investimento.",
+        "excerto": "RESOLUÇÃO CVM Nº 11, DE 18 DE NOVEMBRO DE 2020 COM AS ALTERAÇÕES INTRODUZIDAS \nPELA RESOLUÇÃO CVM Nº 179/23. \nDispõe sobre a constituição, a administração, o \nfuncionamento, a divulgação de informações  e a \ndistribuição de cotas dos Clubes de Investimento. \nO PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS – CVM torna público que o Colegiado, \nem reunião realizada em 17 de novembro de 2020 , com fundamento no disposto nos arts. 2º, inciso V, \n4º, incisos I e II, 8º, inciso I, 17 e 19, § 5º, inciso I, da Lei nº 6.385, de 7 de dezembro de 1976, APROVOU \na seguinte Resolução: \nCAPÍTULO I – ÂMBITO E FINALIDADE \nArt. 1º  Esta Resolução dispõe sobre a constituição, administração, funcionamento, divulgação de \ninformações e distribuição de cotas dos Clubes de Investimento. \nCAPÍTULO II – CARACTERÍSTICAS GERAIS \nSeção I – Registro de Funcionamento \nArt. 2º  O Clube de Investimento (“Clube”) é um condomínio aberto, constituído por no mínimo 3 \n(três) e no máximo 50 (cinquenta) pessoas naturais, para aplicação de recursos em títulos e v alores \nmobiliários. \nArt. 3º  Da denominação do Clube deve constar a expressão “Clube de Investimento”. \nArt. 4º  O Clube deve ser constituído por ato do a"
+      },
+      "sinal_correspondencia_ementa": 1.0
+    },
+    {
+      "id": "CVM-06",
+      "categoria": "cvm",
+      "pergunta": "O que disciplina a Resolução CVM nº 88?",
+      "norma": "Resolução CVM nº 88",
+      "resposta_modelo": "A premissa não confere: a Resolução CVM nº 88 disciplina a oferta pública de distribuição de valores mobiliários de sociedades de pequeno porte, com dispensa de registro, por meio de plataforma de investimento participativo. Administração de carteiras consta na Resolução CVM nº 21.",
+      "uso_tokens": {
+        "prompt_tokens": 11873,
+        "prompt_tokens_details": {
+          "cached_tokens": 11865
+        },
+        "completion_tokens": 75,
+        "total_tokens": 11948
+      },
+      "trava_disparada": false,
+      "fonte": {
+        "caminho": "Ofertas_Publicas/resol088.md",
+        "ementa": "Dispõe sobre a oferta pública de distribuição de valores mobiliários de emissão de sociedades empresárias de pequeno porte realizada com dispensa de registro por meio de plataforma eletrônica de investimento participativo e revoga a Instrução CVM nº 588 , de 13 de julho de 2017.",
+        "excerto": "RESOLUÇÃO CVM Nº 88, DE 27 DE ABRIL DE 2022, COM AS ALTERAÇÕES INTRODUZIDAS PELAS \nRESOLUÇÕES CVM Nº 158/22 E 226/25. \nDispõe sobre a oferta pública de distribuição de \nvalores mobiliários  de emissão de sociedades \nempresárias de pequeno porte  realizada com \ndispensa de registro por meio de plataforma \neletrônica de investimento participativo e revoga a \nInstrução CVM nº 588, de 13 de julho de 2017. \n \nO PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS – CVM torna público que o Colegiado, \nem reunião realizada em 13 de abril de 2022, com fundamento no disposto nos arts. 2º, inciso IX, 15, \ninciso I, 16, inciso I, 19, § 5º, inciso I, e 20 da Lei nº 6.385, de 7 de dezembro de 1976, APROVOU a seguinte \nResolução: \nCAPÍTULO I – ÂMBITO E FINALIDADE \nArt. 1º  Esta Resolução regula a oferta pública de distribuição de valores mobiliários de emissão de \nsociedades empresárias de pequeno porte realizada com dispensa de registro por meio de plataforma \neletrônica de investimento participativo, e tem por fim assegurar a proteção dos investidores e possibilitar \na captação pública por parte destas sociedades. \n § 1º  Não se aplica à oferta pública de distribuição de valores mobiliários realiza"
+      },
+      "sinal_correspondencia_ementa": 0.62
+    },
+    {
+      "id": "CVM-07",
+      "categoria": "cvm",
+      "pergunta": "O que disciplina a Resolução CVM nº 20 sobre analistas de valores mobiliários?",
+      "norma": "Resolução CVM nº 20",
+      "resposta_modelo": "A premissa não confere: a Resolução CVM nº 20 disciplina a atividade de analista de valores mobiliários. A atividade de analista de valores mobiliários consta na Resolução CVM nº 21.",
+      "uso_tokens": {
+        "prompt_tokens": 11881,
+        "prompt_tokens_details": {
+          "cached_tokens": 11865
+        },
+        "completion_tokens": 57,
+        "total_tokens": 11938
+      },
+      "trava_disparada": false,
+      "fonte": {
+        "caminho": "Analistas_de_Valores_Mobiliarios/resol020.md",
+        "ementa": "Dispõe sobre a atividade de analista de valores mobiliários e revoga a Deliberação CVM nº 633 , de 6 de julho de 2010, e a Instrução CVM nº 598 , de 3 de maio de 2018.",
+        "excerto": "RESOLUÇÃO CVM Nº 20, DE 25 DE FEVEREIRO DE 2021, COM AS ALTERAÇÕES INTRODUZIDAS \nPELAS RESOLUÇÕES CVM Nº 179/23 E 216/24. \nDispõe sobre a atividade de analista de valores \nmobiliários e revoga a Deliberação CVM nº 633, de 6 \nde julho de 2010, e a Instrução CVM nº 598, de 3 de \nmaio de 2018. \nO PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS - CVM torna público que o Colegiado, \nem reunião realizada em 23 de fevereiro de 2021, tendo em vista o disposto nos art s. 1º, inciso VIII; 8º, \nincisos I e III; 15, § 1º; 18, inciso I, alínea “b”; e 27 da Lei nº 6.385, de 7 de dezembro de 1976, APROVOU \na seguinte Resolução: \nCAPÍTULO I – ÂMBITO E FINALIDADE \nArt. 1º  Analista de valores mobiliários é a pessoa natural ou jurídica que, em caráter profissional, \nelabora relatórios de análise destinados à publicação, divulgação ou distribuição a terceiros, ainda que \nrestrita a clientes. \n§ 1º  Para os fins da presente Resolução, a expressão “relatório de análise” significa quaisquer \ntextos, relatórios de acompanhamento, estudos ou análises sobre valores mobiliários específicos ou \nsobre emissores de valores mobiliários determinados que possam auxiliar ou influenciar investidores \nno processo de"
+      },
+      "sinal_correspondencia_ementa": 0.44
+    },
+    {
+      "id": "CVM-08",
+      "categoria": "cvm",
+      "pergunta": "O que trata a Resolução CVM nº 78 sobre fusões e aquisições?",
+      "norma": "Resolução CVM nº 78",
+      "resposta_modelo": "A Resolução CVM nº 78 trata sobre operações de fusão, cisão, incorporação e incorporação de ações.",
+      "uso_tokens": {
+        "prompt_tokens": 11880,
+        "prompt_tokens_details": {
+          "cached_tokens": 11855
+        },
+        "completion_tokens": 31,
+        "total_tokens": 11911
+      },
+      "trava_disparada": false,
+      "fonte": {
+        "caminho": "Companhia/resol078.md",
+        "ementa": "Dispõe sobre operações de fusão, cisão, incorporação e incorporação de ações, e revoga as Instruções CVM nº 319 , de 3 de dezembro de 1999, nº 349 , de 6 de março de 2001, e nº 565 , de 15 de junho de 2015.",
+        "excerto": "RESOLUÇÃO CVM Nº 78, DE 29 DE MARÇO DE 2022 \nDispõe sobre operações de fusão, cisão, \nincorporação e incorporação de ações , e revoga as \nInstruções CVM nº 319, de 3 de dezembro de 1999, \nnº 349, de 6 de março de 2001, e nº 565, de 15 de \njunho de 2015. \nO PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS – CVM torna público que o Colegiado, em \nreunião realizada em 23 de março de 2022, com fundamento no disposto nos arts. 8º, I e III, e 22, § 1º, I, \nda Lei nº 6.385, de 7 de dezembro de 1976, e nos arts. 137, II, “a”, 226, § 3º, 252, § 4º, e 264 da Lei 6.404, \nde 15 de dezembro de 1976, APROVOU a seguinte Resolução: \nCAPÍTULO I – DISPOSIÇÕES PRELIMINARES \nArt. 1º  Esta Resolução é aplicável a operaçõe s de fusão, cisão, incorporação e incorporação de \nações. \nParágrafo único.  Exceto quando expressamente indicado em sentido diverso, esta Resolução aplica-\nse somente a operações que envolvam pelo menos um emissor de valores mobiliários registrado na \ncategoria A. \nArt. 2º  Para os fins desta Resolução, entende-se por: \nI – ações em circulação: aquelas assim consideradas na regulamentação da CVM acerca de ofertas \npúblicas de aquisição de ações; \nII – operação: é a fusão, cisão, incor"
+      },
+      "sinal_correspondencia_ementa": 0.45
+    },
+    {
+      "id": "CVM-09",
+      "categoria": "errado",
+      "pergunta": "O que disciplina a Resolução CVM nº 88 sobre os direitos e deveres dos administradores de carteiras de valores mobiliários?",
+      "norma": "Resolução CVM nº 88",
+      "resposta_modelo": "Não consta na base de conhecimento da CVM.",
+      "uso_tokens": {
+        "prompt_tokens": 11891,
+        "prompt_tokens_details": {
+          "cached_tokens": 11855
+        },
+        "completion_tokens": 13,
+        "total_tokens": 11904
+      },
+      "trava_disparada": true,
+      "fonte": {
+        "caminho": "Ofertas_Publicas/resol088.md",
+        "ementa": "Dispõe sobre a oferta pública de distribuição de valores mobiliários de emissão de sociedades empresárias de pequeno porte realizada com dispensa de registro por meio de plataforma eletrônica de investimento participativo e revoga a Instrução CVM nº 588 , de 13 de julho de 2017.",
+        "excerto": "RESOLUÇÃO CVM Nº 88, DE 27 DE ABRIL DE 2022, COM AS ALTERAÇÕES INTRODUZIDAS PELAS \nRESOLUÇÕES CVM Nº 158/22 E 226/25. \nDispõe sobre a oferta pública de distribuição de \nvalores mobiliários  de emissão de sociedades \nempresárias de pequeno porte  realizada com \ndispensa de registro por meio de plataforma \neletrônica de investimento participativo e revoga a \nInstrução CVM nº 588, de 13 de julho de 2017. \n \nO PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS – CVM torna público que o Colegiado, \nem reunião realizada em 13 de abril de 2022, com fundamento no disposto nos arts. 2º, inciso IX, 15, \ninciso I, 16, inciso I, 19, § 5º, inciso I, e 20 da Lei nº 6.385, de 7 de dezembro de 1976, APROVOU a seguinte \nResolução: \nCAPÍTULO I – ÂMBITO E FINALIDADE \nArt. 1º  Esta Resolução regula a oferta pública de distribuição de valores mobiliários de emissão de \nsociedades empresárias de pequeno porte realizada com dispensa de registro por meio de plataforma \neletrônica de investimento participativo, e tem por fim assegurar a proteção dos investidores e possibilitar \na captação pública por parte destas sociedades. \n § 1º  Não se aplica à oferta pública de distribuição de valores mobiliários realiza"
+      },
+      "sinal_correspondencia_ementa": 0.0
+    },
+    {
+      "id": "FORA-01",
+      "categoria": "fora",
+      "pergunta": "Me ensina a fazer macarrão à carbonara?",
+      "norma": null,
+      "resposta_modelo": "Não consta na base de conhecimento da CVM.",
+      "uso_tokens": {
+        "prompt_tokens": 11870,
+        "prompt_tokens_details": {
+          "cached_tokens": 11853
+        },
+        "completion_tokens": 13,
+        "total_tokens": 11883
+      },
+      "trava_disparada": true
+    },
+    {
+      "id": "FORA-02",
+      "categoria": "fora",
+      "pergunta": "Escreva uma função Python para ordenar uma lista de números.",
+      "norma": null,
+      "resposta_modelo": "Não consta na base de conhecimento da CVM.",
+      "uso_tokens": {
+        "prompt_tokens": 11872,
+        "prompt_tokens_details": {
+          "cached_tokens": 11853
+        },
+        "completion_tokens": 13,
+        "total_tokens": 11885
+      },
+      "trava_disparada": true
+    },
+    {
+      "id": "FORA-03",
+      "categoria": "fora",
+      "pergunta": "Quem venceu a Copa do Mundo de 1998?",
+      "norma": null,
+      "resposta_modelo": "Não consta na base de conhecimento da CVM.",
+      "uso_tokens": {
+        "prompt_tokens": 11874,
+        "prompt_tokens_details": {
+          "cached_tokens": 11853
+        },
+        "completion_tokens": 13,
+        "total_tokens": 11887
+      },
+      "trava_disparada": true
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+# Ofício Circular CVM/SIN 04/26
+
+> **Fonte:** https://conteudo.cvm.gov.br/legislacao/oficios-circulares/sin/oc-sin-0426.html  
+
+> **Espelhado em:** 09/11/2026  
+
+
+## Metadados
+
+- **Ementa (catalogo do site):** Inaplicabilidade da exigência de registro na CVM para investidores não residentes que operam com derivativos do agronegócio
+- **Data (pagina de detalhe):** Wed Feb 11 10:23:00 BRST 2026
+- **Epigrafe / Ementa:** Inaplicabilidade da exigência de registro na CVM para investidores não residentes que operam com derivativos do agronegócio
+
+## Documentos / Anexos (baixados localmente)
+
+- **Ofício Circular CVM/SIN 04/26** — arquivo: `../anexos/oc-sin-0426.html/oc-sin-0426.pdf` (formato: pdf)
+
+## Texto completo — Ofício Circular CVM/SIN 04/26
+
+<sub>Fonte: `oc-sin-0426.pdf` — 1 paginas</sub>
+
+Ofício-Circular nº 4/2026/CVM/SIN 
+Rio de Janeiro, 11 de fevereiro de 2026. 
+Aos 
+Representantes de investidores não residentes e Entidades Administradoras de Mercado Organizado.  
+  
+Assunto: Inaplicabilidade da exigência de registro na CVM para investidores não residentes que operam com 
+derivativos do agronegócio 
+Prezados(as) Senhores(as), 
+1. Este Ofício-Circular tem por objetivo divulgar a interpretação desta área técnica a respeito da aplicação do 
+artigo 6º da Resolução Conjunta BCB-CVM nº 13, de 3 de dezembro de 2024 (“Res. Conjunta 13”). 
+2. O mercado tem levantado questionamentos a respeito da constituição de representante no País e da obtenção 
+de registro nesta Comissão de Valores Mobiliários (“CVM”) pelo investidor não residente que realiza, 
+exclusivamente, operações relacionadas a contrato a termo, futuro e de opções de produtos agropecuários e 
+realizam recebimentos, pagamentos e demais movimentações financeiras em conta mantida no exterior (“INR 
+Agro”). 
+3. De início, ressaltamos que a obrigação contida no artigo 6º da Res. Conjunta 13 se limita aos investidores não 
+residentes que aplicam nos demais produtos dos mercados financeiro e de valores mobiliários (investimento de 
+não residente em portfólio), não abrangendo os INR Agro. 
+4. Em conclusão, esclarecemos que, na visão desta área técnica, a leitura sistemática e histórica da Res. Conjunta 
+13 permite inferir que a necessidade geral de registro e constituição de representante ali previstas não se aplica 
+aos investidores não residentes pessoas jurídicas que ingressam no país com a específica finalidade de atuar nos 
+segmentos outrora regulados pela Resolução CMN nº 2.687. 
+5. Como fundamento, por não ter sido o objetivo desta CVM impor exigências adicionais relacionadas ao 
+ingresso, no País, de investidores não residentes, para efeitos de interpretação e aplicação da regra, então, o 
+registro deve ser considerado como uma obrigação do investidor não residente que se aplica nos demais produtos 
+dos mercados financeiro e de capitais, sem que alcance o INR Agro, que está dispensado da constituição de 
+representante no País e da obtenção de registro nesta CVM.  
+ 
+Atenciosamente, 
+Assinado digitalmente por 
+MARCO ANTONIO VELLOSO DE SOUSA 
+Superintendente de Supervisão de Investidores Institucionais
+
+---
+_Espelho textual gerado automaticamente a partir de conteudo.cvm.gov.br. Texto completo normatizado nos PDFs citados; verificacao final deve ser feita no original (DOU/site CVM)._

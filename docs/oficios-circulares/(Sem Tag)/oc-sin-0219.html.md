@@ -1,0 +1,143 @@
+# Ofício-Circular CVM/SIN 02/19
+
+> **Fonte:** https://conteudo.cvm.gov.br/legislacao/oficios-circulares/sin/oc-sin-0219.html  
+
+> **Espelhado em:** 09/11/2026  
+
+
+## Metadados
+
+- **Ementa (catalogo do site):** Esclarecimentos sobre a atividade de analista de valores mobiliários e dispositivos da Instrução CVM nº 598
+- **Data (pagina de detalhe):** Fri Mar 01 15:00:00 BRT 2019
+- **Epigrafe / Ementa:** Esclarecimentos sobre a atividade de analista de valores mobiliários e dispositivos da Instrução CVM nº 598
+
+## Documentos / Anexos (baixados localmente)
+
+- **Ofício-Circular CVM/SIN 02/19** — arquivo: `../anexos/oc-sin-0219.html/oc-sin-0219.pdf` (formato: pdf)
+
+## Texto completo — Ofício-Circular CVM/SIN 02/19
+
+<sub>Fonte: `oc-sin-0219.pdf` — 3 paginas</sub>
+
+Ofício-Circular n° 2/2019/CVM/SIN 
+Rio de Janeiro, 1º de março de 2019 
+ 
+Aos 
+Analistas de valores mobiliários 
+ 
+Assunto: Esclarecimentos sobre a atividade de anal ista de valores mobiliár ios e dispositivos da 
+Instrução CVM n° 598 
+ 
+1. Este Ofício-Circular tem por objetivo apresentar esclarecimentos sobre dispositivos da 
+Instrução CVM n° 598/18 (“ICVM 598” ou ”Instru ção”), com o objetivo de  orientar quanto a 
+melhor forma de cumprir a referida norma. A ob servação às recomendações abaixo relacionadas 
+contribuirá para minimizar eventuais desvios e, consequentemente, para reduzir a necessidade de 
+formulação de exigências por parte da Superintendência de Relações com Investidores 
+Institucionais (SIN), bem como para permitir que a atuação dos participantes do mercado se 
+realize de maneira ágil, em prol da proteção dos investidores e da integridade do mercado. 
+2. Salienta-se, por oportuno, que boa parte do conteúdo abordado neste Ofício-Circular é resultado 
+de questionamentos feitos por participantes do mercado e percepções decorrentes da supervisão da 
+área técnica, em especial nos temas de Fintech sob responsabilidade da SIN.  
+3. Nesse aspecto, é de particular importância pe rceber que as inovações de cunho tecnológico no 
+mercado de capitais não raro e nvolvem novos modelos de negócios e inexploradas abordagens a 
+investidores, o que torna a necessi dade de esclarecimentos tempesti vos por parte da área técnica 
+de suma relevância e pertinência. 
+Art. 17 da Instrução CVM n° 598/2018 
+4. O citado artigo em síntese, estabelece que os Analistas de Valores Mobiliários – Pessoa Jurídica 
+devem tomar todas as medidas necessárias para que  suas equipes de análise sejam formadas por, 
+no mínimo 80% (oitenta por cento) de analistas de valores mobiliários credenciados. 
+5. Ressaltamos o entendimento obtido sobre o Art. 13 da In strução CVM 598 no Relatório de 
+Audiência Pública 03/17, no qual diz: “esclarece que ao se referi r aos demais profissionais que 
+fazem parte do departamento de an álise das pessoas jurídicas, a CVM quis se referir às pessoas 
+que participam da formulação de relatórios de a nálise de valores mobiliários, mas que não sejam 
+analistas registrados, tais como estagiários, tr ainees e profissionais que contribuam de alguma 
+forma para a análise refletida no relatório”.  
+6. Sendo assim, entendemos que os esclareciment os realizados quando da Audiência Pública 
+03/17 sobre a definição dos profissionais não cred enciados que fazem parte da equipe, também 
+deve ser utilizada no art. 17 da Instrução CVM 598.  Dessa forma, caso estagiários, trainees ou 
+demais profissionais não credenciados esteja m de fato auxiliando de forma técnica e não 
+procedimental (levantamento de dados, pesquisa et c.) no processo de elaboração dos relatórios de 
+análise, deverão ser considerados como membros da equipe de análise para fins de atendimento ao 
+art. 17º. 
+Formas de Comunicação
+7. Em linha com o disposto, por exemplo, na Instrução CVM nº 400, de 29 de dezembro de 2003, 
+a Instrução CVM n° 598/18 também prevê em se u art. 14 que as informações divulgadas pelo 
+analista de valores mobiliários devem ser verdadeiras, completas, consistentes e não induzir o 
+investidor a erro. Além disso, devem ser escritas em linguagem simples, clara, objetiva e concisa. 
+Como exposto na norma, tais exigências se estendem para além do conteúdo relatório de análise, e 
+assim abrangem também qualquer divulgação publicitári a realizada por meio de jornais, revistas, 
+rede mundial de computadores, programas, aplic ativos, mensagens eletrô nicas ou qualquer outro 
+meio de comunicação que alcance investidores finais. 
+8. Assim, devem ser evitadas expressões que in diquem ou sugiram “renda certa”, “rentabilidade 
+fixa” ou “garantida”, ou a exposição de percen tuais fixos de ganho quaisquer com operações ou 
+ativos indicados, pois naturalmente tais projeç ões sequer são realistas, e por isso induzem 
+investidores a erros de avaliação na sua decisão de  investimento, por levá-l os a crer na realização 
+certa de ganhos com operações que, por sua própria natureza, estão sujeitas a riscos e cujo retorno 
+será sempre incerto. 
+Atividade educacional x Prestação de serviço de análise 
+9. Esta Superintendência tem recebido consultas, denúncias e questionamentos a respeito da 
+interpretação a ser dada a situações em que, a pretexto de se  apresentar um conteúdo educacional, 
+são mostradas situações de compra/venda de  ativos em ambientes ao vivo, durante o 
+funcionamento do pregão.  
+10. A SIN entende que a apresentação dos conteúdos listados abaixo envolvendo valores 
+mobiliários seja por meio de si tes da internet ou por redes so ciais (facebook, youtube, instagram, 
+etc.) ou quaisquer outras informações que seja m capazes de influenciar a decisão ou motivar a 
+compra ou venda de ações ou de outros valo res mobiliários, podem ultrapassar o cunho 
+educacional e se inserem no conceito de "relatór io de análise" contido no §1º do art. 1º da 
+Instrução CVM n° 598/20181. 
+- transmissões ao vivo em salas de conversa on-line; 
+- acompanhamento diário durante o pregão online; 
+- realização de operações ao vivo, com come ntários sobre tendências de determinada ação, 
+indicação da hora ou do momento adequado para comprar ou vender;  
+- divulgação de operações, decididas com o aux ílio da análise gráfica ou fundamentalista, 
+com a indicação ostensiva de rentabilidade hist órica e oportunidades de investimento (por 
+exemplo, momentos de entrada e saída no ativo ou derivativo objeto) por meio de 
+transmissões ao vivo durante o pregão. 
+11. Importante aspecto a se avaliar nessas circ unstâncias é se o agente envolvido realiza a 
+atividade de forma profissional. Nesse sentido, qualquer benefício, remuneração ou vantagem que 
+se obtenha na oferta dessas recomendações, en volva ou não diretamente numerários, como, por 
+exemplo, a cobrança de taxas de assinatura ou adesão, mensalidades ou anuidades, receitas 
+indiretas recebidas em função dos acessos de terceiros, ou quaisquer outras, pode atrair a 
+competência da CVM e demarcar o caráter profissional da atividade. 
+                                                 
+1 “quaisquer textos, relatórios de acompanhamento, estudos ou análises sobre valores mobiliários específicos ou sobre 
+emissores de valores mobiliários determinados que possam auxiliar ou influenciar investidores no processo de tomada 
+de decisão de investimento”.
+12. Nesse contexto se insere, também e por exemplo, formas de remuneração mais típicas do meio 
+acadêmico (como a cobrança de taxas de inscrição  ou mensalidades para a participação “em 
+cursos”), sempre que a área técnica identificar que tais formas de cobrança têm o objetivo de iludir 
+investidores e o mercado a respeito da real  natureza, alcance e es copo das recomendações 
+efetuadas pelo envolvido.11. Também é digno de nota que a forma, veículo ou plataforma pela 
+qual se dá a oferta é irrelevante para a caracte rização ou não da irregularidade. Assim, pode ser 
+caracterizada a irregularidade por meio da estr uturação de website dedicado à oferta desses 
+serviços; com a manutenção de canais em pr ovedores de conteúdo ou redes sociais (Youtube, 
+Instagram, Facebook, etc.); com a divulgação em veículos de comunicação quaisquer (Whatsapp, 
+Telegram, etc.), ou por qualquer outro meio em que se alcance uma indeterminação de 
+investidores. 
+13. Nesse contexto, não custa re lembrar que a elaboração de relatórios de análise é atividade 
+privativa dos analistas de valore s mobiliários credenciados na forma da Instrução CVM 598, e a 
+atuação sem o devido registro pode ensejar a apli cação de medidas administrativas como a edição 
+de Deliberação de Stop Order que determine a im ediata cessação das atividades; a cominação de 
+multas cominatórias pelo descumprimento da Deliberação, se for o caso; ou, no limite, a 
+instauração de processos administrativos sancionadores pela área técnica. 
+Comercialização de estratégias automatizadas 
+14. Em relação às ofertas feitas a investidores de serviços de estratégias padronizadas por meio de 
+sistemas automatizados ou algoritmos lógico s e matemáticos, com o objetivo de indicar 
+oportunidades e momentos apropriados para r ealizar operações com valores mobiliários, 
+esclarecemos que a SIN considera que a oferta de tais serviços configura serviço de análise de 
+valores mobiliários, e, portanto, também são pr ivativas dos analistas de valores mobiliários 
+credenciados na forma da Instrução CVM nº 598. 
+15. Importante destacar que a exigência de credenciamento não abrange aqueles que 
+comercializam apenas sistemas automatizados que  se destinam a operacionalizar a execução de 
+decisões tomadas pelos próprios investidores . Assim, alertamos que a necessidade de 
+credenciamento é restrita aos serviços que envol vem estratégias pré-definidas onde o investidor 
+possui pouco ou nenhum poder de parametrização. 
+ 
+Atenciosamente, 
+ 
+Assinado digitalmente por 
+DANIEL WALTER MAEDA BERNARDO 
+Superintendente de Relações com Investidores Institucionais
+
+---
+_Espelho textual gerado automaticamente a partir de conteudo.cvm.gov.br. Texto completo normatizado nos PDFs citados; verificacao final deve ser feita no original (DOU/site CVM)._

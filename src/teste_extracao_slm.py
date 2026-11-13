@@ -45,10 +45,10 @@ no prazo de 30 dias.
 SAIDA_EVIDENCIA = Path(__file__).resolve().parent.parent / "tests" / "evidencia_extracao.json"
 
 
-def _extrair(trecho: str) -> dict:
+def _extrair(trecho: str, modelo: str = "qwen2.5-coder:7b") -> dict:
     """Manda o trecho para o SLM e força a saída a seguir a FichaNormativa."""
     resposta = ollama.chat(
-        model="qwen2.5:3b",
+        model=modelo,
         messages=[
             {"role": "user", "content": f"Extraia os dados deste texto:\n{trecho}"}
         ],
@@ -69,6 +69,8 @@ def _extrair(trecho: str) -> dict:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Extrai metadados normativos via Ollama+Pydantic")
     ap.add_argument("--texto-arquivo", help="Path de um .txt com o trecho normativo (CVM)")
+    ap.add_argument("--modelo", default="qwen2.5-coder:7b",
+                    help="Modelo SLM no Ollama (padrão: qwen2.5-coder:7b)")
     args = ap.parse_args()
 
     trecho = TEXT_PADRAO
@@ -80,7 +82,7 @@ def main() -> int:
         trecho = p.read_text(encoding="utf-8")
 
     try:
-        dados = _extrair(trecho)
+        dados = _extrair(trecho, modelo=args.modelo)
     except ConnectionError as e:
         print("[erro] Ollama não respondeu. Suba com: docker compose up -d", file=sys.stderr)
         print(f"       detalhe: {e}", file=sys.stderr)

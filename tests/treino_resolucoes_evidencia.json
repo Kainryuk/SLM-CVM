@@ -1,0 +1,2540 @@
+{
+  "escopo": "docs\\resolucoes",
+  "modelo": "qwen2.5-coder:7b",
+  "processados": 253,
+  "erros": 0,
+  "tempo_segundos": 1060.2,
+  "resultados": [
+    {
+      "norma": "resol002.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol002.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "2",
+      "assunto_principal": "Revogação de atos normativos e alteração de Instrução CVM",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol003.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol003.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "3",
+      "assunto_principal": "Alteração e Acréscimo de Dispositivos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol005.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol005.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "5",
+      "assunto_principal": "Alteração na Instrução CVM nº 481",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol007.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol007.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "7",
+      "assunto_principal": "Revogação de atos normativos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol015.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol015.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "15",
+      "assunto_principal": "Alteração da Resolução CVM nº 8",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol040.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol040.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "40",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol059.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol059.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "59",
+      "assunto_principal": "Alteração das Instruções CVM 480 e 481",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol061.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol061.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "61",
+      "assunto_principal": "Alteração das Instruções CVM e Resoluções CVM",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol063.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol063.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "63",
+      "assunto_principal": "Revogação de normas",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol064.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol064.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "64",
+      "assunto_principal": "Alteração na Resolução CVM nº 13",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol065.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol065.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "65",
+      "assunto_principal": "Alteração das Resoluções CVM nº 45 e CVM nº 46",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol066.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol066.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "66",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol069.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol069.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "69",
+      "assunto_principal": "Revogação de resoluções e deliberações",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol079.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol079.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "79",
+      "assunto_principal": "Revogação de normas",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol083.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol083.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "83",
+      "assunto_principal": "Revogação de instruções e deliberação",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol087.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol087.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "87",
+      "assunto_principal": "Alteração e republicação da Resolução CVM nº 59",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol134.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol134.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "134",
+      "assunto_principal": "Alteração na Resolução CVM 35",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol154.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol154.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "154",
+      "assunto_principal": "Revogação de atos normativos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol158.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol158.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "158",
+      "assunto_principal": "Alteração na Resolução CVM nº 88",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol159.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol159.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "159",
+      "assunto_principal": "Alteração das Resoluções CVM 24 e 47",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol162.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol162.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "162",
+      "assunto_principal": "Alteração de instruções e resoluções",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol164.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol164.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "164",
+      "assunto_principal": "Revogação de Instruções CVM",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol167.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol167.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "167",
+      "assunto_principal": "Alteração na Resolução CVM nº 21",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol168.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol168.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "168",
+      "assunto_principal": "Alteração das Resoluções CVM 59 e 80",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol169.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol169.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "169",
+      "assunto_principal": "Alteração na Resolução CVM nº 51",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol170.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol170.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "170",
+      "assunto_principal": "Alteração na Resolução CVM nº 135 e Revogação da Resolução CVM nº 38",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol171.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol171.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "171",
+      "assunto_principal": "Alteração na Resolução CVM nº 54",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol173.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol173.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "173",
+      "assunto_principal": "Alteração nas Resoluções CVM 80, 160 e 161",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol174.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol174.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "174",
+      "assunto_principal": "Alteração na Resolução CVM nº 31",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol177.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol177.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "177",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol179.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol179.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "179",
+      "assunto_principal": "Alteração na legislação sobre assessores de investimento",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol180.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol180.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "180",
+      "assunto_principal": "Alteração nas Resoluções CVM nº 80 e CVM nº 160",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol181.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol181.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "181",
+      "assunto_principal": "Alteração na Resolução CVM nº 175",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol183.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol183.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "183",
+      "assunto_principal": "Alteração nas Resoluções CVM 80 e 160",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol184.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol184.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "184",
+      "assunto_principal": "Alteração na Resolução CVM 175",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol185.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol185.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "185",
+      "assunto_principal": "Alteração na Resolução CVM nº 9",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol186.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol186.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "186",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol187.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol187.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "187",
+      "assunto_principal": "Alteração na Resolução CVM nº 175",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol192.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol192.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "192",
+      "assunto_principal": "Revogação de atos normativos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol194.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol194.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "194",
+      "assunto_principal": "Alteração na Resolução CVM nº 60",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol195.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol195.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "195",
+      "assunto_principal": "Alteração nas normas sobre auditoria e asseguração de demonstrações combinadas e informações financeiras pro forma",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol196.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol196.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "196",
+      "assunto_principal": "Prorrogação da data de entrada em vigor das seções III e IV do Capítulo VII-A da Resolução CVM nº 35",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol198.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol198.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "198",
+      "assunto_principal": "Alteração na Resolução CVM nº 80",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol200.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol200.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "200",
+      "assunto_principal": "Alteração na Resolução CVM nº 175",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol201.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol201.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "201",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol203.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol203.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "203",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol204.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol204.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "204",
+      "assunto_principal": "Alteração das Resoluções CVM nº 80 e nº 81",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol206.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol206.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "206",
+      "assunto_principal": "Alteração na Resolução CVM nº 175",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol207.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol207.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "207",
+      "assunto_principal": "Alteração nas Resoluções CVM nº 47, 80 e 161",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol208.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol208.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "208",
+      "assunto_principal": "Alteração na Resolução CVM nº 160",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol209.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol209.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "209",
+      "assunto_principal": "Alteração das Resoluções CVM",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol214.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol214.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "214",
+      "assunto_principal": "Regras específicas dos fundos de investimento das cadeias produtivas do agronegócio – FIAGRO",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol216.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol216.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "216",
+      "assunto_principal": "Alteração de Resoluções CVM",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol219.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol219.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "219",
+      "assunto_principal": "Alteração na Resolução CVM nº 193",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol220.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol220.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "220",
+      "assunto_principal": "Alteração de Resoluções CVM",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol221.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol221.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "221",
+      "assunto_principal": "Alteração na Resolução CVM nº 86",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol222.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol222.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "222",
+      "assunto_principal": "Alteração na Resolução CVM nº 161",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol224.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol224.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "224",
+      "assunto_principal": "Alteração na Resolução CVM nº 203",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol226.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol226.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "226",
+      "assunto_principal": "Alteração de várias resoluções CVM",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol227.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol227.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "227",
+      "assunto_principal": "Alteração na Resolução CVM nº 193",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol228.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol228.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "228",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol229.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol229.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "229",
+      "assunto_principal": "Alteração na Resolução CVM nº 209 e 210",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol230.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol230.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "230",
+      "assunto_principal": "Prorrogação da data de entrada em vigor da Resolução CVM 215",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol231.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol231.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "Resolução CVM 231",
+      "assunto_principal": "Alteração das Resoluções CVM nº 80 e CVM nº 166",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol233.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol233.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "233",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol235.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol235.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "235",
+      "assunto_principal": "Alteração de Resoluções CVM",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol236.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol236.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "236",
+      "assunto_principal": "Alteração das Resoluções CVM nº 47 e 232",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol239.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol239.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "239",
+      "assunto_principal": "Alteração das Resoluções CVM nº 24 e CVM nº 53",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol240.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol240.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "240",
+      "assunto_principal": "Alteração normativa no Anexo II da Resolução CVM 175",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol241.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol241.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "241",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol243.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol243.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "243",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol245.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol245.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "245",
+      "assunto_principal": "Alteração na Resolução CVM nº 50",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol246.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol246.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "246",
+      "assunto_principal": "Alteração na Resolução CVM nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol247.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol247.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "247",
+      "assunto_principal": "Alteração na Resolução CVM nº 60 e Anexo II da Resolução CVM nº 175",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol248.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol248.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "248",
+      "assunto_principal": "Alteração na Resolução CVM nº 67",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol249.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol249.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "249",
+      "assunto_principal": "Programa Piloto DLT CVM",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol250.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol250.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "250",
+      "assunto_principal": "Alteração na Resolução CVM nº 19",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol251.md",
+      "pasta": "(Sem Tag)",
+      "caminho": "(Sem Tag)/resol251.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "251",
+      "assunto_principal": "Alteração na Resolução CVM nº 9",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol021.md",
+      "pasta": "Administradores de Carteiras",
+      "caminho": "Administradores de Carteiras/resol021.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "21",
+      "assunto_principal": "Administração de carteiras de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol022.md",
+      "pasta": "Administradores de Carteiras",
+      "caminho": "Administradores de Carteiras/resol022.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "22",
+      "assunto_principal": "Administração e Operações de Planos de Poupança e Investimento - PAIT",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol009.md",
+      "pasta": "Agencias de Classificacao de Risco de Credito",
+      "caminho": "Agencias de Classificacao de Risco de Credito/resol009.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "9",
+      "assunto_principal": "Classificação de risco de crédito no mercado de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol017.md",
+      "pasta": "Agentes Fiduciarios",
+      "caminho": "Agentes Fiduciarios/resol017.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "17",
+      "assunto_principal": "Exercício da função de agente fiduciário",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol020.md",
+      "pasta": "Analistas de Valores Mobiliarios",
+      "caminho": "Analistas de Valores Mobiliarios/resol020.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "20",
+      "assunto_principal": "Atividade de analista de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol016.md",
+      "pasta": "Assessores de Investimento",
+      "caminho": "Assessores de Investimento/resol016.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "16",
+      "assunto_principal": "Atividade de agente autônomo de investimento",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol178.md",
+      "pasta": "Assessores de Investimento",
+      "caminho": "Assessores de Investimento/resol178.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "178",
+      "assunto_principal": "Atividade de assessor de investimento",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol001.md",
+      "pasta": "Atos expedidos pela CVM",
+      "caminho": "Atos expedidos pela CVM/resol001.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "1",
+      "assunto_principal": "Nomenclatura de atos a serem expedidos pela CVM",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol023.md",
+      "pasta": "Auditor Independente",
+      "caminho": "Auditor Independente/resol023.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "23",
+      "assunto_principal": "Registro e exercício da atividade de auditoria independente no âmbito do mercado de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol182.md",
+      "pasta": "BDR",
+      "caminho": "BDR/resol182.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "182",
+      "assunto_principal": "Certificados de depósito emitidos no Brasil com lastro em ações, certificados de depósito de ações ou em valores mobiliários representativos de dívida emitidos no exterior (BDR)",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol225.md",
+      "pasta": "Cadastro de Investidores",
+      "caminho": "Cadastro de Investidores/resol225.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "225",
+      "assunto_principal": "Cadastro de Acesso de investidores",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol051.md",
+      "pasta": "Cadastro de Participantes Regulados",
+      "caminho": "Cadastro de Participantes Regulados/resol051.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "51",
+      "assunto_principal": "Cadastro de participantes do mercado de valores mobiliários",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol234.md",
+      "pasta": "Cadastro de Participantes Regulados",
+      "caminho": "Cadastro de Participantes Regulados/resol234.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "234",
+      "assunto_principal": "Cadastro de participantes do mercado de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol011.md",
+      "pasta": "Clubes de Investimento",
+      "caminho": "Clubes de Investimento/resol011.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "11",
+      "assunto_principal": "Clubes de Investimento",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol025.md",
+      "pasta": "Companhia",
+      "caminho": "Companhia/resol025.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "25",
+      "assunto_principal": "Regra transitória para aplicação do disposto no art. 124, § 1º, II da Lei nº 6.404, de 15 de dezembro de 1976",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol044.md",
+      "pasta": "Companhia",
+      "caminho": "Companhia/resol044.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "44",
+      "assunto_principal": "Divulgação de informações sobre ato ou fato relevante, negociação de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol070.md",
+      "pasta": "Companhia",
+      "caminho": "Companhia/resol070.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "70",
+      "assunto_principal": "Fixação de escala reduzindo, em função do capital social, o percentual mínimo de participação acionária necessária ao exercício de direitos previstos na Lei 6.404, de 15 de dezembro de 1976",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol077.md",
+      "pasta": "Companhia",
+      "caminho": "Companhia/resol077.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "77",
+      "assunto_principal": "Negociação de ações e aquisição de debêntures de própria emissão",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol078.md",
+      "pasta": "Companhia",
+      "caminho": "Companhia/resol078.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "78",
+      "assunto_principal": "Operações de fusão, cisão, incorporação e incorporação de ações",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol080.md",
+      "pasta": "Companhia",
+      "caminho": "Companhia/resol080.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "80",
+      "assunto_principal": "Registro e informações dos emissores de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol081.md",
+      "pasta": "Companhia",
+      "caminho": "Companhia/resol081.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "81",
+      "assunto_principal": "Assembleias de acionistas, debenturistas e titulares de notas promissórias e notas comerciais",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol166.md",
+      "pasta": "Companhia",
+      "caminho": "Companhia/resol166.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "166",
+      "assunto_principal": "Forma de realização das publicações ordenadas pela Lei nº 6.404, de 15 de dezembro de 1976, por parte das companhias abertas de menor porte",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol202.md",
+      "pasta": "Companhia",
+      "caminho": "Companhia/resol202.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "202",
+      "assunto_principal": "Prorrogação de prazos em razão de calamidade climática no Rio Grande do Sul",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol232.md",
+      "pasta": "Companhia",
+      "caminho": "Companhia/resol232.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "232",
+      "assunto_principal": "Facilitação do Acesso a Capital e de Incentivos a Listagens",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol010.md",
+      "pasta": "Companhias Incentivadas",
+      "caminho": "Companhias Incentivadas/resol010.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "10",
+      "assunto_principal": "Sociedades beneficiárias de recursos oriundos de incentivos fiscais",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol060.md",
+      "pasta": "Companhias Securitizadoras",
+      "caminho": "Companhias Securitizadoras/resol060.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "60",
+      "assunto_principal": "Companhias securitizadoras de direitos creditórios",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol165.md",
+      "pasta": "Companhias Securitizadoras",
+      "caminho": "Companhias Securitizadoras/resol165.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "165",
+      "assunto_principal": "Equiparação dos Certificados de Recebíveis",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol019.md",
+      "pasta": "Consultores de Valores Mobiliarios",
+      "caminho": "Consultores de Valores Mobiliarios/resol019.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "19",
+      "assunto_principal": "Consultoria de Valores Mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol026.md",
+      "pasta": "Fundos de Investimento",
+      "caminho": "Fundos de Investimento/resol026.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "26",
+      "assunto_principal": "Postergação dos prazos para entrega de informações dos fundos de investimento e formulário de referência dos administradores de carteiras de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol039.md",
+      "pasta": "Fundos de Investimento",
+      "caminho": "Fundos de Investimento/resol039.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "39",
+      "assunto_principal": "Registro do Fundo de Investimento nas Cadeias Produtivas Agroindustriais",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol082.md",
+      "pasta": "Fundos de Investimento",
+      "caminho": "Fundos de Investimento/resol082.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "82",
+      "assunto_principal": "Fundo de Investimento do Fundo de Garantia do Tempo de Serviço",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol172.md",
+      "pasta": "Fundos de Investimento",
+      "caminho": "Fundos de Investimento/resol172.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "172",
+      "assunto_principal": "Alterações temporárias em requisitos regulatórios relacionados ao envio e à publicidade de demonstrativos de composição e diversificação de carteira dos fundos de investimento",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol175.md",
+      "pasta": "Fundos de Investimento",
+      "caminho": "Fundos de Investimento/resol175.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "175",
+      "assunto_principal": "Fundos de Investimento",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol049.md",
+      "pasta": "Identidade Visual Institucional",
+      "caminho": "Identidade Visual Institucional/resol049.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "49",
+      "assunto_principal": "Autorização para reprodução e utilização da sigla, do logotipo e do slogan da CVM",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol031.md",
+      "pasta": "Infraestrutura do Mercado",
+      "caminho": "Infraestrutura do Mercado/resol031.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "31",
+      "assunto_principal": "Depósito Centralizado de Valores Mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol032.md",
+      "pasta": "Infraestrutura do Mercado",
+      "caminho": "Infraestrutura do Mercado/resol032.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "32",
+      "assunto_principal": "Prestação de serviços de custódia de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol033.md",
+      "pasta": "Infraestrutura do Mercado",
+      "caminho": "Infraestrutura do Mercado/resol033.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "33",
+      "assunto_principal": "Prestação de serviços de escrituração de valores mobiliários e emissão de certificados de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol034.md",
+      "pasta": "Infraestrutura do Mercado",
+      "caminho": "Infraestrutura do Mercado/resol034.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "34",
+      "assunto_principal": "Empréstimo de valores mobiliários por câmaras e prestadores de serviço de compensação e liquidação de operações com valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol035.md",
+      "pasta": "Intermediários",
+      "caminho": "Intermediários/resol035.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "35",
+      "assunto_principal": "Intermediação de operações com valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol036.md",
+      "pasta": "Intermediários",
+      "caminho": "Intermediários/resol036.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "36",
+      "assunto_principal": "Normas e procedimentos para a organização e o funcionamento das corretoras de mercadorias",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol037.md",
+      "pasta": "Intermediários",
+      "caminho": "Intermediários/resol037.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "37",
+      "assunto_principal": "Captação de ordens pulverizadas de venda de ações",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol013.md",
+      "pasta": "Investidores Nao Residentes",
+      "caminho": "Investidores Nao Residentes/resol013.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "13",
+      "assunto_principal": "Registro, operações e divulgação de informações de investidor não residente no País",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol038.md",
+      "pasta": "Mercados Organizados",
+      "caminho": "Mercados Organizados/resol038.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "38",
+      "assunto_principal": "Redefinição temporária das competências e prazos para a decisão da CVM em relação a recursos de decisão proferida em relação ao mecanismo de ressarcimento de prejuízos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol062.md",
+      "pasta": "Mercados Organizados",
+      "caminho": "Mercados Organizados/resol062.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "62",
+      "assunto_principal": "Vedação de práticas antiéticas no mercado de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol133.md",
+      "pasta": "Mercados Organizados",
+      "caminho": "Mercados Organizados/resol133.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "133",
+      "assunto_principal": "Atividade de formador de mercado para valores mobiliários em mercado organizado",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol135.md",
+      "pasta": "Mercados Organizados",
+      "caminho": "Mercados Organizados/resol135.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "135",
+      "assunto_principal": "Funcionamento dos mercados regulamentados de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol012.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol012.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "12",
+      "assunto_principal": "Demonstrações Financeiras dos Clubes de Investimento",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol014.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol014.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "14",
+      "assunto_principal": "Relato Integrado",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol018.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol018.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "18",
+      "assunto_principal": "Revisão de Pronunciamentos Técnicos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol028.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol028.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "28",
+      "assunto_principal": "Pronunciamento Técnico CPC para Entidades em Liquidação",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol041.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol041.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "41",
+      "assunto_principal": "Revisão de Pronunciamento Técnico nº 18",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol042.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol042.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "42",
+      "assunto_principal": "Contratos de Seguros",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol058.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol058.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "58",
+      "assunto_principal": "Revisão de Pronunciamentos Técnicos nº 19",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol068.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol068.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "68",
+      "assunto_principal": "Regulamentação Mínima do Mercado de Valores Mobiliários sobre a Elaboração e Divulgação das Demonstrações Financeiras",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol071.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol071.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "71",
+      "assunto_principal": "Combinação de Negócios",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol072.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol072.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "72",
+      "assunto_principal": "Provisões, passivos contingentes e ativos contingentes",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol073.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol073.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "73",
+      "assunto_principal": "Ativo Imobilizado",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol074.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol074.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "74",
+      "assunto_principal": "Ativo biológico e produto agrícola",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol075.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol075.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "75",
+      "assunto_principal": "Adoção inicial das normas internacionais de contabilidade",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol076.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol076.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "76",
+      "assunto_principal": "Instrumentos Financeiros",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol089.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol089.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "89",
+      "assunto_principal": "Revisão de Pronunciamentos Técnicos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol090.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol090.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "90",
+      "assunto_principal": "Redução ao valor recuperável de ativos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol091.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol091.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "91",
+      "assunto_principal": "Efeito das mudanças nas taxas de câmbio e conversão de demonstrações contábeis",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol092.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol092.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "92",
+      "assunto_principal": "Demonstração dos fluxos de caixa",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol093.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol093.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "93",
+      "assunto_principal": "Ativo Intangível",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol094.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol094.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "94",
+      "assunto_principal": "Divulgação sobre partes relacionadas",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol095.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol095.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "95",
+      "assunto_principal": "Arrendamentos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol096.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol096.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "96",
+      "assunto_principal": "Subvenção e assistência governamentais",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol097.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol097.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "97",
+      "assunto_principal": "Pagamento baseado em ações",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol098.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol098.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "98",
+      "assunto_principal": "Contratos de seguro",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol099.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol099.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "99",
+      "assunto_principal": "Estoques",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol100.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol100.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "100",
+      "assunto_principal": "Controle Conjunto em Negócios",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol101.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol101.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "101",
+      "assunto_principal": "Custos de empréstimos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol102.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol102.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "102",
+      "assunto_principal": "Demonstração intermediária",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol103.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol103.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "103",
+      "assunto_principal": "Informações por segmento",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol104.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol104.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "104",
+      "assunto_principal": "Políticas Contábeis, Mudança de Estimativa e Retificação de Erro",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol105.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol105.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "105",
+      "assunto_principal": "Aprovação da Consolidação do Pronunciamento Técnico CPC 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol106.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol106.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "106",
+      "assunto_principal": "Apresentação das Demonstrações Contábeis",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol107.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol107.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "107",
+      "assunto_principal": "Propriedade para investimento",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol108.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol108.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "108",
+      "assunto_principal": "Ativo não-circulante mantido para venda e operação descontinuada",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol109.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol109.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "109",
+      "assunto_principal": "Tributos sobre o lucro",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol110.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol110.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "110",
+      "assunto_principal": "Benefícios a empregados",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol111.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol111.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "111",
+      "assunto_principal": "Demonstrações separadas",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol112.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol112.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "112",
+      "assunto_principal": "Demonstrações Consolidadas",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol113.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol113.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "113",
+      "assunto_principal": "Determinação e apresentação do resultado por ação",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol114.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol114.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "114",
+      "assunto_principal": "Divulgação de participações em outras entidades",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol115.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol115.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "115",
+      "assunto_principal": "Mensuração do valor justo",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol116.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol116.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "116",
+      "assunto_principal": "Receita de contrato com cliente",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol117.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol117.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "117",
+      "assunto_principal": "Demonstração do Valor Adicionado",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol118.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol118.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "118",
+      "assunto_principal": "Investimento em coligada, em controlada e em empreendimento controlado em conjunto",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol119.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol119.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "119",
+      "assunto_principal": "Instrumentos Financeiros: Reconhecimento e Mensuração",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol120.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol120.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "120",
+      "assunto_principal": "Instrumentos Financeiros: Apresentação",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol121.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol121.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "121",
+      "assunto_principal": "Instrumentos Financeiros: Evidenciação",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol122.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol122.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "122",
+      "assunto_principal": "Contratos de concessão",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol123.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol123.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "123",
+      "assunto_principal": "Distribuição de lucros in natura",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol124.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol124.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "124",
+      "assunto_principal": "Interpretação Técnica ICPC 09 (R2)",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol125.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol125.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "125",
+      "assunto_principal": "Interpretação Técnica ICPC 12",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol126.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol126.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "126",
+      "assunto_principal": "Direitos a participações decorrentes de fundos de desativação, restauração e reabilitação ambiental",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol127.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol127.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "127",
+      "assunto_principal": "Extinção de passivos financeiros com instrumentos patrimoniais",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol128.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol128.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "128",
+      "assunto_principal": "Contratos de Concessão: Evidenciação",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol129.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol129.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "129",
+      "assunto_principal": "Custos de remoção de estéril (stripping) de mina de superfície na fase de produção",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol130.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol130.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "130",
+      "assunto_principal": "Interpretação Técnica ICPC 21",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol131.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol131.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "131",
+      "assunto_principal": "Entidades de Incorporação Imobiliária",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol132.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol132.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "132",
+      "assunto_principal": "Contratos de Concessão",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol136.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol136.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "136",
+      "assunto_principal": "Estrutura Conceitual para Relatório Financeiro",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol137.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol137.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "137",
+      "assunto_principal": "Custos de transação e prêmios na emissão de títulos e valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol138.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol138.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "138",
+      "assunto_principal": "Ajuste a valor presente",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol139.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol139.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "139",
+      "assunto_principal": "Contabilidade em economia hiperinflacionária",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol140.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol140.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "140",
+      "assunto_principal": "Ratificação do Pronunciamento Técnico CPC 43(R1)",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol141.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol141.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "141",
+      "assunto_principal": "Demonstrações Combinadas",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol142.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol142.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "142",
+      "assunto_principal": "Ratificação da Interpretação Técnica ICPC 06",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol143.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol143.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "143",
+      "assunto_principal": "Contabilização da proposta de pagamento de dividendos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol144.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol144.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "144",
+      "assunto_principal": "Interpretação Técnica ICPC 10",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol145.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol145.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "145",
+      "assunto_principal": "Passivo decorrente de participação em mercado específico - resíduos de equipamentos eletroeletrônicos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol146.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol146.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "146",
+      "assunto_principal": "Interpretação Técnica ICPC 19",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol147.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol147.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "147",
+      "assunto_principal": "Interpretação Técnica ICPC 20",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol148.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol148.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "148",
+      "assunto_principal": "Interpretação Técnica ICPC 22",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol149.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol149.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "149",
+      "assunto_principal": "Interpretação Técnica ICPC 23",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol150.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol150.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "150",
+      "assunto_principal": "Aplicação da Interpretação Técnica ICPC 02 às entidades de incorporação imobiliária brasileiras",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol151.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol151.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "151",
+      "assunto_principal": "Apresentação de informações financeiras pro forma",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol152.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol152.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "152",
+      "assunto_principal": "Ratificação da Orientação Técnica OCPC 07",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol153.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol153.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "153",
+      "assunto_principal": "Reconhecimento de determinados ativos e passivos nos relatórios contábil-financeiros de propósito geral das distribuidoras de energia elétrica",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol155.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol155.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "155",
+      "assunto_principal": "Demonstrações financeiras consolidadas",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol156.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol156.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "156",
+      "assunto_principal": "Divulgação voluntária de informações não contábil",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol157.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol157.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "157",
+      "assunto_principal": "Procedimentos para demonstrações contábeis em moeda de capacidade aquisitiva constante",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol176.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol176.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "176",
+      "assunto_principal": "Revisão de Pronunciamentos Técnicos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol188.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol188.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "188",
+      "assunto_principal": "Revisão de Pronunciamentos Técnicos nº 22",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol189.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol189.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "189",
+      "assunto_principal": "Evidenciação na Divulgação de Relatórios Financeiros para Fins Gerais",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol190.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol190.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "190",
+      "assunto_principal": "Ajuste a Valor Presente",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol191.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol191.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "191",
+      "assunto_principal": "Revisão de Pronunciamentos Técnicos CPC nº 23",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol193.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol193.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "193",
+      "assunto_principal": "Relatório de informações financeiras relacionadas à sustentabilidade",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol197.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol197.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "197",
+      "assunto_principal": "Revisão de Pronunciamentos Técnicos nº 24",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol199.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol199.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "199",
+      "assunto_principal": "Demonstração do Valor Adicionado",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol205.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol205.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "205",
+      "assunto_principal": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 26",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol211.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol211.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "211",
+      "assunto_principal": "Investimento em Coligada e em Empreendimento Controlado em Conjunto",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol212.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol212.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "212",
+      "assunto_principal": "Interpretação Técnica ICPC 09 (R3) - Demonstrações Contábeis Individuais, Demonstrações Separadas, Demonstrações Consolidadas e Aplicação do Método da Equivalência Patrimonial",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol213.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol213.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "213",
+      "assunto_principal": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 27",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol217.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol217.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "217",
+      "assunto_principal": "Requisitos Gerais para Divulgação de Informações Financeiras Relacionadas à Sustentabilidade",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol218.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol218.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "218",
+      "assunto_principal": "Divulgações Relacionadas ao Clima",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol223.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol223.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "223",
+      "assunto_principal": "Créditos de Carbono, Permissões de Emissões e Créditos de Descarbonização",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol237.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol237.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "237",
+      "assunto_principal": "Pronunciamento Técnico CPC 51",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol238.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol238.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "238",
+      "assunto_principal": "Revisão de Pronunciamentos Técnicos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol242.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol242.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "242",
+      "assunto_principal": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 29",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol244.md",
+      "pasta": "Normas Contabeis",
+      "caminho": "Normas Contabeis/resol244.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "244",
+      "assunto_principal": "Alteração na Resolução CVM nº 193",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol004.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol004.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "4",
+      "assunto_principal": "Alterações temporárias em requisitos regulatórios",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol006.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol006.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "6",
+      "assunto_principal": "Certificados de Investimento para a produção, distribuição, exibição e infraestrutura técnica de obras audiovisuais cinematográficas brasileiras",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol008.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol008.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "8",
+      "assunto_principal": "Ofertas públicas de distribuição de Certificado de Operações Estruturadas (COE) e dos títulos de crédito Letra Financeira (LF) e Letra Imobiliária Garantida (LIG) realizadas com dispensa de registro",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol027.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol027.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "27",
+      "assunto_principal": "Dispensa a apresentação do boletim de subscrição em ofertas públicas de distribuição de valores mobiliários liquidadas por meio de sistema administrado por entidade administradora de mercados organizados de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol084.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol084.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "84",
+      "assunto_principal": "Registros de negociação e distribuição pública de Certificados de Potencial Adicional de Construção (CEPAC)",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol085.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol085.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "85",
+      "assunto_principal": "Ofertas públicas de aquisição de ações de companhia aberta",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol086.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol086.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "86",
+      "assunto_principal": "Oferta pública de distribuição de contratos de investimento coletivo hoteleiro",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol088.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol088.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "88",
+      "assunto_principal": "Oferta pública de distribuição de valores mobiliários de emissão de sociedades empresárias de pequeno porte realizada com dispensa de registro por meio de plataforma eletrônica de investimento participativo",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol160.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol160.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "160",
+      "assunto_principal": "Ofertas públicas de distribuição primária ou secundária de valores mobiliários e a negociação dos valores mobiliários ofertados nos mercados regulamentados",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol161.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol161.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "161",
+      "assunto_principal": "Registro de coordenadores de ofertas públicas de distribuição de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol163.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol163.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "163",
+      "assunto_principal": "Oferta Pública de Distribuição de Nota Promissória",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol215.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol215.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "215",
+      "assunto_principal": "Ofertas públicas de aquisição de ações de companhia aberta",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol232.md",
+      "pasta": "Ofertas Publicas",
+      "caminho": "Ofertas Publicas/resol232.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "232",
+      "assunto_principal": "Facilitação do Acesso a Capital e de Incentivos a Listagens",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol043.md",
+      "pasta": "Ouvidoria",
+      "caminho": "Ouvidoria/resol043.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "43",
+      "assunto_principal": "Instituição da Ouvidoria no mercado de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol050.md",
+      "pasta": "PLD-FTP",
+      "caminho": "PLD-FTP/resol050.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "50",
+      "assunto_principal": "Prevenção à lavagem de dinheiro, ao financiamento do terrorismo e ao financiamento da proliferação de armas de destruição em massa",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol210.md",
+      "pasta": "Portabilidade",
+      "caminho": "Portabilidade/resol210.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "210",
+      "assunto_principal": "Portabilidade de valores mobiliários",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol024.md",
+      "pasta": "Regimento Interno",
+      "caminho": "Regimento Interno/resol024.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "24",
+      "assunto_principal": "Regimento Interno",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol202.md",
+      "pasta": "Ritos CVM",
+      "caminho": "Ritos CVM/resol202.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "202",
+      "assunto_principal": "Prorrogação de prazos em razão de calamidade climática no Rio Grande do Sul",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol045.md",
+      "pasta": "Ritos Processuais",
+      "caminho": "Ritos Processuais/resol045.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "45",
+      "assunto_principal": "Rito dos procedimentos relativos à atuação sancionadora",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol046.md",
+      "pasta": "Ritos Processuais",
+      "caminho": "Ritos Processuais/resol046.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "46",
+      "assunto_principal": "Tramitação de processos administrativos não sancionadores",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol047.md",
+      "pasta": "Ritos Processuais",
+      "caminho": "Ritos Processuais/resol047.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "47",
+      "assunto_principal": "Multas cominatórias",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol048.md",
+      "pasta": "Ritos Processuais",
+      "caminho": "Ritos Processuais/resol048.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "48",
+      "assunto_principal": "Concessão de vista de processos administrativos e procedimentos de acesso à informação",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol067.md",
+      "pasta": "Ritos Processuais",
+      "caminho": "Ritos Processuais/resol067.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários – CVM",
+      "numero_norma": "67",
+      "assunto_principal": "Processo de normatização",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol029.md",
+      "pasta": "Sandbox Regulatório",
+      "caminho": "Sandbox Regulatório/resol029.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "29",
+      "assunto_principal": "Ambiente regulatório experimental (sandbox regulatório)",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol053.md",
+      "pasta": "Sistema Integrado de Gestão de Riscos da CVM",
+      "caminho": "Sistema Integrado de Gestão de Riscos da CVM/resol053.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários (CVM)",
+      "numero_norma": "53",
+      "assunto_principal": "Sistema Integrado de Gestão de Riscos",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol052.md",
+      "pasta": "Sistemas de Gestão Institucional da CVM",
+      "caminho": "Sistemas de Gestão Institucional da CVM/resol052.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários - CVM",
+      "numero_norma": "52",
+      "assunto_principal": "Sistema de Governança e Gestão",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol030.md",
+      "pasta": "Suitability",
+      "caminho": "Suitability/resol030.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "30",
+      "assunto_principal": "Dever de verificação da adequação dos produtos, serviços e operações ao perfil do cliente",
+      "possui_prazo_ou_multa": false
+    },
+    {
+      "norma": "resol054.md",
+      "pasta": "Taxas-Débitos-Restituições",
+      "caminho": "Taxas-Débitos-Restituições/resol054.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "54",
+      "assunto_principal": "Taxa de Fiscalização dos Mercados de Títulos e Valores Mobiliários",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol055.md",
+      "pasta": "Taxas-Débitos-Restituições",
+      "caminho": "Taxas-Débitos-Restituições/resol055.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "CVM",
+      "numero_norma": "55",
+      "assunto_principal": "Parcelamento de débitos e dispensa de constituição e exigência de créditos tributários",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol056.md",
+      "pasta": "Taxas-Débitos-Restituições",
+      "caminho": "Taxas-Débitos-Restituições/resol056.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "56",
+      "assunto_principal": "Restituição e compensação",
+      "possui_prazo_ou_multa": true
+    },
+    {
+      "norma": "resol057.md",
+      "pasta": "Taxas-Débitos-Restituições",
+      "caminho": "Taxas-Débitos-Restituições/resol057.md",
+      "modelo": "qwen2.5-coder:7b",
+      "orgao": "Comissão de Valores Mobiliários",
+      "numero_norma": "57",
+      "assunto_principal": "Prova de quitação de débitos perante a CVM",
+      "possui_prazo_ou_multa": false
+    }
+  ],
+  "falhas": []
+}

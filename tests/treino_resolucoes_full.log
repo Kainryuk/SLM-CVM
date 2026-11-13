@@ -1,0 +1,258 @@
+[backend] http://127.0.0.1:11434 | modelo: qwen2.5-coder:7b | acervo: resolucoes/
+[batch] processando 253 norma(s)...
+  [1/253] (Sem Tag)/resol002.md -> Revogação de atos normativos e alteração de Instru
+  [2/253] (Sem Tag)/resol003.md -> Alteração e Acréscimo de Dispositivos
+  [3/253] (Sem Tag)/resol005.md -> Alteração na Instrução CVM nº 481
+  [4/253] (Sem Tag)/resol007.md -> Revogação de atos normativos
+  [5/253] (Sem Tag)/resol015.md -> Alteração da Resolução CVM nº 8
+  [6/253] (Sem Tag)/resol040.md -> Alteração na Resolução CVM nº 24
+  [7/253] (Sem Tag)/resol059.md -> Alteração das Instruções CVM 480 e 481
+  [8/253] (Sem Tag)/resol061.md -> Alteração das Instruções CVM e Resoluções CVM
+  [9/253] (Sem Tag)/resol063.md -> Revogação de normas
+  [10/253] (Sem Tag)/resol064.md -> Alteração na Resolução CVM nº 13
+  [11/253] (Sem Tag)/resol065.md -> Alteração das Resoluções CVM nº 45 e CVM nº 46
+  [12/253] (Sem Tag)/resol066.md -> Alteração na Resolução CVM nº 24
+  [13/253] (Sem Tag)/resol069.md -> Revogação de resoluções e deliberações
+  [14/253] (Sem Tag)/resol079.md -> Revogação de normas
+  [15/253] (Sem Tag)/resol083.md -> Revogação de instruções e deliberação
+  [16/253] (Sem Tag)/resol087.md -> Alteração e republicação da Resolução CVM nº 59
+  [17/253] (Sem Tag)/resol134.md -> Alteração na Resolução CVM 35
+  [18/253] (Sem Tag)/resol154.md -> Revogação de atos normativos
+  [19/253] (Sem Tag)/resol158.md -> Alteração na Resolução CVM nº 88
+  [20/253] (Sem Tag)/resol159.md -> Alteração das Resoluções CVM 24 e 47
+  [21/253] (Sem Tag)/resol162.md -> Alteração de instruções e resoluções
+  [22/253] (Sem Tag)/resol164.md -> Revogação de Instruções CVM
+  [23/253] (Sem Tag)/resol167.md -> Alteração na Resolução CVM nº 21
+  [24/253] (Sem Tag)/resol168.md -> Alteração das Resoluções CVM 59 e 80
+  [25/253] (Sem Tag)/resol169.md -> Alteração na Resolução CVM nº 51
+  [26/253] (Sem Tag)/resol170.md -> Alteração na Resolução CVM nº 135 e Revogação da R
+  [27/253] (Sem Tag)/resol171.md -> Alteração na Resolução CVM nº 54
+  [28/253] (Sem Tag)/resol173.md -> Alteração nas Resoluções CVM 80, 160 e 161
+  [29/253] (Sem Tag)/resol174.md -> Alteração na Resolução CVM nº 31
+  [30/253] (Sem Tag)/resol177.md -> Alteração na Resolução CVM nº 24
+  [31/253] (Sem Tag)/resol179.md -> Alteração na legislação sobre assessores de invest
+  [32/253] (Sem Tag)/resol180.md -> Alteração nas Resoluções CVM nº 80 e CVM nº 160
+  [33/253] (Sem Tag)/resol181.md -> Alteração na Resolução CVM nº 175
+  [34/253] (Sem Tag)/resol183.md -> Alteração nas Resoluções CVM 80 e 160
+  [35/253] (Sem Tag)/resol184.md -> Alteração na Resolução CVM 175
+  [36/253] (Sem Tag)/resol185.md -> Alteração na Resolução CVM nº 9
+  [37/253] (Sem Tag)/resol186.md -> Alteração na Resolução CVM nº 24
+  [38/253] (Sem Tag)/resol187.md -> Alteração na Resolução CVM nº 175
+  [39/253] (Sem Tag)/resol192.md -> Revogação de atos normativos
+  [40/253] (Sem Tag)/resol194.md -> Alteração na Resolução CVM nº 60
+  [41/253] (Sem Tag)/resol195.md -> Alteração nas normas sobre auditoria e asseguração
+  [42/253] (Sem Tag)/resol196.md -> Prorrogação da data de entrada em vigor das seções
+  [43/253] (Sem Tag)/resol198.md -> Alteração na Resolução CVM nº 80
+  [44/253] (Sem Tag)/resol200.md -> Alteração na Resolução CVM nº 175
+  [45/253] (Sem Tag)/resol201.md -> Alteração na Resolução CVM nº 24
+  [46/253] (Sem Tag)/resol203.md -> Alteração na Resolução CVM nº 24
+  [47/253] (Sem Tag)/resol204.md -> Alteração das Resoluções CVM nº 80 e nº 81
+  [48/253] (Sem Tag)/resol206.md -> Alteração na Resolução CVM nº 175
+  [49/253] (Sem Tag)/resol207.md -> Alteração nas Resoluções CVM nº 47, 80 e 161
+  [50/253] (Sem Tag)/resol208.md -> Alteração na Resolução CVM nº 160
+  [51/253] (Sem Tag)/resol209.md -> Alteração das Resoluções CVM
+  [52/253] (Sem Tag)/resol214.md -> Regras específicas dos fundos de investimento das 
+  [53/253] (Sem Tag)/resol216.md -> Alteração de Resoluções CVM
+  [54/253] (Sem Tag)/resol219.md -> Alteração na Resolução CVM nº 193
+  [55/253] (Sem Tag)/resol220.md -> Alteração de Resoluções CVM
+  [56/253] (Sem Tag)/resol221.md -> Alteração na Resolução CVM nº 86
+  [57/253] (Sem Tag)/resol222.md -> Alteração na Resolução CVM nº 161
+  [58/253] (Sem Tag)/resol224.md -> Alteração na Resolução CVM nº 203
+  [59/253] (Sem Tag)/resol226.md -> Alteração de várias resoluções CVM
+  [60/253] (Sem Tag)/resol227.md -> Alteração na Resolução CVM nº 193
+  [61/253] (Sem Tag)/resol228.md -> Alteração na Resolução CVM nº 24
+  [62/253] (Sem Tag)/resol229.md -> Alteração na Resolução CVM nº 209 e 210
+  [63/253] (Sem Tag)/resol230.md -> Prorrogação da data de entrada em vigor da Resoluç
+  [64/253] (Sem Tag)/resol231.md -> Alteração das Resoluções CVM nº 80 e CVM nº 166
+  [65/253] (Sem Tag)/resol233.md -> Alteração na Resolução CVM nº 24
+  [66/253] (Sem Tag)/resol235.md -> Alteração de Resoluções CVM
+  [67/253] (Sem Tag)/resol236.md -> Alteração das Resoluções CVM nº 47 e 232
+  [68/253] (Sem Tag)/resol239.md -> Alteração das Resoluções CVM nº 24 e CVM nº 53
+  [69/253] (Sem Tag)/resol240.md -> Alteração normativa no Anexo II da Resolução CVM 1
+  [70/253] (Sem Tag)/resol241.md -> Alteração na Resolução CVM nº 24
+  [71/253] (Sem Tag)/resol243.md -> Alteração na Resolução CVM nº 24
+  [72/253] (Sem Tag)/resol245.md -> Alteração na Resolução CVM nº 50
+  [73/253] (Sem Tag)/resol246.md -> Alteração na Resolução CVM nº 24
+  [74/253] (Sem Tag)/resol247.md -> Alteração na Resolução CVM nº 60 e Anexo II da Res
+  [75/253] (Sem Tag)/resol248.md -> Alteração na Resolução CVM nº 67
+  [76/253] (Sem Tag)/resol249.md -> Programa Piloto DLT CVM
+  [77/253] (Sem Tag)/resol250.md -> Alteração na Resolução CVM nº 19
+  [78/253] (Sem Tag)/resol251.md -> Alteração na Resolução CVM nº 9
+  [79/253] Administradores de Carteiras/resol021.md -> Administração de carteiras de valores mobiliários
+  [80/253] Administradores de Carteiras/resol022.md -> Administração e Operações de Planos de Poupança e 
+  [81/253] Agencias de Classificacao de Risco de Credito/resol009.md -> Classificação de risco de crédito no mercado de va
+  [82/253] Agentes Fiduciarios/resol017.md -> Exercício da função de agente fiduciário
+  [83/253] Analistas de Valores Mobiliarios/resol020.md -> Atividade de analista de valores mobiliários
+  [84/253] Assessores de Investimento/resol016.md -> Atividade de agente autônomo de investimento
+  [85/253] Assessores de Investimento/resol178.md -> Atividade de assessor de investimento
+  [86/253] Atos expedidos pela CVM/resol001.md -> Nomenclatura de atos a serem expedidos pela CVM
+  [87/253] Auditor Independente/resol023.md -> Registro e exercício da atividade de auditoria ind
+  [88/253] BDR/resol182.md -> Certificados de depósito emitidos no Brasil com la
+  [89/253] Cadastro de Investidores/resol225.md -> Cadastro de Acesso de investidores
+  [90/253] Cadastro de Participantes Regulados/resol051.md -> Cadastro de participantes do mercado de valores mo
+  [91/253] Cadastro de Participantes Regulados/resol234.md -> Cadastro de participantes do mercado de valores mo
+  [92/253] Clubes de Investimento/resol011.md -> Clubes de Investimento
+  [93/253] Companhia/resol025.md -> Regra transitória para aplicação do disposto no ar
+  [94/253] Companhia/resol044.md -> Divulgação de informações sobre ato ou fato releva
+  [95/253] Companhia/resol070.md -> Fixação de escala reduzindo, em função do capital 
+  [96/253] Companhia/resol077.md -> Negociação de ações e aquisição de debêntures de p
+  [97/253] Companhia/resol078.md -> Operações de fusão, cisão, incorporação e incorpor
+  [98/253] Companhia/resol080.md -> Registro e informações dos emissores de valores mo
+  [99/253] Companhia/resol081.md -> Assembleias de acionistas, debenturistas e titular
+  [100/253] Companhia/resol166.md -> Forma de realização das publicações ordenadas pela
+  [101/253] Companhia/resol202.md -> Prorrogação de prazos em razão de calamidade climá
+  [102/253] Companhia/resol232.md -> Facilitação do Acesso a Capital e de Incentivos a 
+  [103/253] Companhias Incentivadas/resol010.md -> Sociedades beneficiárias de recursos oriundos de i
+  [104/253] Companhias Securitizadoras/resol060.md -> Companhias securitizadoras de direitos creditórios
+  [105/253] Companhias Securitizadoras/resol165.md -> Equiparação dos Certificados de Recebíveis
+  [106/253] Consultores de Valores Mobiliarios/resol019.md -> Consultoria de Valores Mobiliários
+  [107/253] Fundos de Investimento/resol026.md -> Postergação dos prazos para entrega de informações
+  [108/253] Fundos de Investimento/resol039.md -> Registro do Fundo de Investimento nas Cadeias Prod
+  [109/253] Fundos de Investimento/resol082.md -> Fundo de Investimento do Fundo de Garantia do Temp
+  [110/253] Fundos de Investimento/resol172.md -> Alterações temporárias em requisitos regulatórios 
+  [111/253] Fundos de Investimento/resol175.md -> Fundos de Investimento
+  [112/253] Identidade Visual Institucional/resol049.md -> Autorização para reprodução e utilização da sigla,
+  [113/253] Infraestrutura do Mercado/resol031.md -> Depósito Centralizado de Valores Mobiliários
+  [114/253] Infraestrutura do Mercado/resol032.md -> Prestação de serviços de custódia de valores mobil
+  [115/253] Infraestrutura do Mercado/resol033.md -> Prestação de serviços de escrituração de valores m
+  [116/253] Infraestrutura do Mercado/resol034.md -> Empréstimo de valores mobiliários por câmaras e pr
+  [117/253] Intermediários/resol035.md -> Intermediação de operações com valores mobiliários
+  [118/253] Intermediários/resol036.md -> Normas e procedimentos para a organização e o func
+  [119/253] Intermediários/resol037.md -> Captação de ordens pulverizadas de venda de ações
+  [120/253] Investidores Nao Residentes/resol013.md -> Registro, operações e divulgação de informações de
+  [121/253] Mercados Organizados/resol038.md -> Redefinição temporária das competências e prazos p
+  [122/253] Mercados Organizados/resol062.md -> Vedação de práticas antiéticas no mercado de valor
+  [123/253] Mercados Organizados/resol133.md -> Atividade de formador de mercado para valores mobi
+  [124/253] Mercados Organizados/resol135.md -> Funcionamento dos mercados regulamentados de valor
+  [125/253] Normas Contabeis/resol012.md -> Demonstrações Financeiras dos Clubes de Investimen
+  [126/253] Normas Contabeis/resol014.md -> Relato Integrado
+  [127/253] Normas Contabeis/resol018.md -> Revisão de Pronunciamentos Técnicos
+  [128/253] Normas Contabeis/resol028.md -> Pronunciamento Técnico CPC para Entidades em Liqui
+  [129/253] Normas Contabeis/resol041.md -> Revisão de Pronunciamento Técnico nº 18
+  [130/253] Normas Contabeis/resol042.md -> Contratos de Seguros
+  [131/253] Normas Contabeis/resol058.md -> Revisão de Pronunciamentos Técnicos nº 19
+  [132/253] Normas Contabeis/resol068.md -> Regulamentação Mínima do Mercado de Valores Mobili
+  [133/253] Normas Contabeis/resol071.md -> Combinação de Negócios
+  [134/253] Normas Contabeis/resol072.md -> Provisões, passivos contingentes e ativos continge
+  [135/253] Normas Contabeis/resol073.md -> Ativo Imobilizado
+  [136/253] Normas Contabeis/resol074.md -> Ativo biológico e produto agrícola
+  [137/253] Normas Contabeis/resol075.md -> Adoção inicial das normas internacionais de contab
+  [138/253] Normas Contabeis/resol076.md -> Instrumentos Financeiros
+  [139/253] Normas Contabeis/resol089.md -> Revisão de Pronunciamentos Técnicos
+  [140/253] Normas Contabeis/resol090.md -> Redução ao valor recuperável de ativos
+  [141/253] Normas Contabeis/resol091.md -> Efeito das mudanças nas taxas de câmbio e conversã
+  [142/253] Normas Contabeis/resol092.md -> Demonstração dos fluxos de caixa
+  [143/253] Normas Contabeis/resol093.md -> Ativo Intangível
+  [144/253] Normas Contabeis/resol094.md -> Divulgação sobre partes relacionadas
+  [145/253] Normas Contabeis/resol095.md -> Arrendamentos
+  [146/253] Normas Contabeis/resol096.md -> Subvenção e assistência governamentais
+  [147/253] Normas Contabeis/resol097.md -> Pagamento baseado em ações
+  [148/253] Normas Contabeis/resol098.md -> Contratos de seguro
+  [149/253] Normas Contabeis/resol099.md -> Estoques
+  [150/253] Normas Contabeis/resol100.md -> Controle Conjunto em Negócios
+  [151/253] Normas Contabeis/resol101.md -> Custos de empréstimos
+  [152/253] Normas Contabeis/resol102.md -> Demonstração intermediária
+  [153/253] Normas Contabeis/resol103.md -> Informações por segmento
+  [154/253] Normas Contabeis/resol104.md -> Políticas Contábeis, Mudança de Estimativa e Retif
+  [155/253] Normas Contabeis/resol105.md -> Aprovação da Consolidação do Pronunciamento Técnic
+  [156/253] Normas Contabeis/resol106.md -> Apresentação das Demonstrações Contábeis
+  [157/253] Normas Contabeis/resol107.md -> Propriedade para investimento
+  [158/253] Normas Contabeis/resol108.md -> Ativo não-circulante mantido para venda e operação
+  [159/253] Normas Contabeis/resol109.md -> Tributos sobre o lucro
+  [160/253] Normas Contabeis/resol110.md -> Benefícios a empregados
+  [161/253] Normas Contabeis/resol111.md -> Demonstrações separadas
+  [162/253] Normas Contabeis/resol112.md -> Demonstrações Consolidadas
+  [163/253] Normas Contabeis/resol113.md -> Determinação e apresentação do resultado por ação
+  [164/253] Normas Contabeis/resol114.md -> Divulgação de participações em outras entidades
+  [165/253] Normas Contabeis/resol115.md -> Mensuração do valor justo
+  [166/253] Normas Contabeis/resol116.md -> Receita de contrato com cliente
+  [167/253] Normas Contabeis/resol117.md -> Demonstração do Valor Adicionado
+  [168/253] Normas Contabeis/resol118.md -> Investimento em coligada, em controlada e em empre
+  [169/253] Normas Contabeis/resol119.md -> Instrumentos Financeiros: Reconhecimento e Mensura
+  [170/253] Normas Contabeis/resol120.md -> Instrumentos Financeiros: Apresentação
+  [171/253] Normas Contabeis/resol121.md -> Instrumentos Financeiros: Evidenciação
+  [172/253] Normas Contabeis/resol122.md -> Contratos de concessão
+  [173/253] Normas Contabeis/resol123.md -> Distribuição de lucros in natura
+  [174/253] Normas Contabeis/resol124.md -> Interpretação Técnica ICPC 09 (R2)
+  [175/253] Normas Contabeis/resol125.md -> Interpretação Técnica ICPC 12
+  [176/253] Normas Contabeis/resol126.md -> Direitos a participações decorrentes de fundos de 
+  [177/253] Normas Contabeis/resol127.md -> Extinção de passivos financeiros com instrumentos 
+  [178/253] Normas Contabeis/resol128.md -> Contratos de Concessão: Evidenciação
+  [179/253] Normas Contabeis/resol129.md -> Custos de remoção de estéril (stripping) de mina d
+  [180/253] Normas Contabeis/resol130.md -> Interpretação Técnica ICPC 21
+  [181/253] Normas Contabeis/resol131.md -> Entidades de Incorporação Imobiliária
+  [182/253] Normas Contabeis/resol132.md -> Contratos de Concessão
+  [183/253] Normas Contabeis/resol136.md -> Estrutura Conceitual para Relatório Financeiro
+  [184/253] Normas Contabeis/resol137.md -> Custos de transação e prêmios na emissão de título
+  [185/253] Normas Contabeis/resol138.md -> Ajuste a valor presente
+  [186/253] Normas Contabeis/resol139.md -> Contabilidade em economia hiperinflacionária
+  [187/253] Normas Contabeis/resol140.md -> Ratificação do Pronunciamento Técnico CPC 43(R1)
+  [188/253] Normas Contabeis/resol141.md -> Demonstrações Combinadas
+  [189/253] Normas Contabeis/resol142.md -> Ratificação da Interpretação Técnica ICPC 06
+  [190/253] Normas Contabeis/resol143.md -> Contabilização da proposta de pagamento de dividen
+  [191/253] Normas Contabeis/resol144.md -> Interpretação Técnica ICPC 10
+  [192/253] Normas Contabeis/resol145.md -> Passivo decorrente de participação em mercado espe
+  [193/253] Normas Contabeis/resol146.md -> Interpretação Técnica ICPC 19
+  [194/253] Normas Contabeis/resol147.md -> Interpretação Técnica ICPC 20
+  [195/253] Normas Contabeis/resol148.md -> Interpretação Técnica ICPC 22
+  [196/253] Normas Contabeis/resol149.md -> Interpretação Técnica ICPC 23
+  [197/253] Normas Contabeis/resol150.md -> Aplicação da Interpretação Técnica ICPC 02 às enti
+  [198/253] Normas Contabeis/resol151.md -> Apresentação de informações financeiras pro forma
+  [199/253] Normas Contabeis/resol152.md -> Ratificação da Orientação Técnica OCPC 07
+  [200/253] Normas Contabeis/resol153.md -> Reconhecimento de determinados ativos e passivos n
+  [201/253] Normas Contabeis/resol155.md -> Demonstrações financeiras consolidadas
+  [202/253] Normas Contabeis/resol156.md -> Divulgação voluntária de informações não contábil
+  [203/253] Normas Contabeis/resol157.md -> Procedimentos para demonstrações contábeis em moed
+  [204/253] Normas Contabeis/resol176.md -> Revisão de Pronunciamentos Técnicos
+  [205/253] Normas Contabeis/resol188.md -> Revisão de Pronunciamentos Técnicos nº 22
+  [206/253] Normas Contabeis/resol189.md -> Evidenciação na Divulgação de Relatórios Financeir
+  [207/253] Normas Contabeis/resol190.md -> Ajuste a Valor Presente
+  [208/253] Normas Contabeis/resol191.md -> Revisão de Pronunciamentos Técnicos CPC nº 23
+  [209/253] Normas Contabeis/resol193.md -> Relatório de informações financeiras relacionadas 
+  [210/253] Normas Contabeis/resol197.md -> Revisão de Pronunciamentos Técnicos nº 24
+  [211/253] Normas Contabeis/resol199.md -> Demonstração do Valor Adicionado
+  [212/253] Normas Contabeis/resol205.md -> Aprovação do Documento de Revisão de Pronunciament
+  [213/253] Normas Contabeis/resol211.md -> Investimento em Coligada e em Empreendimento Contr
+  [214/253] Normas Contabeis/resol212.md -> Interpretação Técnica ICPC 09 (R3) - Demonstrações
+  [215/253] Normas Contabeis/resol213.md -> Aprovação do Documento de Revisão de Pronunciament
+  [216/253] Normas Contabeis/resol217.md -> Requisitos Gerais para Divulgação de Informações F
+  [217/253] Normas Contabeis/resol218.md -> Divulgações Relacionadas ao Clima
+  [218/253] Normas Contabeis/resol223.md -> Créditos de Carbono, Permissões de Emissões e Créd
+  [219/253] Normas Contabeis/resol237.md -> Pronunciamento Técnico CPC 51
+  [220/253] Normas Contabeis/resol238.md -> Revisão de Pronunciamentos Técnicos
+  [221/253] Normas Contabeis/resol242.md -> Aprovação do Documento de Revisão de Pronunciament
+  [222/253] Normas Contabeis/resol244.md -> Alteração na Resolução CVM nº 193
+  [223/253] Ofertas Publicas/resol004.md -> Alterações temporárias em requisitos regulatórios
+  [224/253] Ofertas Publicas/resol006.md -> Certificados de Investimento para a produção, dist
+  [225/253] Ofertas Publicas/resol008.md -> Ofertas públicas de distribuição de Certificado de
+  [226/253] Ofertas Publicas/resol027.md -> Dispensa a apresentação do boletim de subscrição e
+  [227/253] Ofertas Publicas/resol084.md -> Registros de negociação e distribuição pública de 
+  [228/253] Ofertas Publicas/resol085.md -> Ofertas públicas de aquisição de ações de companhi
+  [229/253] Ofertas Publicas/resol086.md -> Oferta pública de distribuição de contratos de inv
+  [230/253] Ofertas Publicas/resol088.md -> Oferta pública de distribuição de valores mobiliár
+  [231/253] Ofertas Publicas/resol160.md -> Ofertas públicas de distribuição primária ou secun
+  [232/253] Ofertas Publicas/resol161.md -> Registro de coordenadores de ofertas públicas de d
+  [233/253] Ofertas Publicas/resol163.md -> Oferta Pública de Distribuição de Nota Promissória
+  [234/253] Ofertas Publicas/resol215.md -> Ofertas públicas de aquisição de ações de companhi
+  [235/253] Ofertas Publicas/resol232.md -> Facilitação do Acesso a Capital e de Incentivos a 
+  [236/253] Ouvidoria/resol043.md -> Instituição da Ouvidoria no mercado de valores mob
+  [237/253] PLD-FTP/resol050.md -> Prevenção à lavagem de dinheiro, ao financiamento 
+  [238/253] Portabilidade/resol210.md -> Portabilidade de valores mobiliários
+  [239/253] Regimento Interno/resol024.md -> Regimento Interno
+  [240/253] Ritos CVM/resol202.md -> Prorrogação de prazos em razão de calamidade climá
+  [241/253] Ritos Processuais/resol045.md -> Rito dos procedimentos relativos à atuação sancion
+  [242/253] Ritos Processuais/resol046.md -> Tramitação de processos administrativos não sancio
+  [243/253] Ritos Processuais/resol047.md -> Multas cominatórias
+  [244/253] Ritos Processuais/resol048.md -> Concessão de vista de processos administrativos e 
+  [245/253] Ritos Processuais/resol067.md -> Processo de normatização
+  [246/253] Sandbox Regulatório/resol029.md -> Ambiente regulatório experimental (sandbox regulat
+  [247/253] Sistema Integrado de Gestão de Riscos da CVM/resol053.md -> Sistema Integrado de Gestão de Riscos
+  [248/253] Sistemas de Gestão Institucional da CVM/resol052.md -> Sistema de Governança e Gestão
+  [249/253] Suitability/resol030.md -> Dever de verificação da adequação dos produtos, se
+  [250/253] Taxas-Débitos-Restituições/resol054.md -> Taxa de Fiscalização dos Mercados de Títulos e Val
+  [251/253] Taxas-Débitos-Restituições/resol055.md -> Parcelamento de débitos e dispensa de constituição
+  [252/253] Taxas-Débitos-Restituições/resol056.md -> Restituição e compensação
+  [253/253] Taxas-Débitos-Restituições/resol057.md -> Prova de quitação de débitos perante a CVM
+
+[ok] 253 ficha(s) | 0 erro(s) | 1060.2s
+[evidencia] C:\Users\aborr\Iniciação Cientifica Kelvin e Yuri\SLM-CVM\tests\treino_resolucoes_evidencia.json

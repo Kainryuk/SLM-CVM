@@ -1,0 +1,1787 @@
+{
+  "escopo": "CVM — resoluções (dados organizados em data_lake/processed/)",
+  "linguagem": "pt-BR",
+  "restricoes": [
+    "sem código de programação",
+    "sem história/cronologia",
+    "apenas assunto/objeto"
+  ],
+  "modelo": "qwen2.5-coder:7b",
+  "processados": 253,
+  "erros": 0,
+  "tempo_segundos": 1140.1,
+  "resultados": [
+    {
+      "norma": "Resolução CVM nº 21",
+      "assunto": "Exercício profissional de administração de carteiras de valores mobiliários",
+      "se_aplica_a": "Administradores de carteiras de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Administradores_de_Carteiras/resol021.md"
+    },
+    {
+      "norma": "Resolução CVM nº 22",
+      "assunto": "Administração e operações de Planos de Poupança e Investimento (PAIT), fixa o patrimônio líquido da instituição administradora e revoga a Instrução CVM nº 61 e a Instrução CVM nº 87",
+      "se_aplica_a": "Instituições administradoras de PAIT",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Administradores_de_Carteiras/resol022.md"
+    },
+    {
+      "norma": "Resolução CVM nº 9",
+      "assunto": "Dispõe sobre a atividade de classificação de risco de crédito no âmbito do mercado de valores mobiliários",
+      "se_aplica_a": "Agências de classificação de risco de crédito",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Agencias_de_Classificacao_de_Risco_de_Credito/resol009.md"
+    },
+    {
+      "norma": "Resolução CVM nº 17",
+      "assunto": "Exercício da função de agente fiduciário",
+      "se_aplica_a": "Instituições financeiras autorizadas pelo Banco Central do Brasil que atuam como agentes fiduciários em relação a valores mobiliários distribuídos publicamente ou admitidos à negociação em mercado organizado",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Agentes_Fiduciarios/resol017.md"
+    },
+    {
+      "norma": "Resolução CVM nº 20",
+      "assunto": "Dispõe sobre a atividade de analista de valores mobiliários e revoga a Deliberação CVM nº 633 e a Instrução CVM nº 598.",
+      "se_aplica_a": "Analistas de Valores Mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Analistas_de_Valores_Mobiliarios/resol020.md"
+    },
+    {
+      "norma": "Resolução CVM nº 16",
+      "assunto": "Regulamenta a atividade de agente autônomo de investimento, definindo seu âmbito, credenciamento e registro.",
+      "se_aplica_a": "Agentes autônomos de investimento",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Assessores_de_Investimento/resol016.md"
+    },
+    {
+      "norma": "Resolução CVM nº 178",
+      "assunto": "Dispõe sobre a atividade de assessor de investimento e revoga a Resolução CVM nº 16, de 9 de fevereiro de 2021.",
+      "se_aplica_a": "Assessores de investimento",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Assessores_de_Investimento/resol178.md"
+    },
+    {
+      "norma": "Resolução CVM nº 1",
+      "assunto": "Estabelece a nomenclatura de atos a serem expedidos pela Comissão de Valores Mobiliários",
+      "se_aplica_a": "Todos os órgãos e entidades que interagem com a CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Atos_expedidos_pela_CVM/resol001.md"
+    },
+    {
+      "norma": "Resolução CVM nº 23",
+      "assunto": "Dispõe sobre o registro e o exercício da atividade de auditoria independente no âmbito do mercado de valores mobiliários, define os deveres e as responsabilidades dos administradores das entidades auditadas no relacionamento com os auditores independentes.",
+      "se_aplica_a": "auditores independentes e administradores das entidades auditadas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Auditor_Independente/resol023.md"
+    },
+    {
+      "norma": "Resolução CVM nº 182",
+      "assunto": "Dispõe sobre certificados de depósito emitidos no Brasil com lastro em ações, certificados de depósito de ações ou em valores mobiliários representativos de dívida emitidos no exterior (BDR) e revoga a Instrução CVM nº 332, de 4 de abril de 2000.",
+      "se_aplica_a": "Emissores brasileiros e estrangeiros que emitem BDR, instituições custodiante, instituições depositária, patrocinadores e supervisores locais.",
+      "tem_prazo_ou_multa": false,
+      "caminho": "BDR/resol182.md"
+    },
+    {
+      "norma": "Resolução CVM nº 225",
+      "assunto": "Estabelece, em caráter experimental, o Cadastro de Acesso de investidores",
+      "se_aplica_a": "Investidores pessoas naturais brasileiras",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Cadastro_de_Investidores/resol225.md"
+    },
+    {
+      "norma": "Resolução CVM nº 51",
+      "assunto": "Dispõe sobre o cadastro de participantes do mercado de valores mobiliários na Comissão de Valores Mobiliários e revoga a Instrução CVM nº 510, de 5 de dezembro de 2011.",
+      "se_aplica_a": "Participantes do mercado de valores mobiliários",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Cadastro_de_Participantes_Regulados/resol051.md"
+    },
+    {
+      "norma": "Resolução CVM nº 234",
+      "assunto": "Dispõe sobre o cadastro de participantes do mercado de valores mobiliários na Comissão de Valores Mobiliários e revoga a Resolução CVM nº 51, de 31 de agosto de 2021.",
+      "se_aplica_a": "Participantes regulados do mercado de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Cadastro_de_Participantes_Regulados/resol234.md"
+    },
+    {
+      "norma": "Resolução CVM nº 11",
+      "assunto": "Dispõe sobre a constituição, administração, funcionamento, divulgação de informações e distribuição de cotas dos Clubes de Investimento",
+      "se_aplica_a": "Clubes de Investimento",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Clubes_de_Investimento/resol011.md"
+    },
+    {
+      "norma": "Resolução CVM nº 25",
+      "assunto": "Regra transitória para aplicação do prazo de 30 dias de antecedência de convocação das assembleias gerais",
+      "se_aplica_a": "Companhias",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhia/resol025.md"
+    },
+    {
+      "norma": "Resolução CVM nº 44",
+      "assunto": "Divulgação de informações sobre ato ou fato relevante, negociação de valores mobiliários na pendência de ato ou fato relevante não divulgado e divulgação de informações sobre negociação de valores mobiliários",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhia/resol044.md"
+    },
+    {
+      "norma": "Resolução CVM nº 70",
+      "assunto": "Fixa escala reduzindo, em função do capital social, o percentual mínimo de participação acionária necessário ao exercício de direitos previstos na Lei 6.404, de 15 de dezembro de 1976, e revoga as Instruções CVM nº 165, de 11 de dezembro de 1991, nº 282, de 26 de junho de 1998, nº 324, de 19 de janeiro de 2000, e nº 627, de 22 de junho de 2020.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhia/resol070.md"
+    },
+    {
+      "norma": "Resolução CVM nº 77",
+      "assunto": "Regula a negociação de ações e aquisição de debêntures de própria emissão, revogando as Instruções CVM nº 567 e 620.",
+      "se_aplica_a": "Companhias emissoras",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhia/resol077.md"
+    },
+    {
+      "norma": "Resolução CVM nº 78",
+      "assunto": "Dispõe sobre operações de fusão, cisão, incorporação e incorporação de ações, e revoga as Instruções CVM nº 319, de 3 de dezembro de 1999, nº 349, de 6 de março de 2001, e nº 565, de 15 de junho de 2015.",
+      "se_aplica_a": "Empresas que são emissores de valores mobiliários registrados na categoria A",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhia/resol078.md"
+    },
+    {
+      "norma": "Resolução CVM nº 80",
+      "assunto": "Dispõe sobre o registro e a prestação de informações periódicas e eventuais dos emissores de valores mobiliários admitidos à negociação em mercados regulamentados de valores mobiliários.",
+      "se_aplica_a": "Emissores de valores mobiliários",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Companhia/resol080.md"
+    },
+    {
+      "norma": "Resolução CVM nº 81",
+      "assunto": "Dispõe sobre assembleias de acionistas, debenturistas e de titulares de notas promissórias e notas comerciais",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhia/resol081.md"
+    },
+    {
+      "norma": "Resolução CVM nº 166",
+      "assunto": "Forma de realização das publicações ordenadas pela Lei nº 6.404, de 15 de dezembro de 1976, por parte das companhias abertas de menor porte",
+      "se_aplica_a": "Companhias abertas de menor porte e emissores não registrados de valores mobiliários admitidos à negociação em mercados regulamentados de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhia/resol166.md"
+    },
+    {
+      "norma": "Resolução CVM nº 202",
+      "assunto": "Prorrogação de prazos em razão de calamidade climática no Estado do Rio Grande do Sul",
+      "se_aplica_a": "Emissores de valores mobiliários com sede no Estado do Rio Grande do Sul e contribuintes com domicílio no mesmo estado",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Companhia/resol202.md"
+    },
+    {
+      "norma": "Resolução CVM nº 232",
+      "assunto": "Regime de Facilitação do Acesso a Capital e de Incentivos a Listagens (FÁCIL) no âmbito do mercado de capitais",
+      "se_aplica_a": "Companhias de menor porte",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhia/resol232.md"
+    },
+    {
+      "norma": "Resolução CVM nº 10",
+      "assunto": "Dispõe sobre as sociedades beneficiárias de recursos oriundos de incentivos fiscais",
+      "se_aplica_a": "Sociedades que recebem recursos oriundos de incentivos fiscais",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhias_Incentivadas/resol010.md"
+    },
+    {
+      "norma": "Resolução CVM nº 60",
+      "assunto": "Regulamenta as companhias securitizadoras de direitos creditórios registradas na CVM",
+      "se_aplica_a": "Companhias securitizadoras de direitos creditórios registradas na CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhias_Securitizadoras/resol060.md"
+    },
+    {
+      "norma": "Resolução CVM nº 165",
+      "assunto": "Equipara os Certificados de Recebíveis a que se refere a Lei nº 14.430, de 3 de agosto de 2022, aos certificados de recebíveis imobiliários e do agronegócio para fins de aplicação da Instrução CVM nº 476, de 16 de janeiro de 2009.",
+      "se_aplica_a": "Companhias Securitizadoras",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Companhias_Securitizadoras/resol165.md"
+    },
+    {
+      "norma": "Resolução CVM nº 19",
+      "assunto": "Dispõe sobre a atividade de consultoria de valores mobiliários e revoga a Instrução CVM nº 592, a Instrução CVM nº 619 e a Deliberação CVM nº 783.",
+      "se_aplica_a": "Consultores de Valores Mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Consultores_de_Valores_Mobiliarios/resol019.md"
+    },
+    {
+      "norma": "Resolução CVM nº 26",
+      "assunto": "Postergação dos prazos para entrega de informações dos fundos de investimento e formulário de referência dos administradores de carteiras de valores mobiliários",
+      "se_aplica_a": "Administradores de carteiras de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Fundos_de_Investimento/resol026.md"
+    },
+    {
+      "norma": "Resolução CVM nº 39",
+      "assunto": "Registro do Fundo de Investimento nas Cadeias Produtivas Agroindustriais (FIAGRO)",
+      "se_aplica_a": "Fundos de Investimento",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Fundos_de_Investimento/resol039.md"
+    },
+    {
+      "norma": "Resolução CVM nº 82",
+      "assunto": "Dispõe sobre o Fundo de Investimento do Fundo de Garantia do Tempo de Serviço",
+      "se_aplica_a": "Fundo de Investimento do Fundo de Garantia do Tempo de Serviço",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Fundos_de_Investimento/resol082.md"
+    },
+    {
+      "norma": "Resolução CVM nº 172",
+      "assunto": "Alterações temporárias em requisitos regulatórios relacionados ao envio e à publicidade de demonstrativos de composição e diversificação de carteira dos fundos de investimento",
+      "se_aplica_a": "Fundos de investimento classificados como 'ações – ativos' e 'previdenciários de ações – ações ativos'",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Fundos_de_Investimento/resol172.md"
+    },
+    {
+      "norma": "Resolução CVM nº 175",
+      "assunto": "Dispõe sobre a constituição, o funcionamento e a divulgação de informações dos fundos de investimento, bem como sobre a prestação de serviços para os fundos",
+      "se_aplica_a": "Fundos de investimento",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Fundos_de_Investimento/resol175.md"
+    },
+    {
+      "norma": "Resolução CVM nº 49",
+      "assunto": "Autorização para reprodução e utilização da sigla, do logotipo e do slogan da CVM",
+      "se_aplica_a": "Pessoas ou entidades que pretendem reproduzir e utilizar a sigla, logotipo e slogan da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Identidade_Visual_Institucional/resol049.md"
+    },
+    {
+      "norma": "Resolução CVM nº 31",
+      "assunto": "Dispõe sobre a prestação de serviços de depósito centralizado de valores mobiliários e revoga a Instrução CVM nº 541, de 20 de dezembro de 2013.",
+      "se_aplica_a": "pessoas jurídicas autorizadas pela CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Infraestrutura_do_Mercado/resol031.md"
+    },
+    {
+      "norma": "Resolução CVM nº 32",
+      "assunto": "Dispõe sobre a prestação de serviços de custódia de valores mobiliários e revoga a Instrução CVM nº 542, de 20 de dezembro de 2013.",
+      "se_aplica_a": "Pessoas jurídicas autorizadas pela CVM nos termos desta Resolução",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Infraestrutura_do_Mercado/resol032.md"
+    },
+    {
+      "norma": "Resolução CVM nº 33",
+      "assunto": "Dispõe sobre a prestação de serviços de escrituração de valores mobiliários e de emissão de certificados de valores mobiliários",
+      "se_aplica_a": "Instituições financeiras",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Infraestrutura_do_Mercado/resol033.md"
+    },
+    {
+      "norma": "Resolução CVM nº 34",
+      "assunto": "Dispõe sobre empréstimo de valores mobiliários por câmaras e prestadores de serviço de compensação e liquidação de operações com valores mobiliários e revoga as Instruções CVM nº 441, de 10 de novembro de 2006, e CVM nº 466, de 12 de março de 2008.",
+      "se_aplica_a": "câmaras e prestadores de serviço de compensação e liquidação de operações com valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Infraestrutura_do_Mercado/resol034.md"
+    },
+    {
+      "norma": "Resolução CVM nº 35",
+      "assunto": "Normas e procedimentos para a intermediação de operações com valores mobiliários em mercados regulamentados de valores mobiliários",
+      "se_aplica_a": "Intermediários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Intermediários/resol035.md"
+    },
+    {
+      "norma": "Resolução CVM nº 36",
+      "assunto": "Normas e procedimentos para a organização e o funcionamento das corretoras de mercadorias",
+      "se_aplica_a": "Corretoras de mercadorias",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Intermediários/resol036.md"
+    },
+    {
+      "norma": "Resolução CVM nº 37",
+      "assunto": "Dispõe sobre a atividade de captação de ordens pulverizadas de venda de ações e revoga a Instrução CVM nº 454, de 30 de abril de 2007",
+      "se_aplica_a": "Intermediários autorizados a operar diretamente por conta e ordem de terceiros no mercado organizado em que negociadas as ações objeto da ordem pulverizada",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Intermediários/resol037.md"
+    },
+    {
+      "norma": "Resolução CVM nº 13",
+      "assunto": "Registro, operações e divulgação de informações de investidor não residente no País",
+      "se_aplica_a": "Investidores não residentes no Brasil",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Investidores_Nao_Residentes/resol013.md"
+    },
+    {
+      "norma": "Resolução CVM nº 38",
+      "assunto": "Redefinição temporária e experimental do prazo e competências para a decisão da CVM em relação a recursos de decisão proferida em relação ao mecanismo de ressarcimento de prejuízos",
+      "se_aplica_a": "Titular da Superintendência de Relações com Mercado e Intermediários (SMI) e Colegiado da CVM",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Mercados_Organizados/resol038.md"
+    },
+    {
+      "norma": "Resolução CVM nº 62",
+      "assunto": "Veda as práticas de criação de condições artificiais de demanda, oferta ou preço de valores mobiliários, manipulação de preço, realização de operações fraudulentas e uso de práticas não equitativas, e revoga a Instrução CVM nº 8 e a Deliberação CVM nº 14.",
+      "se_aplica_a": "administradores e acionistas de companhias abertas, intermediários e demais participantes do mercado de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Mercados_Organizados/resol062.md"
+    },
+    {
+      "norma": "Resolução CVM nº 133",
+      "assunto": "Dispõe sobre a atividade de formador de mercado para valores mobiliários em mercado organizado e revoga a Instrução CVM nº 384, de 17 de março de 2003.",
+      "se_aplica_a": "Pessoas jurídicas cadastradas pelas entidades administradoras de mercado organizado para a realização de operações destinadas a fomentar a liquidez de valores mobiliários admitidos à negociação em mercados por elas administrados.",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Mercados_Organizados/resol133.md"
+    },
+    {
+      "norma": "Resolução CVM nº 135",
+      "assunto": "Funcionamento dos mercados regulamentados de valores mobiliários; constituição, organização, funcionamento e extinção das entidades administradoras de mercado organizado; prestação dos serviços referidos no § 4º do art. 2º da Lei nº 6.385, de 7 de dezembro de 1976, e no art. 28 da Lei nº 12.810, de 15 de maio de 2013",
+      "se_aplica_a": "Entidades administradoras de mercado organizado",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Mercados_Organizados/resol135.md"
+    },
+    {
+      "norma": "Resolução CVM nº 12",
+      "assunto": "Normas contábeis para a elaboração e divulgação das demonstrações financeiras dos Clubes de Investimento",
+      "se_aplica_a": "Clubes de Investimento",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol012.md"
+    },
+    {
+      "norma": "Resolução CVM nº 14",
+      "assunto": "Aprova a Orientação Técnica CPC 09 – Relato Integrado",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol014.md"
+    },
+    {
+      "norma": "Resolução CVM nº 18",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 17 do CPC",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol018.md"
+    },
+    {
+      "norma": "Resolução CVM nº 28",
+      "assunto": "Aprova o Pronunciamento Técnico CPC para Entidades em Liquidação",
+      "se_aplica_a": "Entidades em Liquidação",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol028.md"
+    },
+    {
+      "norma": "Resolução CVM nº 41",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamento Técnico nº 18, que estabelece regras para o tratamento de benefícios relacionados à pandemia de COVID-19 em contratos de arrendamento",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol041.md"
+    },
+    {
+      "norma": "Resolução CVM nº 42",
+      "assunto": "Aprova o Pronunciamento Técnico CPC 50 – Contratos de Seguros",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol042.md"
+    },
+    {
+      "norma": "Resolução CVM nº 58",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 19, emitido pelo Comitê de Pronunciamentos Contábeis – CPC",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol058.md"
+    },
+    {
+      "norma": "Resolução CVM nº 68",
+      "assunto": "Ratificação da Decisão 31/10 do CMC do MERCOSUL sobre a Regulamentação Mínima do Mercado de Valores Mobiliários sobre a Elaboração e Divulgação das Demonstrações Financeiras, e revogação da Deliberação CVM nº 659",
+      "se_aplica_a": "Emissores de valores mobiliários admitidos à negociação em mercados regulamentados",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol068.md"
+    },
+    {
+      "norma": "Resolução CVM nº 71",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 15(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de combinação de negócios.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol071.md"
+    },
+    {
+      "norma": "Resolução CVM nº 72",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 25, do Comitê de Pronunciamentos Contábeis – CPC, que trata de provisões, passivos contingentes e ativos contingentes.",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol072.md"
+    },
+    {
+      "norma": "Resolução CVM nº 73",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 27, do Comitê de Pronunciamentos Contábeis - CPC, que trata de ativo imobilizado.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol073.md"
+    },
+    {
+      "norma": "Resolução CVM nº 74",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 29, do Comitê de Pronunciamentos Contábeis - CPC, que trata de ativo biológico e produto agrícola.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol074.md"
+    },
+    {
+      "norma": "Resolução CVM nº 75",
+      "assunto": "Adoção inicial das normas internacionais de contabilidade",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol075.md"
+    },
+    {
+      "norma": "Resolução CVM nº 76",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 48, do Comitê de Pronunciamentos Contábeis - CPC, que trata de instrumentos financeiros.",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol076.md"
+    },
+    {
+      "norma": "Resolução CVM nº 89",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 20, obrigando as companhias abertas a adotar as novas normas contábeis a partir de 1º de janeiro de 2023.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol089.md"
+    },
+    {
+      "norma": "Resolução CVM nº 90",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 01(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de redução ao valor recuperável de ativos.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol090.md"
+    },
+    {
+      "norma": "Resolução CVM nº 91",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 02(R2) do Comitê de Pronunciamentos Contábeis – CPC, que trata sobre efeito das mudanças nas taxas de câmbio e conversão de demonstrações contábeis.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol091.md"
+    },
+    {
+      "norma": "Resolução CVM nº 92",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 03(R2) do Comitê de Pronunciamentos Contábeis – CPC, que trata sobre demonstração dos fluxos de caixa.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol092.md"
+    },
+    {
+      "norma": "Resolução CVM nº 93",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 04(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de ativo intangível.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol093.md"
+    },
+    {
+      "norma": "Resolução CVM nº 94",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 05(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de divulgação sobre partes relacionadas.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol094.md"
+    },
+    {
+      "norma": "Resolução CVM nº 95",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 06(R2) do Comitê de Pronunciamentos Contábeis – CPC, que trata de arrendamentos.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol095.md"
+    },
+    {
+      "norma": "Resolução CVM nº 96",
+      "assunto": "Aprova a consolidação do Pronunciamento Técnico CPC 07(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de subvenção e assistência governamentais.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol096.md"
+    },
+    {
+      "norma": "Resolução CVM nº 97",
+      "assunto": "Pagamento baseado em ações",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol097.md"
+    },
+    {
+      "norma": "Resolução CVM nº 98",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 11 do Comitê de Pronunciamentos Contábeis – CPC, que trata sobre contratos de seguro.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol098.md"
+    },
+    {
+      "norma": "Resolução CVM nº 99",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 16(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de estoques.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol099.md"
+    },
+    {
+      "norma": "Resolução CVM nº 100",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 19(R2) do Comitê de Pronunciamentos Contábeis – CPC, que trata de negócios em conjunto.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol100.md"
+    },
+    {
+      "norma": "Resolução CVM nº 101",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 20(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de custos de empréstimos.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol101.md"
+    },
+    {
+      "norma": "Resolução CVM nº 102",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 21(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de demonstração intermediária.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol102.md"
+    },
+    {
+      "norma": "Resolução CVM nº 103",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 22 do Comitê de Pronunciamentos Contábeis – CPC, que trata de informações por segmento.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol103.md"
+    },
+    {
+      "norma": "Resolução CVM nº 104",
+      "assunto": "Políticas contábeis, mudança de estimativa e retificação de erro",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol104.md"
+    },
+    {
+      "norma": "Resolução CVM nº 105",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 24 do Comitê de Pronunciamentos Contábeis – CPC, que trata de evento subsequente.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol105.md"
+    },
+    {
+      "norma": "Resolução CVM nº 106",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 26(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata da Apresentação das Demonstrações Contábeis.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol106.md"
+    },
+    {
+      "norma": "Resolução CVM nº 107",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 28 do Comitê de Pronunciamentos Contábeis – CPC, que trata de propriedade para investimento.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol107.md"
+    },
+    {
+      "norma": "Resolução CVM nº 108",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 31 do Comitê de Pronunciamentos Contábeis – CPC, que trata de ativo não-circulante mantido para venda e operação descontinuada.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol108.md"
+    },
+    {
+      "norma": "Resolução CVM nº 109",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 32 do Comitê de Pronunciamentos Contábeis – CPC, que trata de tributos sobre o lucro.",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol109.md"
+    },
+    {
+      "norma": "Resolução CVM nº 110",
+      "assunto": "Benefícios a empregados",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol110.md"
+    },
+    {
+      "norma": "Resolução CVM nº 111",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 35 (R2) do Comitê de Pronunciamentos Contábeis – CPC, que trata de demonstrações separadas.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol111.md"
+    },
+    {
+      "norma": "Resolução CVM nº 112",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 36 (R3) do Comitê de Pronunciamentos Contábeis – CPC, que trata de demonstrações consolidadas.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol112.md"
+    },
+    {
+      "norma": "Resolução CVM nº 113",
+      "assunto": "Determinação e apresentação do resultado por ação",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol113.md"
+    },
+    {
+      "norma": "Resolução CVM nº 114",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 45 do Comitê de Pronunciamentos Contábeis (CPC), que trata de divulgação de participações em outras entidades.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol114.md"
+    },
+    {
+      "norma": "Resolução CVM nº 115",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 46 do Comitê de Pronunciamentos Contábeis – CPC, que trata de mensuração do valor justo.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol115.md"
+    },
+    {
+      "norma": "Resolução CVM nº 116",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 47 do Comitê de Pronunciamentos Contábeis – CPC, que trata de receita de contrato com cliente.",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol116.md"
+    },
+    {
+      "norma": "Resolução CVM nº 117",
+      "assunto": "Aprova a consolidação do Pronunciamento Técnico CPC 09 do Comitê de Pronunciamentos Contábeis (CPC), que trata sobre demonstração do valor adicionado.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol117.md"
+    },
+    {
+      "norma": "Resolução CVM nº 118",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 18(R2) do Comitê de Pronunciamentos Contábeis – CPC, que trata de investimento em coligada, em controlada e em empreendimento controlado em conjunto.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol118.md"
+    },
+    {
+      "norma": "Resolução CVM nº 119",
+      "assunto": "Reconhecimento e mensuração de instrumentos financeiros",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol119.md"
+    },
+    {
+      "norma": "Resolução CVM nº 120",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 39 do Comitê de Pronunciamentos Contábeis – CPC, que trata de Instrumentos Financeiros: Apresentação.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol120.md"
+    },
+    {
+      "norma": "Resolução CVM nº 121",
+      "assunto": "Aprova a Consolidação do Pronunciamento Técnico CPC 40 (R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de Instrumentos Financeiros: Evidenciação.",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol121.md"
+    },
+    {
+      "norma": "Resolução CVM nº 122",
+      "assunto": "Requisito de aplicação da Interpretação Técnica ICPC 01 (R1) para contratos de concessão em companhias abertas",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol122.md"
+    },
+    {
+      "norma": "Resolução CVM nº 123",
+      "assunto": "Distribuição de lucros in natura",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol123.md"
+    },
+    {
+      "norma": "Resolução CVM nº 124",
+      "assunto": "Aprova a Consolidação da Interpretação Técnica ICPC 09 (R2) do Comitê de Pronunciamentos Contábeis – CPC, que trata de demonstrações contábeis individuais, demonstrações separadas, demonstrações consolidadas e aplicação do método de equivalência patrimonial.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol124.md"
+    },
+    {
+      "norma": "Resolução CVM nº 125",
+      "assunto": "Aprova a Consolidação da Interpretação Técnica ICPC 12 do Comitê de Pronunciamentos Contábeis – CPC, que trata de mudanças em passivos por desativação, restauração e outros passivos similares.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol125.md"
+    },
+    {
+      "norma": "Resolução CVM nº 126",
+      "assunto": "Direitos a participações decorrentes de fundos de desativação, restauração e reabilitação ambiental",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol126.md"
+    },
+    {
+      "norma": "Resolução CVM nº 127",
+      "assunto": "Aprova a Consolidação da Interpretação Técnica ICPC 16 do Comitê de Pronunciamentos Contábeis – CPC, que trata da extinção de passivos financeiros com instrumentos patrimoniais.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol127.md"
+    },
+    {
+      "norma": "Resolução CVM nº 128",
+      "assunto": "Aprova a Consolidação da Interpretação Técnica ICPC 17 do Comitê de Pronunciamentos Contábeis – CPC, que trata de contratos de concessão: evidenciação.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol128.md"
+    },
+    {
+      "norma": "Resolução CVM nº 129",
+      "assunto": "Aprova a Consolidação da Interpretação Técnica ICPC 18 do Comitê de Pronunciamentos Contábeis (CPC), que trata de custos de remoção de estéril (stripping) de mina de superfície na fase de produção.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol129.md"
+    },
+    {
+      "norma": "Resolução CVM nº 130",
+      "assunto": "Aprova a Consolidação da Interpretação Técnica ICPC 21 do Comitê de Pronunciamentos Contábeis – CPC, que trata de transação em moeda estrangeira e adiantamento.",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol130.md"
+    },
+    {
+      "norma": "Resolução CVM nº 131",
+      "assunto": "Aprova a Consolidação da Orientação Técnica OCPC 01 (R1) do Comitê de Pronunciamentos Contábeis, que trata sobre entidades de incorporação imobiliária.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol131.md"
+    },
+    {
+      "norma": "Resolução CVM nº 132",
+      "assunto": "Orientação Técnica OCPC 05 sobre contratos de concessão",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol132.md"
+    },
+    {
+      "norma": "Resolução CVM nº 136",
+      "assunto": "Ratificação do Pronunciamento Técnico CPC 00(R2) do CPC, que trata da Estrutura Conceitual para Relatório Financeiro",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol136.md"
+    },
+    {
+      "norma": "Resolução CVM nº 137",
+      "assunto": "Ratificação do Pronunciamento Técnico CPC 08(R1) sobre custos de transação e prêmios na emissão de títulos e valores mobiliários",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol137.md"
+    },
+    {
+      "norma": "Resolução CVM nº 138",
+      "assunto": "Ratificação do Pronunciamento Técnico CPC 12 sobre ajuste a valor presente",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol138.md"
+    },
+    {
+      "norma": "Resolução CVM nº 139",
+      "assunto": "Contabilidade em economia hiperinflacionária",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol139.md"
+    },
+    {
+      "norma": "Resolução CVM nº 140",
+      "assunto": "Ratificação do Pronunciamento Técnico CPC 43(R1) do Comitê de Pronunciamentos Contábeis (CPC), que trata da adoção inicial dos Pronunciamentos Técnicos CPC 15 a 41",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol140.md"
+    },
+    {
+      "norma": "Resolução CVM nº 141",
+      "assunto": "Ratificação do Pronunciamento Técnico CPC 44 sobre demonstrações combinadas",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol141.md"
+    },
+    {
+      "norma": "Resolução CVM nº 142",
+      "assunto": "Ratificação da Interpretação Técnica ICPC 06 sobre hedge de investimento líquido em operação no exterior",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol142.md"
+    },
+    {
+      "norma": "Resolução CVM nº 143",
+      "assunto": "Contabilização da proposta de pagamento de dividendos",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol143.md"
+    },
+    {
+      "norma": "Resolução CVM nº 144",
+      "assunto": "Ratificação da Interpretação Técnica ICPC 10 do CPC, aplicável a ativos imobilizados e propriedade para investimento",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol144.md"
+    },
+    {
+      "norma": "Resolução CVM nº 145",
+      "assunto": "Ratificação da Interpretação Técnica ICPC 15 do CPC sobre passivo decorrente de participação em mercado específico - resíduos de equipamentos eletroeletrônicos",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol145.md"
+    },
+    {
+      "norma": "Resolução CVM nº 146",
+      "assunto": "Ratificação da Interpretação Técnica ICPC 19 do CPC, que trata de tributos",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol146.md"
+    },
+    {
+      "norma": "Resolução CVM nº 147",
+      "assunto": "Ratificação da Interpretação Técnica ICPC 20 sobre limite de ativo de benefício definido, requisitos de custeio (funding) mínimo e sua interação",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol147.md"
+    },
+    {
+      "norma": "Resolução CVM nº 148",
+      "assunto": "Ratificação da Interpretação Técnica ICPC 22 do CPC sobre incerteza no tratamento de tributos sobre o lucro",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol148.md"
+    },
+    {
+      "norma": "Resolução CVM nº 149",
+      "assunto": "Ratificação da Interpretação Técnica ICPC 23 do CPC, que trata da aplicação da abordagem de atualização monetária prevista no Pronunciamento Técnico CPC 42",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol149.md"
+    },
+    {
+      "norma": "Resolução CVM nº 150",
+      "assunto": "Ratificação da Orientação Técnica OCPC 04 sobre a aplicação da Interpretação Técnica ICPC 02 às entidades de incorporação imobiliária brasileiras",
+      "se_aplica_a": "Entidades de incorporação imobiliária brasileiras",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol150.md"
+    },
+    {
+      "norma": "Resolução CVM nº 151",
+      "assunto": "Ratificação da Orientação Técnica OCPC 06 sobre a apresentação de informações financeiras pro forma",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol151.md"
+    },
+    {
+      "norma": "Resolução CVM nº 152",
+      "assunto": "Ratificação da Orientação Técnica OCPC 07 sobre evidenciação na divulgação dos relatórios contábil-financeiros de propósito geral",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol152.md"
+    },
+    {
+      "norma": "Resolução CVM nº 153",
+      "assunto": "Ratificação da Orientação Técnica OCPC 08 do Comitê de Pronunciamentos Contábeis, que trata do reconhecimento de determinados ativos e passivos nos relatórios contábil-financeiros de propósito geral das distribuidoras de energia elétrica emitidos de acordo com as normas brasileiras e internacionais de contabilidade.",
+      "se_aplica_a": "Distribuidoras de energia elétrica",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol153.md"
+    },
+    {
+      "norma": "Resolução CVM nº 155",
+      "assunto": "Dispõe sobre a elaboração e divulgação das demonstrações financeiras consolidadas, com base no padrão contábil internacional emitido pelo International Accounting Standards Board - IASB.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol155.md"
+    },
+    {
+      "norma": "Resolução CVM nº 156",
+      "assunto": "Dispõe sobre a divulgação voluntária de informações de natureza não contábil denominadas LAJIDA e LAJIR",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol156.md"
+    },
+    {
+      "norma": "Resolução CVM nº 157",
+      "assunto": "Procedimentos para elaboração e divulgação de demonstrações contábeis em moeda de capacidade aquisitiva constante por companhias abertas",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol157.md"
+    },
+    {
+      "norma": "Resolução CVM nº 176",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 21",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol176.md"
+    },
+    {
+      "norma": "Resolução CVM nº 188",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 22, tornando-o obrigatório para as companhias abertas",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol188.md"
+    },
+    {
+      "norma": "Resolução CVM nº 189",
+      "assunto": "Aprova a Orientação Técnica OCPC 07(R1), que trata da Evidenciação na Divulgação de Relatórios Financeiros para Fins Gerais",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol189.md"
+    },
+    {
+      "norma": "Resolução CVM nº 190",
+      "assunto": "Aprova o Pronunciamento Técnico CPC 12 (R1) – Ajuste a Valor Presente",
+      "se_aplica_a": "companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol190.md"
+    },
+    {
+      "norma": "Resolução CVM nº 191",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos CPC nº 23",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol191.md"
+    },
+    {
+      "norma": "Resolução CVM nº 193",
+      "assunto": "Dispõe sobre a elaboração e divulgação do relatório de informações financeiras relacionadas à sustentabilidade, com base no padrão internacional emitido pelo International Sustainability Standards Board - ISSB.",
+      "se_aplica_a": "Companhias abertas, fundos de investimento e companhias securitizadoras",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Normas_Contabeis/resol193.md"
+    },
+    {
+      "norma": "Resolução CVM nº 197",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 24, obrigando as companhias abertas a adotar as alterações em seus sistemas contábeis",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol197.md"
+    },
+    {
+      "norma": "Resolução CVM nº 199",
+      "assunto": "Aprovação do Pronunciamento Técnico CPC 09 (R1) – Demonstração do Valor Adicionado",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol199.md"
+    },
+    {
+      "norma": "Resolução CVM nº 205",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 26, obrigando as companhias abertas a adotá-lo a partir de 1º de julho de 2024.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol205.md"
+    },
+    {
+      "norma": "Resolução CVM nº 211",
+      "assunto": "Aprova o Pronunciamento Técnico CPC 18 (R3) – Investimento em Coligada e em Empreendimento Controlado em Conjunto",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol211.md"
+    },
+    {
+      "norma": "Resolução CVM nº 212",
+      "assunto": "Aprova a Interpretação Técnica ICPC 09 (R3) – Demonstrações Contábeis Individuais, Demonstrações Separadas, Demonstrações Consolidadas e Aplicação do Método da Equivalência Patrimonial",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol212.md"
+    },
+    {
+      "norma": "Resolução CVM nº 213",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 27, obrigando as companhias abertas a adotá-lo a partir de 1º de janeiro de 2025",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol213.md"
+    },
+    {
+      "norma": "Resolução CVM nº 217",
+      "assunto": "Requisitos Gerais para Divulgação de Informações Financeiras relacionadas à Sustentabilidade",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol217.md"
+    },
+    {
+      "norma": "Resolução CVM nº 218",
+      "assunto": "Aprovação do Pronunciamento Técnico CBPS nº 02 – Divulgações Relacionadas ao Clima",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol218.md"
+    },
+    {
+      "norma": "Resolução CVM nº 223",
+      "assunto": "Aprova a Orientação Técnica OCPC 10 – Créditos de Carbono, Permissões de Emissões (allowances) e Créditos de Descarbonização (CBIO)",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol223.md"
+    },
+    {
+      "norma": "Resolução CVM nº 237",
+      "assunto": "Aprova o Pronunciamento Técnico CPC 51 – Apresentação e Divulgação nas Demonstrações Contábeis",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol237.md"
+    },
+    {
+      "norma": "Resolução CVM nº 238",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 28 – Alterações decorrentes do Pronunciamento Técnico CPC 51",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol238.md"
+    },
+    {
+      "norma": "Resolução CVM nº 242",
+      "assunto": "Aprovação do Documento de Revisão de Pronunciamentos Técnicos nº 29, obrigando as companhias abertas a adotá-lo a partir de 1º de janeiro de 2026",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Normas_Contabeis/resol242.md"
+    },
+    {
+      "norma": "Resolução CVM nº 244",
+      "assunto": "Alterações na publicação de informações financeiras relacionadas a sustentabilidade",
+      "se_aplica_a": "Empresas de capital aberto",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Normas_Contabeis/resol244.md"
+    },
+    {
+      "norma": "Resolução CVM nº 4",
+      "assunto": "Promove alterações temporárias, em caráter experimental, em requisitos regulatórios estabelecidos pela Instrução CVM nº 588, de 13 de julho de 2017, para facilitar o acesso de micro, pequenas e médias empresas ao mercado de capitais durante a pandemia do coronavírus.",
+      "se_aplica_a": "Micro, pequenas e médias empresas (MPMEs)",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol004.md"
+    },
+    {
+      "norma": "Resolução CVM nº 6",
+      "assunto": "Dispõe sobre a emissão e distribuição de Certificados de Investimento para a produção, distribuição, exibição e infraestrutura técnica de obras audiovisuais cinematográficas brasileiras",
+      "se_aplica_a": "Empresas brasileiras de capital nacional dedicadas à produção independente de obras audiovisuais brasileiras e empresas que apresentem projetos de exibição, distribuição e infraestrutura técnica específicos da área audiovisual cinematográfica",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol006.md"
+    },
+    {
+      "norma": "Resolução CVM nº 8",
+      "assunto": "Ofertas públicas de distribuição de Certificado de Operações Estruturadas (COE), Letra Financeira (LF) e Letra Imobiliária Garantida (LIG) realizadas com dispensa de registro",
+      "se_aplica_a": "Instituições financeiras e investidores",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol008.md"
+    },
+    {
+      "norma": "Resolução CVM nº 27",
+      "assunto": "Dispensa a apresentação do boletim de subscrição em ofertas públicas de distribuição de valores mobiliários liquidadas por meio de sistema administrado por entidade administradora de mercados organizados de valores mobiliários, dispõe sobre a apresentação de documento de aceitação no âmbito de ofertas públicas e revoga a Deliberação CVM nº 860, de 22 de julho de 2020.",
+      "se_aplica_a": "Investidores institucionais",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol027.md"
+    },
+    {
+      "norma": "Resolução CVM nº 84",
+      "assunto": "Regulamenta os registros de negociação e distribuição pública de Certificados de Potencial Adicional de Construção (CEPAC)",
+      "se_aplica_a": "Municípios que emitem CEPAC",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol084.md"
+    },
+    {
+      "norma": "Resolução CVM nº 85",
+      "assunto": "Regula as ofertas públicas de aquisição de ações de companhia aberta",
+      "se_aplica_a": "Empresas abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol085.md"
+    },
+    {
+      "norma": "Resolução CVM nº 86",
+      "assunto": "Dispõe sobre a oferta pública de distribuição de contratos de investimento coletivo hoteleiro e revoga a Instrução CVM nº 602, de 27 de agosto de 2018.",
+      "se_aplica_a": "Sociedades incorporadoras e outras pessoas que realizam atos de distribuição pública de CIC hoteleiro",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Ofertas_Publicas/resol086.md"
+    },
+    {
+      "norma": "Resolução CVM nº 88",
+      "assunto": "Ofertas Publicas",
+      "se_aplica_a": "Sociedades empresárias de pequeno porte que realizam ofertas públicas de distribuição de valores mobiliários por meio de plataforma eletrônica de investimento participativo",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol088.md"
+    },
+    {
+      "norma": "Resolução CVM nº 160",
+      "assunto": "Dispõe sobre as ofertas públicas de distribuição primária ou secundária de valores mobiliários e a negociação dos valores mobiliários ofertados nos mercados regulamentados, e revoga as Instruções CVM nº 400, CVM nº 471, CVM nº 476, CVM nº 530 e as Deliberações CVM nº 476, CVM nº 533, CVM nº 809, CVM nº 818 e CVM nº 850.",
+      "se_aplica_a": "Empresas emitiadoras de valores mobiliários, intermediários financeiros e investidores",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol160.md"
+    },
+    {
+      "norma": "Resolução CVM nº 161",
+      "assunto": "Registro de coordenadores de ofertas públicas de distribuição de valores mobiliários e regras de intermediação",
+      "se_aplica_a": "Instituições financeiras e demais sociedades que atuem na distribuição de valores mobiliários como agentes da companhia emissora",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Ofertas_Publicas/resol161.md"
+    },
+    {
+      "norma": "Resolução CVM nº 163",
+      "assunto": "Dispõe sobre a oferta pública de distribuição de nota promissória e revoga a Instrução CVM nº 566, de 31 de julho de 2015.",
+      "se_aplica_a": "Companhias e sociedades limitadas, cooperativas que produzem, comercializam, beneficiam ou industrializam produtos ou insumos agropecuários, ou de máquinas e implementos utilizados na atividade agropecuária.",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol163.md"
+    },
+    {
+      "norma": "Resolução CVM nº 215",
+      "assunto": "Dispõe sobre as ofertas públicas de aquisição de ações de companhia aberta e revoga a Resolução nº 85, de 31 de março de 2022, e as Deliberações CVM nº 751, de 28 de março de 2016, nº 756, de 4 de novembro de 2016.",
+      "se_aplica_a": "Companhias abertas registradas na categoria A",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol215.md"
+    },
+    {
+      "norma": "Resolução CVM nº 232",
+      "assunto": "Regime de Facilitação do Acesso a Capital e de Incentivos a Listagens (FÁCIL) no âmbito do mercado de capitais",
+      "se_aplica_a": "Companhias de menor porte",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ofertas_Publicas/resol232.md"
+    },
+    {
+      "norma": "Resolução CVM nº 43",
+      "assunto": "Institui a Ouvidoria no âmbito do mercado de valores mobiliários e revoga a Instrução CVM nº 529",
+      "se_aplica_a": "Instituições habilitadas a atuar como integrante do sistema de distribuição, prestadores de serviços de custódia de valores mobiliários, agentes emissores de certificados e prestadores de serviços de ações escriturais",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ouvidoria/resol043.md"
+    },
+    {
+      "norma": "Resolução CVM nº 50",
+      "assunto": "Política de prevenção à lavagem de dinheiro, ao financiamento do terrorismo e ao financiamento da proliferação de armas de destruição em massa (PLD/FTP) no âmbito do mercado de valores mobiliários",
+      "se_aplica_a": "pessoas naturais ou jurídicas que prestem no mercado de valores mobiliários, em caráter permanente ou eventual, os serviços relacionados à distribuição, custódia, intermediação, ou administração de carteiras; entidades administradoras de mercados organizados e as entidades operadoras de infraestrutura do mercado financeiro; as demais pessoas referidas em regulamentação específica que prestem serviços no mercado de valores mobiliários, incluindo: escrituradores, consultores de valores mobiliários, agências de classificação de risco, representantes de investidores não residentes; companhias securitizadoras; e auditores independentes no âmbito do mercado de valores mobiliários. Não se aplica aos analistas de valores mobiliários e às companhias abertas, desde que não exerçam outras atividades abrangidas pelos incisos I a IV do caput.",
+      "tem_prazo_ou_multa": false,
+      "caminho": "PLD-FTP/resol050.md"
+    },
+    {
+      "norma": "Resolução CVM nº 210",
+      "assunto": "Portabilidade de valores mobiliários",
+      "se_aplica_a": "custodiantes, intermediários, depositários centrais, entidades registradora e administradores de carteiras de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Portabilidade/resol210.md"
+    },
+    {
+      "norma": "Resolução CVM nº 24",
+      "assunto": "Aprovação do Regimento Interno da Comissão de Valores Mobiliários",
+      "se_aplica_a": "Todos os membros da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Regimento_Interno/resol024.md"
+    },
+    {
+      "norma": "Resolução CVM nº 202",
+      "assunto": "Prorrogação de prazos em razão de calamidade climática no Estado do Rio Grande do Sul",
+      "se_aplica_a": "Emissores de valores mobiliários com sede no Estado do Rio Grande do Sul e contribuintes com domicílio no mesmo estado",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Ritos_CVM/resol202.md"
+    },
+    {
+      "norma": "Resolução CVM nº 45",
+      "assunto": "Rito dos procedimentos relativos à atuação sancionadora no âmbito da Comissão de Valores Mobiliários",
+      "se_aplica_a": "Todos os participantes do mercado de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ritos_Processuais/resol045.md"
+    },
+    {
+      "norma": "Resolução CVM nº 46",
+      "assunto": "Tramitação de processos administrativos não sancionadores no âmbito do Colegiado da CVM",
+      "se_aplica_a": "Superintendências da CVM e membros do Colegiado",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ritos_Processuais/resol046.md"
+    },
+    {
+      "norma": "Resolução CVM nº 47",
+      "assunto": "Dispõe sobre multas cominatórias aplicadas pela CVM, e revoga a Instrução CVM nº 608, de 25 de junho de 2019.",
+      "se_aplica_a": "Pessoas que deixarem de prestar as informações periódicas ou eventuais exigidas em atos normativos, ou que deixarem de cumprir ordens específicas emitidas pela CVM.",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Ritos_Processuais/resol047.md"
+    },
+    {
+      "norma": "Resolução CVM nº 48",
+      "assunto": "Concessão de vista de processos administrativos e procedimentos de acesso à informação",
+      "se_aplica_a": "Investidores e outros participantes do mercado",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ritos_Processuais/resol048.md"
+    },
+    {
+      "norma": "Resolução CVM nº 67",
+      "assunto": "Processo de normatização da Comissão de Valores Mobiliários (CVM)",
+      "se_aplica_a": "CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Ritos_Processuais/resol067.md"
+    },
+    {
+      "norma": "Resolução CVM nº 29",
+      "assunto": "Regras para constituição e funcionamento de ambiente regulatório experimental (sandbox regulatório)",
+      "se_aplica_a": "Pessoas jurídicas que desejam testar modelos de negócio inovadores em atividades regulamentadas pelo mercado de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sandbox_Regulatório/resol029.md"
+    },
+    {
+      "norma": "Resolução CVM nº 2",
+      "assunto": "Revogação de instruções e deliberações normativas",
+      "se_aplica_a": "Todos os órgãos e entidades sujeitos à regulamentação da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol002.md"
+    },
+    {
+      "norma": "Resolução CVM nº 3",
+      "assunto": "Alteração e adição de dispositivos às Instruções CVM nº 332, 359, 471, 476, 480 e 555",
+      "se_aplica_a": "Instituições depositárias, instituições custodiante, investidores e emissores de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol003.md"
+    },
+    {
+      "norma": "Resolução CVM nº 5",
+      "assunto": "Alteração na Instrução CVM nº 481, que estabelece regras para a realização de assembleias de acionistas em caso de força maior",
+      "se_aplica_a": "Empresas listadas na B3",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol005.md"
+    },
+    {
+      "norma": "Resolução CVM nº 7",
+      "assunto": "Revogação de atos normativos e outros atos sem caráter normativo",
+      "se_aplica_a": "Todos os órgãos e entidades sujeitas à regulamentação da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol007.md"
+    },
+    {
+      "norma": "Resolução CVM nº 15",
+      "assunto": "Alteração na vigência de partes da Resolução CVM nº 8",
+      "se_aplica_a": "Empresas de capital aberto",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol015.md"
+    },
+    {
+      "norma": "Resolução CVM nº 40",
+      "assunto": "Alteração na estrutura e competências da CVM",
+      "se_aplica_a": "CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol040.md"
+    },
+    {
+      "norma": "Resolução CVM nº 59",
+      "assunto": "Alterações na Instrução CVM nº 480 e 481, relacionadas à divulgação de informações sobre emissores de valores mobiliários",
+      "se_aplica_a": "Emissores de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol059.md"
+    },
+    {
+      "norma": "Resolução CVM nº 61",
+      "assunto": "Alterações nas Instruções CVM e Resoluções CVM relacionadas às ofertas públicas de distribuição de valores mobiliários",
+      "se_aplica_a": "Empresas que realizam ofertas públicas de distribuição de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol061.md"
+    },
+    {
+      "norma": "Resolução CVM nº 63",
+      "assunto": "Revogação de instruções, deliberações e notas explicativas da CVM",
+      "se_aplica_a": "Todos os órgãos e entidades sujeitos à regulamentação da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol063.md"
+    },
+    {
+      "norma": "Resolução CVM nº 64",
+      "assunto": "Alteração na Resolução CVM nº 13, de 18 de novembro de 2020, que dispõe sobre o registro de investidores não residentes no Brasil, incluindo exigências específicas para representantes desses investidores e restrições para sociedades e pessoas jurídicas estrangeiras em jurisdições consideradas não cooperantes ou de alto risco no combate à lavagem de dinheiro e ao financiamento do terrorismo.",
+      "se_aplica_a": "Investidores não residentes no Brasil, representantes desses investidores, sociedades e pessoas jurídicas estrangeiras em jurisdições consideradas não cooperantes ou de alto risco no combate à lavagem de dinheiro e ao financiamento do terrorismo.",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol064.md"
+    },
+    {
+      "norma": "Resolução CVM nº 65",
+      "assunto": "Alterações nas Resoluções CVM nº 45 e 46, relacionadas à gestão dos processos administrativos e aos pedidos de vista no Colegiado da CVM",
+      "se_aplica_a": "Membros do Colegiado da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol065.md"
+    },
+    {
+      "norma": "Resolução CVM nº 66",
+      "assunto": "Alteração na estrutura e competências da Subprocuradoria Jurídica 3 (GJU-3), Subprocuradoria Jurídica 4 (GJU-4) e Seção de Controle e Apoio Jurídico (CAJ)",
+      "se_aplica_a": "Subprocuradoria Jurídica 3 (GJU-3), Subprocuradoria Jurídica 4 (GJU-4) e Seção de Controle e Apoio Jurídico (CAJ)",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol066.md"
+    },
+    {
+      "norma": "Resolução CVM nº 69",
+      "assunto": "Revogação de várias resoluções e deliberações da CVM",
+      "se_aplica_a": "Todos os órgãos e entidades sujeitas à regulamentação da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol069.md"
+    },
+    {
+      "norma": "Resolução CVM nº 79",
+      "assunto": "Revogação de normas CVM",
+      "se_aplica_a": "Bancos comerciais, bancos múltiplos sem carteira de investimento, caixas econômicas e cooperativas de crédito com registro de administrador de carteira de valores mobiliários",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol079.md"
+    },
+    {
+      "norma": "Resolução CVM nº 83",
+      "assunto": "Revogação de várias instruções e deliberações da CVM",
+      "se_aplica_a": "Instruções CVM e Deliberação CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol083.md"
+    },
+    {
+      "norma": "Resolução CVM nº 87",
+      "assunto": "Alteração e republicação da Resolução CVM nº 59, de 22 de dezembro de 2021",
+      "se_aplica_a": "Empresas que emitem valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol087.md"
+    },
+    {
+      "norma": "Resolução CVM nº 134",
+      "assunto": "Alterações na regulamentação da execução de ordens por intermediários financeiros",
+      "se_aplica_a": "Intermediários financeiros",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol134.md"
+    },
+    {
+      "norma": "Resolução CVM nº 154",
+      "assunto": "Revogação de atos normativos relacionados às Revisões de Pronunciamentos Técnicos, Interpretações e Orientações do CPC",
+      "se_aplica_a": "Comitê de Pronunciamentos Contábeis (CPC)",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol154.md"
+    },
+    {
+      "norma": "Resolução CVM nº 158",
+      "assunto": "Alterações na Resolução CVM nº 88, estabelecendo requisitos para investidores ativos em ofertas públicas de sociedades de pequeno porte e limitando o valor alvo máximo de captação em ofertas iniciadas após 90 dias.",
+      "se_aplica_a": "Investidores ativos em ofertas públicas de sociedades de pequeno porte",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol158.md"
+    },
+    {
+      "norma": "Resolução CVM nº 159",
+      "assunto": "Alteração nas competências e responsabilidades dos servidores da CVM, incluindo controle de frequência, aprimoramento de bases de dados, cultura de análise de dados, produção e uso de dados, operacionalização de procedimentos de multas, autorização de despesas e contratos, e decisões em recursos contra aplicação de multas.",
+      "se_aplica_a": "Servidores da CVM",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol159.md"
+    },
+    {
+      "norma": "Resolução CVM nº 162",
+      "assunto": "Alteração nas instruções e resoluções da CVM relacionadas à oferta pública de valores mobiliários",
+      "se_aplica_a": "Empresas emitiadoras de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol162.md"
+    },
+    {
+      "norma": "Resolução CVM nº 164",
+      "assunto": "Revogação de Instruções CVM",
+      "se_aplica_a": "Instruções CVM nº 465, nº 512 e nº 514",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol164.md"
+    },
+    {
+      "norma": "Resolução CVM nº 167",
+      "assunto": "Alteração na Resolução CVM nº 21, de 25 de fevereiro de 2021, adicionando exames de certificação aceitos pela CVM para fins da aplicação do art. 3º, inciso III, e atualizando os formulários de referência para pessoa natural e pessoa jurídica.",
+      "se_aplica_a": "Empresas que são administradoras de carteiras de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol167.md"
+    },
+    {
+      "norma": "Resolução CVM nº 168",
+      "assunto": "Alterações nas regras de administração de companhias abertas, incluindo requisitos para investidura em cargo de administração, segregação de funções, presença de conselheiros independentes e restrições na acumulação de cargos de direção.",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol168.md"
+    },
+    {
+      "norma": "Resolução CVM nº 169",
+      "assunto": "Alteração na Resolução CVM nº 51, reduzindo a multa cominatória para auditor independente sem clientes no mercado de valores mobiliários",
+      "se_aplica_a": "auditores independentes que não possuem clientes no âmbito do mercado de valores mobiliários",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol169.md"
+    },
+    {
+      "norma": "Resolução CVM nº 170",
+      "assunto": "Revogação da Resolução CVM nº 38 e alteração da Resolução CVM nº 135",
+      "se_aplica_a": "Empresas de capital aberto",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol170.md"
+    },
+    {
+      "norma": "Resolução CVM nº 171",
+      "assunto": "Alteração na taxa de fiscalização para participantes do mercado de valores mobiliários",
+      "se_aplica_a": "Participantes do mercado de valores mobiliários",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol171.md"
+    },
+    {
+      "norma": "Resolução CVM nº 173",
+      "assunto": "Alterações nas normas relacionadas à distribuição de valores mobiliários, incluindo a definição de pessoas vinculadas e a criação de debêntures incentivadas emitidas por sociedades de participantes de infraestrutura e produção econômica intensiva em pesquisa, desenvolvimento e inovação.",
+      "se_aplica_a": "Empresas emitiros, ofertantes, administradores, investidores, empregados, contratados e colaboradores",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol173.md"
+    },
+    {
+      "norma": "Resolução CVM nº 174",
+      "assunto": "Alteração na Resolução CVM nº 31, estabelecendo que encargos gerados pela constituição, modificação e desconstituição de gravames, ônus ou outras espécies de garantias sobre valores mobiliários devem ser arcar exclusivamente pelas partes diretamente envolvidas na operação, e que entidades registradoras podem atuar nesses processos, ficando responsáveis pelo cumprimento dos § 1º a 5º do dispositivo.",
+      "se_aplica_a": "Empresas e entidades que atuam no setor financeiro, especialmente aquelas envolvidas em operações de valores mobiliários e garantias sobre esses valores.",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol174.md"
+    },
+    {
+      "norma": "Resolução CVM nº 177",
+      "assunto": "Alteração na Resolução CVM nº 24, de 5 de março de 2021, permitindo a delegação da competência prevista no inciso IV",
+      "se_aplica_a": "Empresas e profissionais que atuam no setor financeiro",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol177.md"
+    },
+    {
+      "norma": "Resolução CVM nº 179",
+      "assunto": "Alterações na legislação relacionada a assessores de investimento e suas atividades",
+      "se_aplica_a": "Assessores de investimento, administradores de carteira de valores mobiliários, analistas de valores mobiliários e consultores de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol179.md"
+    },
+    {
+      "norma": "Resolução CVM nº 180",
+      "assunto": "Alterações nas Resoluções CVM nº 80 e CVM nº 160",
+      "se_aplica_a": "Empresas emitiadoras de títulos de renda fixa e fundos de investimento",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol180.md"
+    },
+    {
+      "norma": "Resolução CVM nº 181",
+      "assunto": "Alterações na regulamentação de fundos de investimento, incluindo prazos de duração, eventos que obrigam a verificação do patrimônio líquido, procedimentos de liquidação, taxas de administração e gestão, e obrigações dos prestadores de serviços essenciais.",
+      "se_aplica_a": "Fundos de investimento",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol181.md"
+    },
+    {
+      "norma": "Resolução CVM nº 183",
+      "assunto": "Alterações na Resolução CVM nº 80 e na Resolução CVM nº 160, relacionadas a regulamentações de ofertas públicas de valores mobiliários, BDRs e negociações em mercado regulamentado.",
+      "se_aplica_a": "Empresas emitiadoras de valores mobiliários, emissores não registrados na CVM, investidores profissionais e investidores qualificados.",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol183.md"
+    },
+    {
+      "norma": "Resolução CVM nº 184",
+      "assunto": "Alteração na Resolução CVM nº 175, estabelecendo regras específicas para diversos tipos de fundos de investimento, incluindo FII, FIP, Fundos de Índice, FGTS-FMP-FGTS, FUNCINE, FMAI, FICART, Fundos Previdenciários, FIDC-PIPS, e exigindo informações adicionais em laudos de avaliação e informes periódicos.",
+      "se_aplica_a": "Fundo de Investimento Imobiliário (FII), Fundo de Investimento em Participações (FIP), Fundos de Índice, FGTS-FMP-FGTS, Fundos de Financiamento da Indústria Cinematográfica Nacional (FUNCINE), Fundos Mútuos de Ações Incentivadas (FMAI), Fundos de Investimento Cultural e Artístico (FICART), Fundos Previdenciários, e Fundos de Direitos Creditórios Constituídos no âmbito do Programa de Incentivo à Implementação de Projetos de Interesse Social (FIDC-PIPS).",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol184.md"
+    },
+    {
+      "norma": "Resolução CVM nº 185",
+      "assunto": "Alterações na Resolução CVM nº 9, de 27 de outubro de 2020, relacionadas ao pedido de registro e cancelamento de autorização de agências de classificação de risco de crédito",
+      "se_aplica_a": "Agências de classificação de risco de crédito",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol185.md"
+    },
+    {
+      "norma": "Resolução CVM nº 186",
+      "assunto": "Alteração na estrutura e competências dos órgãos da CVM",
+      "se_aplica_a": "Todos os órgãos da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol186.md"
+    },
+    {
+      "norma": "Resolução CVM nº 187",
+      "assunto": "Alterações na Resolução CVM nº 175, relacionadas a regulamentações de investimentos, cotistas e administradores de fundos de investimento",
+      "se_aplica_a": "Investidores, administradores de fundos de investimento, custodiantes e gestores de fundos de investimento",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol187.md"
+    },
+    {
+      "norma": "Resolução CVM nº 192",
+      "assunto": "Revogação de instruções CVM",
+      "se_aplica_a": "Instruções CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol192.md"
+    },
+    {
+      "norma": "Resolução CVM nº 194",
+      "assunto": "Alterações na Resolução CVM nº 60, de 2023, relacionadas a direitos creditórios, regime fiduciário, revolvência, títulos de securitização e warehousing. A resolução também estabelece regras para a convocação e realização de assembleias especiais de investidores, incluindo prazos de convocação e regras de votação.",
+      "se_aplica_a": "Companhias securitizadoras",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol194.md"
+    },
+    {
+      "norma": "Resolução CVM nº 195",
+      "assunto": "Alteração nas exigências de auditoria e asseguração razoável para demonstrações combinadas e informações financeiras pro forma",
+      "se_aplica_a": "Empresas listadas na B3",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol195.md"
+    },
+    {
+      "norma": "Resolução CVM nº 196",
+      "assunto": "Prorroga a data de entrada em vigor das seções III e IV do Capítulo VII-A da Resolução CVM nº 35",
+      "se_aplica_a": "Empresas e profissionais que estão sujeitos às normas da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol196.md"
+    },
+    {
+      "norma": "Resolução CVM nº 198",
+      "assunto": "Alteração nas exigências de informações sobre diversidade e inclusão em documentos de emissores de valores mobiliários",
+      "se_aplica_a": "Emissores de valores mobiliários",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol198.md"
+    },
+    {
+      "norma": "Resolução CVM nº 200",
+      "assunto": "Alteração na Resolução CVM nº 175, estabelecendo prazos para adaptação de fundos de investimento e entradas em vigor de novas disposições",
+      "se_aplica_a": "Fundos de investimento",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol200.md"
+    },
+    {
+      "norma": "Resolução CVM nº 201",
+      "assunto": "Alteração na estrutura e atribuições das divisões de gestão de pessoas na CVM",
+      "se_aplica_a": "Divisões de gestão de pessoas na CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol201.md"
+    },
+    {
+      "norma": "Resolução CVM nº 203",
+      "assunto": "Alteração na estrutura e atribuições das Superintendências e Gerências da CVM",
+      "se_aplica_a": "Todos os órgãos e unidades da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol203.md"
+    },
+    {
+      "norma": "Resolução CVM nº 204",
+      "assunto": "Alterações nas normas relacionadas à participação e votação a distância em assembleias de companhias abertas",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol204.md"
+    },
+    {
+      "norma": "Resolução CVM nº 206",
+      "assunto": "Alteração na Resolução CVM nº 175, estabelecendo regras para a criação e operação de classes de cotas ProRecicle",
+      "se_aplica_a": "Empresas que desejam criar classes de cotas ProRecicle",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol206.md"
+    },
+    {
+      "norma": "Resolução CVM nº 207",
+      "assunto": "Alterações nas Resoluções CVM nº 47, 80 e 161, relacionadas a multas cominatórias, registro de informações periódicas e coordenadores de ofertas públicas",
+      "se_aplica_a": "Emissores de valores mobiliários, coordenadores de ofertas públicas",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol207.md"
+    },
+    {
+      "norma": "Resolução CVM nº 208",
+      "assunto": "Alteração na Resolução CVM nº 160, uniformizando restrições à revenda de debêntures emitidas por emissor frequente de dívida (EFRF) com as restrições aplicáveis à revenda de títulos de securitização cujo lastro tenha um único devedor que se enquadre como EFRF ou como emissor de ações com grande exposição ao mercado (EGEM).",
+      "se_aplica_a": "Emissores de debêntures emitidas por emissor frequente de dívida (EFRF) e emissores de títulos de securitização cujo lastro tenha um único devedor que se enquadre como EFRF ou como emissor de ações com grande exposição ao mercado (EGEM).",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol208.md"
+    },
+    {
+      "norma": "Resolução CVM nº 209",
+      "assunto": "Alteração nas normas sobre portabilidade de valores mobiliários",
+      "se_aplica_a": "Administradores de carteiras de valores mobiliários, custodiantes, investidores e distribuidores contratados",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol209.md"
+    },
+    {
+      "norma": "Resolução CVM nº 214",
+      "assunto": "Regras específicas dos fundos de investimento das cadeias produtivas do agronegócio (FIAGRO)",
+      "se_aplica_a": "FIAGRO",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol214.md"
+    },
+    {
+      "norma": "Resolução CVM nº 216",
+      "assunto": "Alteração nas Resoluções CVM nº 13, 20, 44 e 77",
+      "se_aplica_a": "Empresas e profissionais que atuam no mercado de valores mobiliários",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol216.md"
+    },
+    {
+      "norma": "Resolução CVM nº 219",
+      "assunto": "Alteração na data de pagamento de impostos de renda sobre ações de empresas de capital aberto",
+      "se_aplica_a": "Empresas de capital aberto",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol219.md"
+    },
+    {
+      "norma": "Resolução CVM nº 220",
+      "assunto": "Alterações nas normas relacionadas a entidades administradoras de mercado organizado, regulamentos de operações do depositário central e participação de acionistas relevantes",
+      "se_aplica_a": "Entidades administradoras de mercado organizado, depositários centrais e acionistas relevantes",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol220.md"
+    },
+    {
+      "norma": "Resolução CVM nº 221",
+      "assunto": "Alteração na Resolução CVM nº 86, de 31 de março de 2022, que dispõe sobre oferta pública de distribuição de contratos de investimento coletivo hoteleiro, incluindo novas exceções para alienação de unidades hoteleiras e ajustes no processo de análise do pedido de registro da oferta na CVM.",
+      "se_aplica_a": "Empreendimentos hoteleiros",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol221.md"
+    },
+    {
+      "norma": "Resolução CVM nº 222",
+      "assunto": "Alteração na Resolução CVM nº 161, estabelecendo prazo para encaminhamento de relatórios por diretores de intermediação de ofertas públicas de distribuição de valores mobiliários",
+      "se_aplica_a": "Diretores de intermediação de ofertas públicas de distribuição de valores mobiliários",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol222.md"
+    },
+    {
+      "norma": "Resolução CVM nº 224",
+      "assunto": "Alteração na Resolução CVM nº 203, estendendo a aplicação de novas regras de transferência de competência aos processos em trâmite na SSE",
+      "se_aplica_a": "Empresas de Serviços de Seguros (SSE)",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol224.md"
+    },
+    {
+      "norma": "Resolução CVM nº 226",
+      "assunto": "Alteração nas regras de comunicação e divulgação de informações relacionadas à emissão de debêntures e outros valores mobiliários",
+      "se_aplica_a": "Empresas emitiadoras de debêntures e outros valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol226.md"
+    },
+    {
+      "norma": "Resolução CVM nº 227",
+      "assunto": "Alteração na obrigatória divulgação de informações financeiras relacionadas à sustentabilidade por companhias abertas",
+      "se_aplica_a": "Companhias abertas",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol227.md"
+    },
+    {
+      "norma": "Resolução CVM nº 228",
+      "assunto": "Alteração na estrutura e competências das Gerências e Superintendências da CVM",
+      "se_aplica_a": "Todos os órgãos e entidades supervisionadas pela CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol228.md"
+    },
+    {
+      "norma": "Resolução CVM nº 229",
+      "assunto": "Alterações na Resolução CVM nº 210/24 sobre a portabilidade de investimentos em valores mobiliários",
+      "se_aplica_a": "Custodiantes, intermediários e depositários centrais",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol229.md"
+    },
+    {
+      "norma": "Resolução CVM nº 230",
+      "assunto": "Prorrogação da data de entrada em vigor da Resolução CVM nº 215 e 216",
+      "se_aplica_a": "Empresas e investidores",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol230.md"
+    },
+    {
+      "norma": "Resolução CVM nº 231",
+      "assunto": "Alteração nas Resoluções CVM nº 80 e CVM nº 166, instituindo o ambiente FÁCIL para companhias de menor porte",
+      "se_aplica_a": "Companhias de menor porte",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol231.md"
+    },
+    {
+      "norma": "Resolução CVM nº 233",
+      "assunto": "Alteração na Resolução CVM nº 24, de 5 de março de 2021, estendendo as competências da Gerência de Desenvolvimento de Inteligência (GDI) para incluir atividades relacionadas a ativos digitais e outros ativos inovadores, além de ampliar as atividades de fiscalização e supervisão na área de riscos e normatização.",
+      "se_aplica_a": "Gerência de Desenvolvimento de Inteligência (GDI) da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol233.md"
+    },
+    {
+      "norma": "Resolução CVM nº 235",
+      "assunto": "Alterações na legislação processual da CVM",
+      "se_aplica_a": "Superintendências da CVM e acusados",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Sem_Tag/resol235.md"
+    },
+    {
+      "norma": "Resolução CVM nº 236",
+      "assunto": "Alterações no regime de Facilitação do Acesso a Capital e de Incentivos a Listagens (Fácil)",
+      "se_aplica_a": "Empresas e entidades relacionadas ao mercado de capitais",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol236.md"
+    },
+    {
+      "norma": "Resolução CVM nº 239",
+      "assunto": "Alteração das funções e competências dos órgãos e departamentos da CVM",
+      "se_aplica_a": "Todos os órgãos e departamentos da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol239.md"
+    },
+    {
+      "norma": "Resolução CVM nº 240",
+      "assunto": "Alteração no Anexo Normativo II da Resolução CVM nº 175, de 2022, para ajustar a classificação de direitos creditórios não-padronizados, removendo a exigência de plano de recuperação homologado judicialmente e a coobrigação de sociedade em recuperação judicial como características que qualificam esses direitos como não-padronizados.",
+      "se_aplica_a": "Empresas que cedem direitos creditórios, especialmente aquelas envolvidas em processos de recuperação judicial ou extrajudicial.",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol240.md"
+    },
+    {
+      "norma": "Resolução CVM nº 241",
+      "assunto": "Alteração na composição do Colegiado e regulamento do sorteio de processos administrativos",
+      "se_aplica_a": "Diretores substitutos e membros do Colegiado",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol241.md"
+    },
+    {
+      "norma": "Resolução CVM nº 243",
+      "assunto": "Alteração na estrutura e competências dos órgãos da CVM",
+      "se_aplica_a": "Todos os órgãos da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol243.md"
+    },
+    {
+      "norma": "Resolução CVM nº 245",
+      "assunto": "Alteração na Resolução CVM nº 50, estabelecendo regras adicionais para monitoramento contínuo e diligência devida em operações envolvendo investidores não residentes de países que não aplicam ou aplicam insuficientemente as recomendações do GAFI.",
+      "se_aplica_a": "Investidores não residentes de países que não aplicam ou aplicam insuficientemente as recomendações do GAFI, clientes, investidores não residentes, ou não, que estejam relacionados com estruturas societárias, cadeias de controle, beneficiários finais ou representantes que estejam direta ou indiretamente vinculados às jurisdições listadas, ou qualquer outra situação classificada como de alto risco que seja derivada das listas mencionadas.",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol245.md"
+    },
+    {
+      "norma": "Resolução CVM nº 246",
+      "assunto": "Alteração na estrutura e atribuições da Divisão de Tecnologia Financeira (DITEC) e na gestão de processos administrativos sancionadores",
+      "se_aplica_a": "CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol246.md"
+    },
+    {
+      "norma": "Resolução CVM nº 247",
+      "assunto": "Alteração das Resoluções CVM nº 60 e 175 para inclusão de regras sobre o envio de informações de operações de crédito ao Sistema de Informações de Crédito (SCR)",
+      "se_aplica_a": "Companhias securitizadoras de direitos creditórios e fundos de investimento em direitos creditórios (FIDC)",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol247.md"
+    },
+    {
+      "norma": "Resolução CVM nº 248",
+      "assunto": "Alteração na atribuição de responsabilidades na condução de processos de normatização e elaboração de minutas de relatórios de consulta pública",
+      "se_aplica_a": "Superintendências e componentes organizacionais da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol248.md"
+    },
+    {
+      "norma": "Resolução CVM nº 249",
+      "assunto": "Institui, em caráter experimental, o Programa Piloto DLT CVM destinado à realização de testes no mercado de valores mobiliários por meio de redes de tecnologia de registro distribuído, compreendendo operações experimentais de emissão, oferta, negociação, liquidação e pós-negociação de valores mobiliários em redes admitidas para participação no Programa.",
+      "se_aplica_a": "Instituições financeiras e participantes do mercado de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol249.md"
+    },
+    {
+      "norma": "Resolução CVM nº 250",
+      "assunto": "Alteração na lista de certificações válidas para consultores de valores mobiliários",
+      "se_aplica_a": "Profissionais credenciados pela CVM para o exercício da atividade de consultoria de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol250.md"
+    },
+    {
+      "norma": "Resolução CVM nº 251",
+      "assunto": "Alterações na Resolução CVM nº 9, de 2020, sobre a atividade de classificação de risco de crédito no mercado de valores mobiliários brasileiro",
+      "se_aplica_a": "agências de classificação de risco de crédito",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sem_Tag/resol251.md"
+    },
+    {
+      "norma": "Resolução CVM nº 53",
+      "assunto": "Sistema Integrado de Gestão de Riscos da CVM",
+      "se_aplica_a": "CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sistema_Integrado_de_Gestão_de_Riscos_da_CVM/resol053.md"
+    },
+    {
+      "norma": "Resolução CVM nº 52",
+      "assunto": "Institui o Sistema de Governança e Gestão da Comissão de Valores Mobiliários - CVM",
+      "se_aplica_a": "Todos os servidores da CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Sistemas_de_Gestão_Institucional_da_CVM/resol052.md"
+    },
+    {
+      "norma": "Resolução CVM nº 30",
+      "assunto": "Dever de verificação da adequação dos produtos, serviços e operações ao perfil do cliente",
+      "se_aplica_a": "Pessoas habilitadas a atuar como integrantes do sistema de distribuição e consultores de valores mobiliários",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Suitability/resol030.md"
+    },
+    {
+      "norma": "Resolução CVM nº 54",
+      "assunto": "Taxa de Fiscalização dos Mercados de Títulos e Valores Mobiliários",
+      "se_aplica_a": "Empresas e indivíduos obrigados ao pagamento do tributo ou penalidade pecuniária",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Taxas-Débitos-Restituições/resol054.md"
+    },
+    {
+      "norma": "Resolução CVM nº 55",
+      "assunto": "Dispõe sobre parcelamento de débitos e sobre dispensa de constituição e exigência de créditos tributários de valores cuja cobrança não justifique o respectivo custo, e revoga as Deliberações CVM nº 323, de 23 de novembro de 1999, CVM nº 447, de 24 de setembro de 2002; CVM nº 458, de 29 de abril de 2003; CVM nº 467, de 21 de janeiro de 2004; CVM nº 483, de 24 de junho de 2005; CVM nº 536, de 29 de fevereiro de 2008; CVM nº 543, de 29 de julho de 2008; CVM nº 548, de 4 de setembro de 2008; e CVM nº 776, de 20 de julho de 2017.",
+      "se_aplica_a": "Empresas e instituições financeiras administradas pela CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Taxas-Débitos-Restituições/resol055.md"
+    },
+    {
+      "norma": "Resolução CVM nº 56",
+      "assunto": "Normas sobre restituição e compensação no âmbito da Comissão de Valores Mobiliários",
+      "se_aplica_a": "Credores e pessoas autorizadas a requerer a quantia",
+      "tem_prazo_ou_multa": true,
+      "caminho": "Taxas-Débitos-Restituições/resol056.md"
+    },
+    {
+      "norma": "Resolução CVM nº 57",
+      "assunto": "Prova de quitação de débitos perante a Comissão de Valores Mobiliários",
+      "se_aplica_a": "Investidores, empresas e indivíduos que desejam comprovar a quitação de débitos com a CVM",
+      "tem_prazo_ou_multa": false,
+      "caminho": "Taxas-Débitos-Restituições/resol057.md"
+    }
+  ],
+  "falhas": []
+}

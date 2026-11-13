@@ -1,0 +1,67 @@
+# Resolução CVM 26
+
+> **Fonte:** https://conteudo.cvm.gov.br/legislacao/resolucoes/resol026.html  
+> **Espelhado em:** 09/11/2026  
+> **Status no site:** ver referências abaixo
+
+## Metadados
+
+- **Data (sistema do site):** Wed Mar 31 18:46:00 BRT 2021
+- **Epígrafe / Ementa:** Dispõe sobre a postergação dos prazos para entrega de determinadas informações dos fundos de investimento e do formulário de referência dos administradores de carteiras de valores mobiliários. (Publicada no DOU de 06.04.2021)
+- **Tag(s):** Fundos de Investimento
+
+## Documentos / Anexos (baixados localmente)
+
+- **Resolução CVM 26** — arquivo: `../anexos/resol026/resol026.pdf` (formato: pdf)
+- **Resolução CVM 26 [DOC]** — arquivo: `../anexos/resol026/resol026.docx` (formato: docx)
+
+## Texto completo — Resolução CVM 26
+
+<sub>Fonte: `resol026.pdf` — 2 páginas</sub>
+
+RESOLUÇÃO CVM Nº 26, DE 31 DE MARÇO DE 2021 
+Dispõe sobre a postergação dos prazos para entrega 
+de determinadas informações dos fundos de 
+investimento e do formulário de referência dos 
+administradores de carteiras de valores mobiliários. 
+O PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS – CVM torna público que o Colegiado, em 
+reunião realizada em 31 de março de 2021, com fundamento no disposto nos arts. 8º, I, e 23, § 2º, da Lei 
+nº 6.385, de 7 de dezembro de 1976, assim como considerando: 
+a) a vigência do Decreto nº 60.131, de 18 de março de 2021, do Prefeito do Município de São Paulo, 
+que antecipou para os dias 26, 29, 30 e 31 de março e 1º de abril de 2021 os feriados de Corpus Christi e 
+do Dia da Consciência Negra do ano de 2021 e os feriados do Aniversário de São Paulo, de Corpus Christi 
+e do Dia da Consciência Negra do ano de 2022, devido à pandemia da COVID-19;  
+b) a edição da Lei nº 9.224, de 24 de março de 2021, que, em função da pandemia e para conter a 
+sua propagação, instituiu como feriados os dias 26 e 31 de março e 1º de abril de 2021, no âmbito do 
+Estado do Rio de Janeiro, e antecipou os feriados dos dias 21 e 23 de abril, Tiradentes e S ão Jorge, 
+excepcionalmente, para os dias 29 e 30 de março de 2021; 
+c) que, em razão do disposto nos itens “a” e “b” acima, no período compreendido entre 26 de março 
+de 2021 e 4 de abril de 2021 não haverá dias úteis onde se localiza m as sedes de grande parte dos 
+administradores de cartei ras de valores mobiliários, especialmente na categoria de administrador 
+fiduciário; 
+d) o tamanho da indústria de fundos de investimento no Brasil, que alcança mais de 20.000 (vinte 
+mil) fundos, aliado ao fato de que a maior parte desses fundos possui exercício social se encerrando em 
+dezembro, o que origina uma concentração ao final de março no tocante ao envio de demonstrações 
+contábeis à CVM; 
+APROVOU a seguinte Resolução: 
+Art. 1º  O formulário de referência do administrador de carteiras de valores mobiliários, documento 
+de que trata o art. 15 da Instrução CVM  nº 558, de 26 de março de 2015, que ordinariamente deve ser 
+enviado à CVM até o dia 31 de março de cada ano, pode ser enviado até 14 de abril de 2021. 
+Art. 2º  As informações mensais dos fundos de investimento  de que trata o  art. 59, inciso II, da 
+Instrução CVM nº 555, de 17 de dezembro de 2014, que ordinariamente devem ser enviadas em até dez
+RESOLUÇÃO CVM Nº 26, DE 31 DE MARÇO DE 2021 
+dias após o encerramento do mês a que se referirem , no caso d as informações referentes ao mês de 
+março de 2021 podem ser enviadas até 23 de abril de 2021. 
+Art. 3º  As demonstrações contábeis anuais de que trata o art. 59, inciso I V, da Instrução CVM nº 
+555, de 17 de dezembro de 2014 , acompanhadas do parecer do audit or independente , que 
+ordinariamente devem ser enviadas no prazo de 90 (noventa) dias contados a partir do encerramento do 
+exercício a que se referirem, podem ser enviadas até 14 de abril de 2021 no caso do exercício encerrado 
+em dezembro de 2020.   
+Art. 4º  Esta Resolução entra em vigor na data de sua publicação. 
+ 
+Assinado eletronicamente por 
+MARCELO BARBOSA 
+Presidente
+
+---
+_Espelho textual gerado automaticamente a partir de conteudo.cvm.gov.br. Texto completo normatizado nos PDFs citados; verificação final deve ser feita no original (DOU/site CVM)._

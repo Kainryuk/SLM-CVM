@@ -10,7 +10,7 @@ O projeto é conduzido em conjunto, organizado em duas trilhas complementares:
 
 | Pesquisador | Trilha | Foco Principal |
 |---|---|---|
-| **Kelvin** | **Trilha B: IA & SLM** | Infraestrutura de inferência local (Ollama/Docker), seleção de modelos SLM (`qwen2.5:3b`), engenharia de prompts, validação estruturada com Pydantic e geração de embeddings. |
+| **Kelvin** | **Trilha B: IA & SLM** | Infraestrutura de inferência local (Ollama nativo ou Docker), seleção de modelos SLM (`qwen2.5-coder:7b`), organização do acervo (`organizar_resolucoes.py`), compreensão do assunto por prompt trava (`compreender_resolucoes.py`), validação estruturada com Pydantic e geração de embeddings. |
 | **Yuri** | **Trilha A: Dados & Banco** | Modelagem relacional/vetorial (`pgvector`), governança do Data Lake, ingestão documental, deduplicação por hash (SHA-256) e catalogação do acervo da CVM. |
 
 ---
@@ -18,44 +18,66 @@ O projeto é conduzido em conjunto, organizado em duas trilhas complementares:
 ## 🏗️ Arquitetura da Solução
 
 ```
-[Acervo Normativo CVM (PDF/HTML/TXT)]
+[Acervo Normativo CVM (docs/resolucoes/**/*.md)]
                  │
                  ▼
-       ┌──────────────────┐
-       │    Data Lake     │ ── (raw / processed / quarantine / silo)
-       └──────────────────┘
+       ┌──────────────────────────┐
+       │ 1. organizar_resolucoes  │  limpa ruído (fonte/mirror/PDF/rodapé)
+       │    (src/)                 │  → data_lake/processed/ + _indice_assuntos.json
+       └──────────────────────────┘
                  │
                  ▼
-       ┌────────────────────────┐
-       │ Pipeline Python        │
-       │ (src/teste_extracao.py)│
-       └────────────────────────┘
+       ┌──────────────────────────┐
+       │ 2. compreender_slm       │  SLM explica APENAS o assunto
+       │    (compreender_...)     │  PT-BR · sem código · sem história
+       └──────────────────────────┘
             │               │
-     (Inferência local) (JSON Schema)
+     (Ollama local) (JSON Schema Pydantic)
             │               │
             ▼               ▼
-   ┌─────────────────┐ ┌─────────────┐
-   │  Ollama Server  │ │  Pydantic   │
-   │  (qwen2.5:3b)   │ │  Validação  │
-   └─────────────────┘ └─────────────┘
+   Ollama (qwen2.5-coder:7b) ──► [fichas de assunto JSON]
             │
             ▼
-    [JSON Estruturado] ──► [PostgreSQL 16 + pgvector]
+   [PostgreSQL 16 + pgvector (BGE-M3)]  ← etapa 02 (RAG)
 ```
 
 ### Componentes Principais
 
 1. **Ollama (Inferência Local e Privada)**:
-   - Executado em container Docker isolado.
-   - Modelo utilizado: `qwen2.5:3b` — modelo compacto, rápido e capaz de seguir esquemas estruturados via JSON Schema sem custos de API em nuvem.
-2. **PostgreSQL com pgvector**:
-   - Banco de dados relacional e vetorial na porta `5432`.
-   - Suporte a busca vetorial para embeddings de até 1024 dimensões (otimizado para modelos como `BGE-M3`).
-3. **Extração com Pydantic**:
-   - Imposição de uma "ficha normativa" rígida via JSON Schema garantindo que a resposta do modelo contenha campos tipados (`orgao`, `numero_norma`, `assunto_principal`, `possui_prazo_ou_multa`).
-4. **Data Lake & Docs CVM**:
-   - Estrutura de zonas para trânsito de dados (`raw`, `processed`, `quarantine`, `silo`).
-   - Mapeamento das categorias regulatórias da CVM em `docs/`.
+   - Roda **nativo** (porta `11434`) ou em Docker (`docker-compose.yml`).
+   - Modelo utilizado: `qwen2.5-coder:7b` — compacto, segue JSON Schema via `format`, sem custo de nuvem. O `qwen2.5:3b` ficou como plano B; o que está instalado e em uso é o 7b.
+2. **Organização do acervo (`src/organizar_resolucoes.py`)**:
+   - Remove do `.md` bruto as linhas de fonte/espelho, a seção de anexos (PDF/DOC), as marcações `<sub>Fonte</sub>`, o rodapé de espelho e o bloco de assinatura.
+   - Mantém cabeçalho de metadados + **texto normativo puro**, escreve em `data_lake/processed/<subpasta>/` e emite `data_lake/processed/_indice_assuntos.json`.
+   - 253 resoluções organizadas, com colisão à prova de path (2 normas multi-tag com mesmo número saíram em pastas distintas).
+3. **Compreensão do assunto (`src/compreender_resolucoes.py`)**:
+   - System-prompt trava: **pt-BR, apenas o objeto da norma, sem código, sem história, só CVM/resoluções**.
+   - Saída forçada ao schema `CompreensaoAssunto` (`norma`, `assunto`, `se_aplica_a`, `tem_prazo_ou_multa`) via JSON Schema.
+   - Execução: 253 fichas em ~19 min, 0 erro → `tests/compreensao_resolucoes.json`.
+4. **Extração de metadados (`src/teste_extracao_slm.py`)**:
+   - A "ficha normativa" rígida `FichaNormativa` via Pydantic (`orgao`, `numero_norma`, `assunto_principal`, `possui_prazo_ou_multa`). Aceita `--texto-arquivo` e `--modelo`.
+5. **PostgreSQL + pgvector (etapa 02 — RAG)**:
+   - Tabela `chunks_regulatorios` com `embedding vector(1024)` (`db/init.sql`), pronta para BGE-M3 e busca semântica.
+6. **Modelo-alias com trava de domínio (`cvm-resolucoes`)**:
+   - Registro no Ollama (via `src/criar_modelo_trava.py`) a partir de `qwen2.5-coder:7b` com system prompt **embutido no modelo**.
+   - Qualquer executor/IDE chama `cvm-resolucoes` sem passar "primeiro prompt" e ele já responde só assunto CVM (pt-BR, sem código, sem história) e, fora do tema, devolve exatamente: `Não consta na base de conhecimento da CVM.`
+   - Uso: `ollama run cvm-resolucoes`, `POST /api/chat` ou a rota OpenAI-compatible `POST /v1/chat/completions` (`http://127.0.0.1:11434/v1`) — é essa última que os plugins de IDE consomem.
+   - **v4 (config registrada)**: trava + TABELA de 250 resoluções (número de
+     3 dígitos → ementa autoritativa) queimada no system prompt + regra 7 de
+     anti-confusão de normas. Sem RAG. Gera `cvm-resolucoes` que responde
+     ancorado no acervo. Medido: ~47% exato / ~67% aceitável em amostra de 30
+     (teto do modo só-prompt — veja seção 9 de `instrucao.md`).
+   - **Hermes Desktop:** rejeita modelos com janela < 64K no init (o 7b tem 32K).
+     Se a máquina aguentar o 30b, dá pra usar via `--base qwen3-coder:30b` — ver
+     seção 8.1 de [`instrucao.md`](./instrucao.md).
+   - **Outros apps/IDEs (VS Code/Cline, OpenCode, Cursor, Aider, Python-SDK, curl):**
+     seção **8** de [`instrucao.md`](./instrucao.md) traz a receita única `base_url
+     http://127.0.0.1:11434/v1` + `model cvm-resolucoes` — a trava vem queimada no
+     modelo, o app só nomeia ele. O 7b padrão serve pra todos (não há exigência de
+     64K nesses harnesses).
+   - **Avaliação quantitativa:** `src/avalia_bateria_cvm.py` (bateria automática
+     30/250 normas, sem RAG) → `tests/avaliacao_cvm.json`. Evidências em
+     `tests/bateria_cvm_v1.json`, `bateria_cvm_v2.json`, `avaliacao_v5_cvm.json`.
 
 ---
 
@@ -63,62 +85,53 @@ O projeto é conduzido em conjunto, organizado em duas trilhas complementares:
 
 ```text
 SLM-CVM/
-├── data_lake/                     # Estrutura de armazenamento de dados brutos e processados
-│   ├── processed/                 # Documentos já normalizados/convertidos
-│   ├── quarantine/                # Arquivos com erro ou validação pendente
-│   ├── raw/                       # Documentos originais baixados da CVM
-│   └── silo/                      # Armazenamento arquivado/imutável
+├── data_lake/                     # Zonas do Data Lake (raw / processed / quarantine / silo)
+│   └── processed/                 # Resoluções LIMPAS (metadados + texto normativo)
+│       ├── <subpasta_cvm>/        # ex.: Normas_Contabeis, Ofertas_Publicas, ...
+│       │   └── resolNNN.md
+│       └── _indice_assuntos.json  # índice p/ RAG: norma, data, tag, ementa, caminho
 ├── db/
-│   └── init.sql                   # DDL inicial do PostgreSQL (pgvector, tabelas e índices)
-├── docs/                          # Mapeamento do acervo e categorias regulatórias CVM
-│   ├── Agenda Regulatória CVM/
-│   ├── Audiências e Consultas Públicas/
-│   ├── Custo de Observância Regulatória/
-│   ├── Deliberações/
-│   ├── Instruções/
-│   ├── Notas Explicativas/
-│   ├── Pareceres de Orientação/
-│   ├── Portarias/
-│   ├── Resoluções/
-│   ├── Revisão e Consolidação de Normas/
-│   └── Sandbox Regulatório/
+│   └── init.sql                   # DDL PostgreSQL (pgvector, documentos_regulatorios, chunks_regulatorios)
+├── docs/
+│   ├── resolucoes/                # acervo BRUTO da CVM (espelho do site, 253 .md + anexos)
+│   └── (deliberações, pareceres, ofícios, sandbox, ... )
 ├── src/
-│   └── teste_extracao_slm.py     # Script de extração de metadados com Ollama + Pydantic
+│   ├── organizar_resolucoes.py    # Etapa 1: limpa docs/resolucoes → data_lake/processed
+│   ├── compreender_resolucoes.py  # Etapa 2: SLM explica o assunto (PT-BR, trava de schema)
+│   ├── treino_resolucoes.py       # Batch de extração FichaNormativa sobre docs/resolucoes
+│   └── teste_extracao_slm.py      # Extração de metadados (ficha rígida) p/ um trecho
 ├── tests/
-│   └── evidencia_extracao.json    # Evidência de execução com JSON estruturado
-├── docker-compose.yml             # Orquestração dos containers (pgvector + ollama)
-├── requirements.txt               # Dependências Python do projeto
-├── .gitignore                     # Configuração de arquivos ignorados no repositório
-└── README.md                      # Documentação do projeto
+│   ├── evidencia_extracao.json         # saída de teste_extracao_slm.py
+│   ├── treino_resolucoes_evidencia.json
+│   └── compreensao_resolucoes.json     # 253 fichas de assunto (etapa 2)
+├── docker-compose.yml             # pgvector + ollama
+├── requirements.txt               # ollama + pydantic
+├── instrucao.md                   # runbook passo a passo
+├── .gitignore
+└── README.md
 ```
 
 ---
 
 ## 📌 Status Atual do Projeto (UC01 — Sem01)
 
-- [x] **Setup de Infraestrutura Docker**: Arquivo `docker-compose.yml` configurado com os serviços `postgres_vector` (PostgreSQL 16 com `pgvector`) e `ollama`.
-- [x] **Modelo SLM Configurado**: Download do modelo `qwen2.5:3b` via Ollama concluído e testado.
-- [x] **Modelagem de Dados Inicial (`db/init.sql`)**:
-  - Habilitação da extensão vetorial `vector`.
-  - Tabela `documentos_regulatorios` com controle de integridade via `hash_sha256`.
-  - Tabela `chunks_regulatorios` com campo `embedding vector(1024)` para busca semântica.
-- [x] **Estruturação do Acervo CVM**: Pastas organizadas em `docs/` e zonas em `data_lake/`.
-- [x] **Script de Extração Normativa (`src/teste_extracao_slm.py`)**:
-  - Classe Pydantic `FichaNormativa` implementada.
-  - Comunicação com a API do Ollama forçando saída via `FichaNormativa.model_json_schema()`.
-  - Suporte a arquivo de entrada personalizado (`--texto-arquivo`) ou trecho padrão.
-- [x] **Evidência de Execução**: Teste executado com sucesso sobre a Resolução CVM nº 88/2022, com resultado persistido em `tests/evidencia_extracao.json`.
+- [x] **Infraestrutura de inferência local**: Ollama disponível (nativo na porta `11434` ou via `docker-compose.yml`). Modelo em uso: `qwen2.5-coder:7b`.
+- [x] **Modelagem de Dados (`db/init.sql`)**: extensão `vector` (pgvector), `documentos_regulatorios` (dedup por `hash_sha256`), `chunks_regulatorios` com `embedding vector(1024)` — pronta para a etapa de RAG.
+- [x] **Acervo CVM espelhado**: `docs/resolucoes/` com 253 resoluções em `.md` (+ anexos PDF/DOCX/DOC).
+- [x] **Organização do acervo (`src/organizar_resolucoes.py`)**: 253 normas limpas em `data_lake/processed/` + `_indice_assuntos.json` (cabeçalho de metadados + texto normativo puro; colisão à prova de path).
+- [x] **Compreensão do assunto (`src/compreender_resolucoes.py`)**: 253 fichas de assunto (PT-BR, sem código, sem história, só CVM) em `tests/compreensao_resolucoes.json` — 0 erro, ~19 min.
+- [x] **Script de Extração de Metadados (`src/teste_extracao_slm.py`)**: ficha `FichaNormativa` via Pydantic, saída em `tests/evidencia_extracao.json`.
 
-### Exemplo de Saída Estruturada Gerada
+### Exemplo de Ficha de Assunto Gerada (etapa 2)
 
-Trecho extraído da **Resolução CVM nº 88/2022**:
+Para a **Resolução CVM nº 21** (dados organizados em `data_lake/processed/`):
 
 ```json
 {
-  "orgao": "CVM",
-  "numero_norma": "88",
-  "assunto_principal": "Divulgação de Informações",
-  "possui_prazo_ou_multa": true
+  "norma": "Resolução CVM nº 21",
+  "assunto": "Exercício profissional de administração de carteiras de valores mobiliários",
+  "se_aplica_a": "Administradores de carteiras de valores mobiliários",
+  "tem_prazo_ou_multa": false
 }
 ```
 
@@ -126,34 +139,32 @@ Trecho extraído da **Resolução CVM nº 88/2022**:
 
 ## 🚀 Como Executar o Projeto
 
+> **Atalho:** para o fluxo completo passo a passo (comandos prontos, verificações e o que
+> cada etapa entrega), use **[`instrucao.md`](./instrucao.md)**. Resumo abaixo.
+
 ### 1. Pré-requisitos
-- [Docker](https://www.docker.com/) e Docker Compose instalados.
-- [Python 3.10+](https://www.python.org/) instalado.
-- Git instalado.
+- [Python 3.10+](https://python.org/) (este projeto usa 3.11).
+- Ollama **nativo** (recomendado aqui) — verifique: `ollama list` mostra `qwen2.5-coder:7b`
+  e a porta `11434` responde. Alternativa: Docker (`docker-compose.yml`).
+- Git.
 
-### 2. Subir os Serviços com Docker Compose
+### 2. Subir o Ollama
 
-Na raiz do projeto:
+**Nativo (como está neste ambiente):** o Ollama já roda como app da bandeja do Windows. Confirme:
+
+```bash
+curl http://127.0.0.1:11434/api/version
+ollama list
+```
+
+**Docker (alternativa — Postgres + Ollama em container):**
 
 ```bash
 docker compose up -d
-```
-
-Verifique se os containers estão em execução:
-
-```bash
-docker compose ps
-```
-
-### 3. Baixar o Modelo no Ollama
-
-Baixe o modelo leve `qwen2.5:3b` dentro do container do Ollama:
-
-```bash
 docker exec -it ollama ollama pull qwen2.5:3b
 ```
 
-### 4. Configurar o Ambiente Python
+### 3. Configurar o Ambiente Python
 
 Crie e ative um ambiente virtual:
 
@@ -173,21 +184,34 @@ Instale as dependências:
 pip install -r requirements.txt
 ```
 
-### 5. Executar o Script de Extração
-
-Para executar com o texto normativo padrão (Resolução CVM nº 88):
+### 4. Etapa 1 — Organizar o acervo (dado limpo para o modelo)
 
 ```bash
-python src/teste_extracao_slm.py
+.venv/Scripts/python src/organizar_resolucoes.py
+# -> data_lake/processed/<subpasta>/resolNNN.md   (texto normativo puro)
+# -> data_lake/processed/_indice_assuntos.json
 ```
 
-Para executar informando um arquivo de texto específico:
+### 5. Etapa 2 — Compreender o assunto (SLM, PT-BR, trava de schema)
 
 ```bash
-python src/teste_extracao_slm.py --texto-arquivo caminho/para/norma.txt
+.venv/Scripts/python src/compreender_resolucoes.py               # todos (253)
+.venv/Scripts/python src/compreender_resolucoes.py --limite 5    # amostra
+.venv/Scripts/python src/compreender_resolucoes.py --limitar "Companhia"
+# -> tests/compreensao_resolucoes.json
 ```
 
-O resultado será exibido no terminal e salvo automaticamente em `tests/evidencia_extracao.json`.
+### 6. Extração de metadados (ficha rígida p/ um trecho)
+
+```bash
+.venv/Scripts/python src/teste_extracao_slm.py
+.venv/Scripts/python src/teste_extracao_slm.py --texto-arquivo docs/resolucoes/Atos expedidos pela CVM/resol001.md
+# -> tests/evidencia_extracao.json
+```
+
+> **Backend nativo vs Docker:** os scripts usam `OLLAMA_HOST` (padrão `http://127.0.0.1:11434`).
+> O modelo padrão é `qwen2.5-coder:7b`; troque com `--modelo` (ex.: `--modelo qwen2.5:3b` se
+> rodar o Docker e tiver o 3b puxado). O PostgreSQL só é necessário na etapa 02 (RAG).
 
 ---
 

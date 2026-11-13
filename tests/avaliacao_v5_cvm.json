@@ -1,0 +1,227 @@
+{
+  "resumo": {
+    "modelo": "cvm-resolucoes",
+    "total": 30,
+    "ok": 12,
+    "parcial": 7,
+    "divergente": 10,
+    "falso_neg": 1,
+    "over_trigger": 0,
+    "taxa_ok": 0.4,
+    "taxa_aceitavel": 0.63,
+    "falsos_negativos": 1,
+    "over_triggers": 0
+  },
+  "casos": [
+    {
+      "n": "1",
+      "ementa": "Estabelece a nomenclatura de atos a serem expedidos pela Comissão de Valores Mobiliários. (Publicada no DOU de 07.08.2020)",
+      "resposta": "A Resolução CVM nº 1 estabelece a nomenclatura de atos a serem expedidos pela Comissão de Valores Mobiliários.",
+      "classe": "ok",
+      "conteudo": 0.83
+    },
+    {
+      "n": "9",
+      "ementa": "Dispõe sobre a atividade de classificação de risco de crédito no âmbito do mercado de valores mobiliários. (Publicada no DOU de 28.10.2020)",
+      "resposta": "A Resolução CVM nº 9 disciplina a atividade de classificação de risco de crédito no âmbito do mercado de valores mobiliários.",
+      "classe": "ok",
+      "conteudo": 0.75
+    },
+    {
+      "n": "17",
+      "ementa": "Dispõe sobre o exercício da função de agente fiduciário e revoga a Instrução CVM nº 583 , de 20 de dezembro de 2016. (Publicada no DOU de 10.02.2021)",
+      "resposta": "A Resolução CVM nº 17 dispõe sobre o registro de coordenadores de ofertas públicas de distribuição de valores mobiliários e sobre as regras, procedimentos e controles a serem observados nesse contexto.",
+      "classe": "divergente",
+      "conteudo": 0.0
+    },
+    {
+      "n": "25",
+      "ementa": "Dispõe sobre regra transitória para aplicação do disposto no art. 124, § 1º, II da Lei nº 6.404, de 15 de dezembro de 1976. (Publicada no DOU de 31.03.2021)",
+      "resposta": "A Resolução CVM nº 25 disciplina a prevenção à lavagem de dinheiro, ao financiamento do terrorismo e ao financiamento da proliferação de armas de destruição em massa.",
+      "classe": "divergente",
+      "conteudo": 0.0
+    },
+    {
+      "n": "33",
+      "ementa": "Dispõe sobre a prestação de serviços de escrituração de valores mobiliários e de emissão de certificados de valores mobiliários e revoga a Instrução CVM nº 543 ",
+      "resposta": "Não consta na base de conhecimento da CVM.",
+      "classe": "falso_neg",
+      "conteudo": 0.0
+    },
+    {
+      "n": "41",
+      "ementa": "Aprova o Documento de Revisão de Pronunciamento Técnico nº 18, emitido pelo Comitê de Pronunciamentos Contábeis – CPC. (Publicada no DOU de 23.07.2021)",
+      "resposta": "A Resolução CVM nº 41 disciplina o Documento de Revisão de Pronunciamentos Técnicos nº 18, emitido pelo Comitê de Pronunciamentos Contábeis – CPC.",
+      "classe": "ok",
+      "conteudo": 0.6
+    },
+    {
+      "n": "49",
+      "ementa": "Dispõe sobre a autorização para reprodução e utilização da sigla, do logotipo e do slogan da CVM. Revoga as Deliberações CVM nº 749 , de 15 de janeiro de 2016, ",
+      "resposta": "A premissa não confere: a Resolução CVM nº 49 disciplina a autorização para reprodução e utilização da sigla, do logotipo e do slogan da CVM. Revoga as Deliberações CVM nº 749, de 15 de outubro de 2019.",
+      "classe": "ok",
+      "conteudo": 0.73
+    },
+    {
+      "n": "57",
+      "ementa": "Dispõe sobre a prova de quitação de débitos perante a Comissão de Valores Mobiliários. (Publicada no DOU de 21.10.2021)",
+      "resposta": "A Resolução CVM nº 57 disciplina a prova de quitação de débitos perante a Comissão de Valores Mobiliários.",
+      "classe": "ok",
+      "conteudo": 0.83
+    },
+    {
+      "n": "65",
+      "ementa": "Altera as Resoluções CVM nº 45 , de 31 de agosto de 2021, e CVM nº 46 , de 31 de agosto de 2021. (Publicada no DOU de 15.02.2022)",
+      "resposta": "A Resolução CVM nº 65 disciplina as companhias securitizadoras de direitos creditórios registradas na CVM.",
+      "classe": "divergente",
+      "conteudo": 0.0
+    },
+    {
+      "n": "73",
+      "ementa": "Aprova a Consolidação do Pronunciamento Técnico CPC 27, do Comitê de Pronunciamentos Contábeis - CPC, que trata de ativo imobilizado. (Publicada no DOU de 23.03",
+      "resposta": "A Resolução CVM nº 73 disciplina a atividade de captação de ordens pulverizadas de venda de ações.",
+      "classe": "divergente",
+      "conteudo": 0.0
+    },
+    {
+      "n": "81",
+      "ementa": "Dispõe sobre assembleias de acionistas, debenturistas e de titulares de notas promissórias e notas comerciais.",
+      "resposta": "A Resolução CVM nº 81 disciplina assembleias de acionistas, debenturistas e de titulares de notas promissórias e notas comerciais.",
+      "classe": "ok",
+      "conteudo": 1.0
+    },
+    {
+      "n": "89",
+      "ementa": "Aprova o Documento de Revisão de Pronunciamentos Técnicos nº 20, emitido pelo Comitê de Pronunciamentos Contábeis – CPC. (Publicada no DOU de 10.05.2022)",
+      "resposta": "A Resolução CVM nº 89 disciplina a oferta pública de distribuição de valores mobiliários de emissão de sociedades empresárias de pequeno porte realizada com dispensa de registro, por meio de plataforma de investimento participativo.",
+      "classe": "divergente",
+      "conteudo": 0.0
+    },
+    {
+      "n": "97",
+      "ementa": "Aprova a consolidação do Pronunciamento Técnico CPC 10(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de pagamento baseado em ações. (Publicada no ",
+      "resposta": "A Resolução CVM nº 97 disciplina o pagamento baseado em ações.",
+      "classe": "parcial",
+      "conteudo": 0.2
+    },
+    {
+      "n": "105",
+      "ementa": "Aprova a Consolidação do Pronunciamento Técnico CPC 24 do Comitê de Pronunciamentos Contábeis – CPC, que trata de evento subsequente.",
+      "resposta": "A Resolução CVM nº 105 disciplina o evento subsequente.",
+      "classe": "parcial",
+      "conteudo": 0.22
+    },
+    {
+      "n": "113",
+      "ementa": "Aprova a Consolidação do Pronunciamento Técnico CPC 41 do Comitê de Pronunciamentos Contábeis – CPC, que trata da determinação e apresentação do resultado por a",
+      "resposta": "A Resolução CVM nº 113 disciplina a determinação e apresentação do valor adicionado no contexto do mercado de valores mobiliários.",
+      "classe": "parcial",
+      "conteudo": 0.2
+    },
+    {
+      "n": "121",
+      "ementa": "Aprova a Consolidação do Pronunciamento Técnico CPC 40 (R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata de Instrumentos Financeiros: Evidenciação. (",
+      "resposta": "A Resolução CVM nº 121 disciplina Instrumentos Financeiros: Contratos de Seguros.",
+      "classe": "divergente",
+      "conteudo": 0.18
+    },
+    {
+      "n": "129",
+      "ementa": "Aprova a Consolidação da Interpretação Técnica ICPC 18 do Comitê de Pronunciamentos Contábeis – CPC, que trata de custos de remoção de estéril ( stripping ) de ",
+      "resposta": "A Resolução CVM nº 129 disciplina a distribuição de lucros in natura.",
+      "classe": "divergente",
+      "conteudo": 0.0
+    },
+    {
+      "n": "137",
+      "ementa": "Ratifica o Pronunciamento Técnico CPC 08(R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata sobre custos de transação e prêmios na emissão de títulos e",
+      "resposta": "A Resolução CVM nº 137 disciplina sobre custos de transação e prêmios na emissão de valores mobiliários.",
+      "classe": "parcial",
+      "conteudo": 0.27
+    },
+    {
+      "n": "145",
+      "ementa": "Ratifica a Interpretação Técnica ICPC 15 do Comitê de Pronunciamentos Contábeis – CPC, que trata de passivo decorrente de participação em mercado específico – r",
+      "resposta": "A Resolução CVM nº 145 disciplina passivos decorrentes de participação em mercado de valores mobiliários.",
+      "classe": "divergente",
+      "conteudo": 0.07
+    },
+    {
+      "n": "153",
+      "ementa": "Ratifica a Orientação Técnica OCPC 08 do Comitê de Pronunciamentos Contábeis, que trata do reconhecimento de determinados ativos e passivos nos relatórios contá",
+      "resposta": "A Resolução CVM nº 153 disciplina a atividade de formador de mercado para valores mobiliários em mercado organizado.",
+      "classe": "divergente",
+      "conteudo": 0.0
+    },
+    {
+      "n": "161",
+      "ementa": "Dispõe sobre o registro de coordenadores de ofertas públicas de distribuição de valores mobiliários e sobre as regras, procedimentos e controles internos a sere",
+      "resposta": "A Resolução CVM nº 161 disciplina o registro de coordenadores de ofertas públicas de distribuição de valores mobiliários e sobre as regras, procedimentos e controles a serem observados nesse contexto.",
+      "classe": "ok",
+      "conteudo": 0.67
+    },
+    {
+      "n": "169",
+      "ementa": "Altera a Resolução CVM nº 51 , de 31 de agosto de 2021.",
+      "resposta": "A Resolução CVM nº 169 disciplina a alteração da Resolução CVM nº 51, de 31 de agosto de 2021.",
+      "classe": "ok",
+      "conteudo": 0.67
+    },
+    {
+      "n": "177",
+      "ementa": "Altera a Resolução CVM nº 24 , de 5 de março de 2021. (Publicada no DOU de 24.01.2023)",
+      "resposta": "A Resolução CVM nº 177 disciplina a alteração da Resolução CVM nº 24, de 5 de março de 2021.",
+      "classe": "ok",
+      "conteudo": 0.5
+    },
+    {
+      "n": "185",
+      "ementa": "Altera a Resolução CVM nº 9 , de 27 de outubro de 2020. (Publicada no DOU de 13.07.2023)",
+      "resposta": "A Resolução CVM nº 185 disciplina a atividade de consultoria de valores mobiliários.",
+      "classe": "parcial",
+      "conteudo": 0.25
+    },
+    {
+      "n": "193",
+      "ementa": "Dispõe sobre a elaboração e divulgação do relatório de informações financeiras relacionadas à sustentabilidade, com base no padrão internacional emitido pelo In",
+      "resposta": "A Resolução CVM nº 193 disciplina a elaboração e divulgação do relatório de informações financeiras relacionadas à sustentabilidade, com base no padrão internacional de sustentabilidade (Sustainability Accounting Standards Board - SASB).",
+      "classe": "ok",
+      "conteudo": 0.8
+    },
+    {
+      "n": "201",
+      "ementa": "Altera a Resolução CVM nº 24 , de 5 de março de 2021.",
+      "resposta": "A Resolução CVM nº 201 dispõe sobre a constituição, o funcionamento e a divulgação de informações dos fundos de investimento, bem como sobre a prestação de serviços para a gestão de portfólios de investimentos.",
+      "classe": "parcial",
+      "conteudo": 0.33
+    },
+    {
+      "n": "209",
+      "ementa": "Altera as Resoluções CVM nº 21 , de 25 de fevereiro de 2021, CVM nº 31 , de 19 de maio de 2021, CVM nº 32 , de 19 de maio de 2021, CVM nº 35 , de 26 de maio de ",
+      "resposta": "A Resolução CVM nº 209 disciplina as ofertas públicas de distribuição de valores mobiliários e a negociação dos valores mobiliários ofertados.",
+      "classe": "divergente",
+      "conteudo": 0.0
+    },
+    {
+      "n": "217",
+      "ementa": "Aprova o Pronunciamento Técnico CBPS nº 01 – Requisitos Gerais para Divulgação de Informações Financeiras relacionadas à Sustentabilidade, emitido pelo Comitê B",
+      "resposta": "A Resolução CVM nº 217 disciplina o Pronunciamento Técnico CBPS nº 01 – Requisitos Gerais para Divulgação de Informações Financeiras relacionadas à Sustentabilidade, emitido pelo Comitê Brasileiro de Pronunciamentos de Sustentabilidade.",
+      "classe": "ok",
+      "conteudo": 0.93
+    },
+    {
+      "n": "225",
+      "ementa": "Estabelece, em caráter experimental, o Cadastro de Acesso de investidores.",
+      "resposta": "A Resolução CVM nº 225 institui, em caráter experimental, o Cadastro de Acesso de investidores.",
+      "classe": "ok",
+      "conteudo": 1.0
+    },
+    {
+      "n": "233",
+      "ementa": "Altera a Resolução CVM nº 24 , de 5 de março de 2021.",
+      "resposta": "A Resolução CVM nº 233 disciplina o cadastro de participantes do mercado de valores mobiliários na Comissão de Valores Mobiliários.",
+      "classe": "parcial",
+      "conteudo": 0.33
+    }
+  ]
+}

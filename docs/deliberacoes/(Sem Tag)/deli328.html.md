@@ -1,0 +1,57 @@
+# Deliberação CVM 328
+
+> **Fonte:** https://conteudo.cvm.gov.br/legislacao/deliberacoes/deli0300/deli328.html  
+
+> **Espelhado em:** 09/11/2026  
+
+
+## Metadados
+
+- **Ementa (catalogo do site):** Alertar os participantes do mercado de valores mobiliários e o público em geral sobre o fato de que a empresa Gold Administração Consultoria e Participações Ltda., Antônio Marcelo Manfredo Guedes Barb...
+- **Data (pagina de detalhe):** Fri Mar 03 00:00:00 BRT 2000
+- **Epigrafe / Ementa:** Alertar os participantes do mercado de valores mobiliários e o público em geral sobre o fato de que a empresa Gold Administração Consultoria e Participações Ltda., Antônio Marcelo Manfredo Guedes Barbosa, Horácio Pires Adão e Francisco Ferreira da Silva não estão autorizados, por esta Autarquia, a intermediar negócios envolvendo valores mobiliários.
+
+## Documentos / Anexos (baixados localmente)
+
+- **Deliberação CVM 328** — arquivo: `../anexos/deli328.html/deli328.pdf` (formato: pdf)
+- **Deliberação CVM 328 [DOC]** — arquivo: `../anexos/deli328.html/deli328.doc` (formato: doc)
+
+## Texto completo — Deliberação CVM 328
+
+<sub>Fonte: `deli328.pdf` — 1 paginas</sub>
+
+DELIBERAÇÃO CVM No 328, DE 3 DE MARÇO DE 2000. 
+Intermediação irregular de ações no mercado de 
+valores mobiliários, por parte de pessoas não 
+integrantes do sistema de distribuição previsto no 
+art. 15 da Lei no 6.385, de 7 de dezembro de 1976. 
+O PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS - CVM torna público que o 
+Colegiado, em reunião realizada nesta data, com fundamento no art. 9o, § lo, inciso IV, da Lei no 6.385, de 
+7 de dezembro de 1976, combinado com o inciso I, alínea “c”, da Resolução do Conselho Monetário 
+Nacional no 702, de 26 de agosto de 1981, e considerando o que consta do Processo CVM no RJ99/3782, 
+DELIBEROU: 
+I - alertar os participantes do mercado de valores mobiliários e o público em geral sobre o fato de 
+que a empresa GOLD ADMINISTRAÇÃO CONS ULTORIA E PARTICIPAÇÕES LTDA., CNPJ 
+02.602.763/0001-38, e os Srs. ANTÔNIO MARCELO MANFREDO GUEDES BARBOSA, CPF 
+005.881.117-67, HORÁCIO PIRES ADÃO, CPF 694.949.167- 00, e FRANCISCO FERREIRA DA 
+SILVA, CPF 851.048.417-15, estabelecidos e domiciliados na cidade do Rio de Janeiro – RJ, não estão 
+autorizados, por esta Autarquia, a intermediar negócios envolvendo valores mobiliários, porquanto não 
+integram o sistema de distribuição previsto no art. 15 da Lei no 6.385, de 7 de dezembro de 1976; 
+II - determinar às re feridas pessoas a imediata suspensão das atividades de compra de valores 
+mobiliários para revendê -los por conta própria e intermediação de valores mobiliários, de conformidade 
+com o art. 16 da Lei n o 6.385/76, alertando que a não observância da presente de terminação sujeitará as 
+pessoas envolvidas à imposição de multa cominatória diária, no valor de R$ 500,00 (quinhentos reais), 
+sem prejuízo da responsabilidade pelas infrações já cometidas antes da publicação da presente 
+Deliberação, com a imposição da penalidade cabível, nos termos do art. 11 da Lei no 6.385/76; e 
+III – que esta Deliberação entra em vigor na data de sua publicação no Diário Oficial da União. 
+ 
+Original assinado por 
+JOSÉ LUIZ OSORIO DE ALMEIDA FILHO 
+Presidente
+
+## Referencias / Situacao normativa
+
+- (Publicada no DOU de 13.03.00)
+
+---
+_Espelho textual gerado automaticamente a partir de conteudo.cvm.gov.br. Texto completo normatizado nos PDFs citados; verificacao final deve ser feita no original (DOU/site CVM)._

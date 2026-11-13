@@ -1,0 +1,129 @@
+# Resolução CVM nº 57 — Taxas/Débitos/Restituições
+- Órgão: CVM
+- Norma: Resolução CVM nº 57
+- Data: 20/10/2021
+- Categoria (tag): Taxas/Débitos/Restituições
+- Assunto (ementa): Dispõe sobre a prova de quitação de débitos perante a Comissão de Valores Mobiliários. (Publicada no DOU de 21.10.2021)
+
+--- TEXTO NORMATIVO ---
+
+RESOLUÇÃO CVM Nº 57, DE 20 DE OUTUBRO DE 2021  
+Dispõe sobre a prova de quitação de débitos perante 
+a Comissão de Valores Mobiliários. 
+O PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS – CVM torna público que o Colegiado, em 
+reunião realizada em 19 de outubro de 2021, com fundamento nos artigos 205 e 206 da Lei nº 5.172, de 
+25 de outubro de 1966, na Lei 7.940, de 20 de dezembro de 1989, e na Lei nº 9.784, de 29 de janeiro de 
+1999, APROVOU a seguinte Resolução: 
+CAPÍTULO I – ÂMBITO E FINALIDADE 
+Art. 1º  A presente Resolução dispõe sobre a prova de quitação de débitos perante a CVM. 
+Art. 2º  A prova de quitação de débitos perante a Comissão de Valores Mobiliários – CVM é efetuada 
+mediante apresentação de Certidão Negativa de Débitos (CND), a ser expedida pela Autarquia , e cujo 
+modelo está refletido no Anexo A à esta Resolução. 
+Parágrafo único.  Possui os mesmos efeitos previstos no caput deste artigo a Certidão Positiva de 
+Débitos com Efeitos de Negativa (CPDEN), cujo modelo está refletido no Anexo B à esta Resolução. 
+Art. 3º   O direito de obter certidão nos termos desta Resolução é assegurado ao requerente inscrito 
+no Cadastro Nacional da Pessoa Jurídica (CNPJ) ou no Cadastro de Pessoas Físic as (CPF), bem como ao 
+investidor não residente regulamentado pela Resolução CVM nº 13, de 18 de novembro de 2020. 
+Parágrafo único.  Para os efeitos desta Resolução, entende-se por “requerente” a pessoa natural ou 
+jurídica para a qual se solicita a certidão. 
+Art. 4º  A CND e a CPDEN t êm por objeto débitos inscritos ou não em Dívida Ativa relacionados às 
+seguintes exações: 
+I – Taxa de Fiscalização do Mercado de Valores Mobiliários, instituída pela Lei nº 7.940, d e 20 de 
+dezembro de 1989; e 
+II – multas aplicadas pela CVM em razão da atuação da Autarquia nos termos da Lei nº 6.385, de 7 
+de dezembro de 1976 e do Decreto-Lei nº 2.298, de 21 de novembro de 1986. 
+Art. 5º  A CND é expedida quando não forem identificados débitos em nome do requerente. 
+Art. 6º  A CPDEN é expedida quando, em relação ao requerente, constar débito na forma do art. 206 
+da Lei nº 5.172, de 25 de outubro de 1996 – Código Tributário Nacional (CTN).
+RESOLUÇÃO CVM Nº 57, DE 20 DE OUTUBRO DE 2021 
+Parágrafo único.  A certidão de que trata o caput também é emitida quando, em relação ao 
+requerente, existir débito definitivamente constituído, garantido mediante bens ou direitos, na forma da 
+legislação, cuja avaliação seja igual ou superior ao montante do débito atualizado. 
+CAPÍTULO II – SOLICITAÇÃO, EMISSÃO E VALIDADE 
+Art. 7º  A CND e a CPDEN s ão emitidas via sistema disponibilizado pela CVM, cujas orientações de 
+acesso constam da página da Autarquia na rede mundial de computadores. 
+Art. 8º  Na impossibilidade de emissão diretamente pelo sistema de que trata o art. 7º, ou quando 
+as informações constantes das bases de dados da CVM ou da Procuradoria -Geral Federal (PGF) forem 
+insuficientes para a emissão das certidões por meio do sistema de que trata o art. 7º, o interessado pode 
+apresentar requerimento, devidamente assinado: 
+I – via formulário eletrônico, conforme orientações contidas na página da CVM na rede mundial de 
+computadores; ou 
+II – via postal ou presencialmente, nos moldes do Anexo C à e sta Resolução , em uma das 
+representações legais da Autarquia. 
+§ 1º  O requerimento de que trata o caput deste artigo deve ser acompanhado, no mínimo, da 
+seguinte documentação complementar: 
+I – se requerente pessoa jurídica ou equiparada: 
+a) cópia do ato constitutivo, acompanhado dos documentos relativos à eleição dos administradores 
+ou da diretoria em exercício  ou, e m caso de fundo de investimento, documento de constituição do 
+administrador do fundo; 
+b) cópia do instrumento de mandato dos procuradores legalmente habilitados, em plena vigência, 
+quando for o caso, ou seja, procuração outorgada por instrumento público ou particular; alvará ou decisão 
+judicial; 
+c) cópia de documento de identificação oficial, com assinatura, dos signatários do requerimento; e 
+d) cópia de documento de identificação oficial, com assinatura, dos representantes legais 
+signatários da procuração, se for o caso. 
+II – se requerente pessoa natural: 
+a) cópia de documento de identificação oficial, com assinatura:
+RESOLUÇÃO CVM Nº 57, DE 20 DE OUTUBRO DE 2021 
+1. do requerente;  
+2. no caso de espólio, do inventariante; ou 
+3. do titular de empresa individual; 
+b) cópia do instrumento de mandato dos procuradores legalmente habilitados, em plena vigência, 
+quando for o caso , ou seja  procuração outorgada por instrumento público ou particula r; ou decisão 
+judicial; e 
+c) cópia de documento de identificação oficial, com assinatura, dos procuradores legalmente 
+habilitados, se for o caso. 
+§ 2º  No caso de partilha ou adjudicação de bens de espólio e de suas rendas, pode requerer a 
+certidão o inventariante, o herdeiro, o meeiro ou o legatário, ou seus respectivos procuradores. 
+§ 3º  O pedido de certidão relativa a requerente incapaz deve ser assinado por um dos pais, pelo 
+tutor ou curador, ou pela pessoa responsável, por determinação judicial, por sua guarda. 
+§ 4º  No caso de requerimento de CPDEN, deve o requerente juntar comprovante da penhora, da 
+garantia ou da causa de suspensão da exigibilidade do crédito. 
+§ 5º  As certidões solicitadas nos termos deste artigo são emitidas no prazo de 10 (dez) dias, contado 
+a partir do primeiro dia útil posterior à data de protocolo do requerimento na CVM e da juntada da 
+documentação necessária à análise do pedido de certidão. 
+§ 6º  As certidões s ão encaminhadas para o endereço de e-mail indicado no requerimento,  ou 
+disponibilizadas como anexo à resposta ao pedido formulado por meio eletrônico. 
+Art. 9º  Na hipótese do art. 8º, a Gerência de Arrecadação e Cobrança da CVM (GEARC) deve 
+proceder à instauração de processo administrativo específico, do qual devem constar, no mínimo, os 
+seguintes documentos: 
+I – requerimento de certidão e documentação complementar; 
+II – manifestação da Procuradoria Federal Especializada junto à CVM (PFE/CVM) quanto à existência 
+de débitos exigíveis já encaminhados à PGF para fins de cobra nça extrajudicial ou judicial e inscrição em 
+dívida ativa, quando for o caso; e 
+III – CND ou CPDEN, com formalização de ciência pelo titular da GEARC.
+RESOLUÇÃO CVM Nº 57, DE 20 DE OUTUBRO DE 2021 
+Parágrafo único.  A manifestação de que trata o inciso II deste artigo deve ser juntada ao processo 
+administrativo no prazo de 5 (cinco) dias após o recebimento dos autos pela PFE/CVM. 
+Art. 10.  Somente são válidas as certidões emitidas eletronicamente, sendo vedada qualquer forma 
+de certificação manual. 
+§ 1º  As certidões referidas no caput devem conter, obrigatoriamente, a hora, a data de emissão e 
+o código de controle. 
+§ 2º  Somente produz efeitos a certidão cuja autenticidade for confirmada na página da CVM na 
+rede mundial de computadores. 
+Art. 11.  As certidões emitidas na forma desta Resolução t êm prazo de validade de 180 (cento e 
+oitenta) dias a contar da data de emissão. 
+§ 1º   A certidão te m eficácia, dentro do seu prazo de validade, e mediante comprovação de 
+autenticidade, para prova de regularidade relativa às exações detalhadas nos incisos I e II do art. 4º desta 
+Resolução, administradas pela CVM ou já encaminhadas à PGF para fins de cobrança extrajudicial ou 
+judicial, nos termos do art. 4º do Decreto nº 9.194, de 7 de novembro de 2017. 
+§ 2º  A certidão é considerada inválida, ainda que dentro do prazo de 180 (cento e oitenta) dias de 
+sua emissão, sempre que existentes novos débitos exigíveis em nome do requerente. 
+Art. 12.  No caso de existência de débitos exigíveis, o pedido de certidão deve ser indeferido. 
+§ 1º  O requerente pode consultar seus débitos, conforme orientações contidas na página da CVM 
+na rede mundial de computadores. 
+§ 2º  O requerente sem registro, ou com registro inativo junto à CVM pode solicitar o levantamento 
+de débitos via protocolo digital ou presencial, mediante a apresentação da documentação complementar 
+detalhada no art. 8º desta Resolução. 
+ 
+CAPÍTULO III – COMPETÊNCIA PARA A CERTIFICAÇÃO E CANCELAMENTO 
+Art. 13.  A certificação da quitação de débitos do requerente perante a CVM compete ao titular da 
+GEARC. 
+Art. 14.  Compete ao titular da GEARC a determinação de cancelamento das certidões disciplinadas 
+por esta Resolução.
+RESOLUÇÃO CVM Nº 57, DE 20 DE OUTUBRO DE 2021 
+Parágrafo único.  O cancelamento de certidão é efetuado mediante ato a ser publicado no Diário 
+Oficial da União (DOU), dispensada a edição e publicação nos casos de revogação ou cassação de decisão 
+judicial que tenha justificado a sua emissão. 
+CAPÍTULO IV – DAS DISPOSIÇÕES FINAIS 
+Art. 15.  Esta Resolução entra em vigor em 1º de novembro de 2021.

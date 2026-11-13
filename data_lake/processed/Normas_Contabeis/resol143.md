@@ -1,0 +1,32 @@
+# Resolução CVM nº 143 — Normas Contabeis
+- Órgão: CVM
+- Norma: Resolução CVM nº 143
+- Data: 15/06/2022
+- Categoria (tag): Normas Contabeis
+- Assunto (ementa): Ratifica a Interpretação Técnica ICPC 08 (R1) do Comitê de Pronunciamentos Contábeis – CPC, que trata da contabilização da proposta de pagamento de dividendos. (Publicada no DOU de 20.06.2022)
+
+--- TEXTO NORMATIVO ---
+
+www.gov.br/cvm 
+   
+ 
+RESOLUÇÃO CVM Nº 143, DE 15 DE JUNHO DE 2022 
+Ratifica a Interpretação Técnica ICPC 08 (R1) do 
+Comitê de Pronunciamentos Contábeis  – CPC, que 
+trata da contabilização da proposta de pagamento 
+de dividendos. 
+O PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS - CVM torna público que o Colegiado, 
+em reunião realizada em 4 de maio de 2022, com fundamento nos §§ 3º e 5º do art. 177 da Lei n° 6.404, 
+de 15 de dezembro de 1976, combinados com os incisos II e IV do § 1° do art. 22 da Lei n° 6.385, de 7 de 
+dezembro de 1976, bem como nos arts. 5º e 14 do Decreto nº 10.139, de 28 de novembro de 2019, 
+APROVOU a seguinte Resolução: 
+Art. 1º   Fica ratificada a obrigatoriedade para as companhias abertas da Interpretação Técnica 
+ICPC 08 (R1), que trata da contabilização da proposta de pagamento de dividendos, emitida pelo Comitê 
+de Pronunciamentos Contábeis - CPC, conforme Anexo “A” à presente Resolução. 
+Art. 2º   Os juros pagos ou creditados, a título de re muneração do capital próprio, somente 
+poderão ser imputados ao dividendo obrigatório (Lei n° 9.249, de 26 de dezembro de 1995, art. 9º, §7º), 
+previsto no art. 202 da Lei n° 6.404, de 15 de dezembro de 1976, pelo seu valor líquido do imposto de 
+renda na fonte. 
+Art. 3º  Fica revogada a Deliberação CVM nº 683, de 30 de agosto de 2012, a partir da vigência 
+desta Resolução. 
+Art. 4º  Esta Resolução entra em vigor em 1º de julho de 2022.

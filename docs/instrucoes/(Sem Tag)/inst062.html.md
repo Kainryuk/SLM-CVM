@@ -1,0 +1,83 @@
+# Instrução CVM 62 (Revogada)
+
+> **Fonte:** https://conteudo.cvm.gov.br/legislacao/instrucoes/inst062.html  
+
+> **Espelhado em:** 09/11/2026  
+
+
+## Metadados
+
+- **Ementa (catalogo do site):** Altera disposições da Instrução nº 56, de 1º de dezembro de 1986, que dispõe sobre Valor Nominal Mínimo e Grupamento de Ações Emitidas por Companhias Abertas, bem como sobre a padronização de certific...
+- **Data (pagina de detalhe):** Wed Mar 25 00:00:00 BRT 1987
+- **Epigrafe / Ementa:** Altera disposições da Instrução nº 56 , de 1º de dezembro de 1986, que dispõe sobre Valor Nominal Mínimo e Grupamento de Ações Emitidas por Companhias Abertas, bem como sobre a padronização de certificados de ações.
+
+## Documentos / Anexos (baixados localmente)
+
+- **Instrução CVM 062 (redação original)** — arquivo: `../anexos/inst062.html/inst062.pdf` (formato: pdf)
+- **Instrução CVM 062 (redação original) [DOC]** — arquivo: `../anexos/inst062.html/inst062.doc` (formato: doc)
+
+## Texto completo — Instrução CVM 062 (redação original)
+
+<sub>Fonte: `inst062.pdf` — 2 paginas</sub>
+
+INSTRUÇÃO CVM Nº 62, DE 25 DE MARÇO DE 1987. 
+Altera disposições da Instrução nº 56, de 1º de 
+dezembro de 1986, que dispõe sobre valor nominal 
+mínimo e grupamento de ações emitidas por 
+companhias abertas, bem como sobre a padronização 
+de certificados de ações. 
+O PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS - CVM torna público que o 
+Colegiado, em sessão realizada em 17.03.87, tendo por fundamento os artigos 4º, inciso III, 8º, inciso I, 
+9º, parágrafo 1º; e 22, parágrafo único, incisos III e VII da Lei Nº 6.385, de 07 de dezembro de 1976 e os 
+artigos 11, parágrafo 3º e 25, parágrafo único da LEI Nº 6.404, de 15 de dezembro de 1976, e item II da 
+Resolução CMN nº 702, de 26 de agosto de 1981, 
+RESOLVEU: 
+Art. 1º Alterar os artigos 4º e 5º da INSTRUÇÃO CVM Nº 56, de 1º de dezembro de 1986, que 
+passam a vigorar com a seguinte redação:  
+"Art. 4º É facultado às companhias abertas, até 31 de maio de 1988, adquirir ou alienar as frações 
+de ações decorrentes do grupamento determinado nesta Instrução, observadas as exigênc ias legais e 
+regulamentares relativas à disponibilidade de lucros e reservas e ao preço de negociação, que deverá ser 
+compatível com o de mercado, não se aplicando, para esse fim, as demais restrições da INSTRUÇÃO 
+CVM Nº 10, de 14 de fevereiro de 1980. Na ausência de cotação de mercado, deverá a AGE estabelecer 
+os critérios de fixação do preço de negociação. 
+Parágrafo único. A faculdade de alienação nos termos previstos neste artigo restringe -se às 
+operações diretamente realizadas com acionistas detentores de frações de ações, de modo a possibilitar -
+lhes a composição de lotes não fracionários. 
+Art. 5º As alterações dos registros de ações escriturais deverão ser realizadas até 10 de junho de 
+1987, tendo por base os registros de ações existentes em 1º de junho de 1987." 
+Art. 2º Alterar os seguintes dispositivos do Regulamento anexo à INSTRUÇÃO CVM Nº 56, de 1º 
+de dezembro de 1986, que passam a vigorar com a redação abaixo: 
+I - Inciso I, item 3-A, letra "b"; 
+"b) tarja ou outros motivos artísticos, a critério da companhia, utilizando- se, obrigatoriamente, o 
+processo de impressão em talho doce para as ações ao portador e endossáveis."  
+II - Inciso II:
+INSTRUÇÃO CVM Nº 62, DE 25 DE MARÇO DE 1987. 
+ 
+2 
+"II - A emissão de certificado de ações ao portador e endossáveis deverá obedecer à seguinte 
+padronização relativa à quantidade de ações representadas."  
+III - Inciso III, revogados os seus itens 1 e 2: 
+"III - Na numeração de suas ações a companhia poderá, em caso de emissão de certificados 
+representativos de ações cujos números de ordem não sejam seqüenciais, renumerar estas ações, 
+cancelando em seus registros os números de ordem que anteriormente as representavam." 
+IV - Inciso IV, item 1: 
+"1) Os cupões serão em número de 20 (vinte), ocupando a metade superior da área total do 
+certificado, dispostos em 4 (quatro) colunas de 5 (cinco) cupões, impressos pelo processo previsto no item 
+3 do inciso I, contendo no anverso: denominação da companhia, indicação do lugar da sede, número de 
+ordem do certificado, quantidade de ações representada pelo certificado a que o cupom se en contra 
+anexado, espécie e classe da ação, número de ordem do cupom."  
+Art. 3º Esta Instrução entra em vigor na data de sua publicação. 
+ 
+ 
+Original assinado por 
+LUIS OCTÁVIO DA MOTTA VEIGA 
+Presidente
+
+## Referencias / Situacao normativa
+
+- (Publicada no DOU de 31.03.87)
+- ALTERADA pela Instrução 79/88 .
+- REVOGADA pela Resolução 2/20 .
+
+---
+_Espelho textual gerado automaticamente a partir de conteudo.cvm.gov.br. Texto completo normatizado nos PDFs citados; verificacao final deve ser feita no original (DOU/site CVM)._

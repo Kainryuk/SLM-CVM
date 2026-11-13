@@ -1,0 +1,92 @@
+# Ofício-Circular CVM/SMI 04/12
+
+> **Fonte:** https://conteudo.cvm.gov.br/legislacao/oficios-circulares/smi/oc-smi-0412.html  
+
+> **Espelhado em:** 09/11/2026  
+
+
+## Metadados
+
+- **Ementa (catalogo do site):** Entidade Credenciadora de Agentes Autônomos de Investimento.
+- **Data (pagina de detalhe):** Fri Sep 28 00:00:00 BRT 2012
+- **Epigrafe / Ementa:** Entidade Credenciadora de Agentes Autônomos de Investimento.
+
+## Documentos / Anexos (baixados localmente)
+
+- **Ofício-Circular/CVM/SMI/N° 04/12** — arquivo: `../anexos/oc-smi-0412.html/oc-smi-0412.pdf` (formato: pdf)
+
+## Texto completo — Ofício-Circular/CVM/SMI/N° 04/12
+
+<sub>Fonte: `oc-smi-0412.pdf` — 2 paginas</sub>
+
+OFÍCIO­CIRCULAR/CVM/SMI/Nº 004/2012
+São Paulo, 28 de setembro de 2012.
+ 
+ 
+Aos
+Participantes do Sistema de Distribuição
+ 
+ 
+Assunto: Entidade Credenciadora de Agentes Autônomos de Investimento 
+                        Associação  Nacional  das  Corretoras  e  Distribuidoras  de  Títulos  e  Valores  Mobiliários,
+Câmbio e Mercadorias ­ ANCORD
+ 
+Prezados Senhores,
+ 
+ 
+1.  O Colegiado da Comissão de Valores Mobiliários, em reunião realizada em 28 de agosto de
+2012, aprovou a Associação Nacional das Corretoras e Distribuidoras de Títulos e Valores
+Mobiliários, Câmbio e Mercadorias – ANCORD – como entidade credenciadora de agentes
+autônomos de investimento com base no artigo 6º da Instrução CVM Nº 497, de 3 de junho
+de 2011.
+2.  A autorização concedida terá eficácia a partir de 1º de outubro de 2012, data a partir
+da qual os candidatos aprovados nos Exames de Certificação Para Agentes Autônomos de
+Investimento que não tiverem requisitado o seu Certificado deverão fazê­lo por meio da
+página da ANCORD, na rede mundial de computadores no endereço:
+http://www.ancord.org.br.
+3.  Aqueles que já possuem o Certificado de aprovação no exame de certificação, mas não
+formalizaram o pedido de credenciamento (autorização) para exercício da atividade junto à
+CVM ou que, mesmo tendo formalizado o pedido não tenham enviado a declaração de
+cumprimento dos requisitos dispostos nos incisos IV a VI do art. 7º da ICVM nº 497/2011,
+também deverão fazê­lo por meio do endereço da ANCORD. A documentação necessária à
+emissão do certificado, bem como à instrução do pedido, deverá ser encaminhada para a
+sede da ANCORD, cujo endereço é: Rua Líbero Badaró, 425 ­ 8º andar, Centro, São Paulo,
+SP, CEP ­ 01009­905.
+4.  O procedimento descrito no parágrafo anterior se aplica igualmente às pessoas jurídicas
+constituídas na forma prevista no Art. 2º da ICVM Nº 497/2011 e a todos que queiram
+solicitar a suspensão ou cancelamento de seus credenciamentos. Somente os processos que
+já se encontrem em análise na CVM em 30/09/2012 continuarão a ser tratados pela própria
+Autarquia.
+5.  As pessoas naturais e jurídicas que tiverem sido credenciadas por esta Comissão deverão
+aderir ao Código de Conduta Profissional dos Agentes Autônomos de Investimento e ao
+Código de Autorregulação adotados pela ANCORD conforme cronograma por ela
+estabelecido. A não adesão a esses Códigos no prazo previsto implicará o cancelamento do
+registro para exercício da atividade de Agente Autônomo de Investimento. Referidos
+documentos encontram­se disponíveis na página da ANCORD no endereço:
+http://www.ancord.org.br.
+6.  As instituições integrantes do sistema de distribuição de valores mobiliários que contratem
+os serviços de Agentes Autônomos de Investimento deverão se cadastrar e manter
+atualizados seus dados junto à ANCORD, por meio do Sistema de Gestão e Autorregulação
+dos Agentes Autônomos de Investimentos, para que sejam capazes de informar a
+celebração e a rescisão de contrato com aqueles profissionais.
+7.  A adesão ao Código de Conduta Profissional dos Agentes Autônomos de Investimento e ao
+Código de Autorregulação adotados pela ANCORD também deve ser formalizada pelas
+instituições integrantes do sistema de distribuição de valores mobiliários que contratem os
+serviços de agentes autônomos de investimento.
+8.  Em razão da autorização concedida à ANCORD, além de se tornar entidade credenciadora,
+ela passa também a ser uma entidade encarregada da fiscalização e supervisão dos Agentes
+Autônomos de Investimentos e de seus Contratantes, no que tange ao cumprimento das
+regras estabelecidas nos Códigos mencionados no parágrafo anterior, o que lhe confere
+poderes, inclusive, para punir eventuais infrações a estas regras.
+9.  A Taxa de Fiscalização dos Mercados de Títulos e Valores Mobiliários, instituída pela Lei nº
+7.940, de 20 de dezembro de 1989, continuará a ser exigida dos Agentes Autônomos de
+Investimento e das pessoas jurídicas constituídas na forma prevista no Art. 2º da ICVM Nº
+497/2011, tendo em vista que o seu fato gerador é o exercício do poder de polícia
+legalmente atribuído à Comissão de Valores Mobiliários, o qual tem caráter indelegável.
+Atenciosamente,
+Waldir de Jesus Nobre
+Superintendente de Relações com o Mercado
+e Intermediários
+
+---
+_Espelho textual gerado automaticamente a partir de conteudo.cvm.gov.br. Texto completo normatizado nos PDFs citados; verificacao final deve ser feita no original (DOU/site CVM)._

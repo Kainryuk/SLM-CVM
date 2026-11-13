@@ -1,0 +1,446 @@
+# Resolução CVM nº 86 — Ofertas Publicas
+- Órgão: CVM
+- Norma: Resolução CVM nº 86
+- Data: Thu Mar 31 12:00:00 BRT 2022
+- Categoria (tag): Ofertas Publicas
+- Assunto (ementa): Dispõe sobre a oferta pública de distribuição de contratos de investimento coletivo hoteleiro e revoga a Instrução CVM nº 602 , de 27 de agosto de 2018.
+
+--- TEXTO NORMATIVO ---
+
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 COM AS ALTERAÇÕES INTRODUZIDAS PELA 
+RESOLUÇÃO CVM Nº 221/24. 
+Dispõe sobre a oferta pública de distribuição de 
+contratos de investimento coletivo hoteleiro  e 
+revoga a Instrução CVM nº 602, de 27 de agosto de 
+2018. 
+O PRESIDENTE DA COMISSÃO DE VALORES MOBILIÁRIOS – CVM torna público que o Colegiado, em 
+reunião realizada em 30 de março de 2022, com fundamento no disposto nos arts. 2º, inciso IX e § 3º, 19, 
+§§ 5º e 7º, e 21, § 6º, da Lei nº 6.385, de 7 de dezembro de 1976, APROVOU a seguinte Resolução: 
+CAPÍTULO I – ÂMBITO, DEFINIÇÕES E FINALIDADE 
+Art. 1º  Esta Resolução dispõe sobre a oferta pública de distribuição de contratos de investimento 
+coletivo - CIC hoteleiro. 
+§ 1º  Não se sujeitam a esta Resolução: 
+I – a alienação de frações ideais correspondentes a até 10 (dez) unidades autônomas, por pessoa 
+natural ou jurídica, em um mesmo ano calendário; e  
+II – a revenda de unidades autônomas de empreendimento hoteleiro por pessoas não vinculadas à 
+sociedade incorporadora, desde que já tenha ocorrido prévia distribuição pública registrada ou 
+dispensada de registro pela CVM relacionada ao mesmo empreendimento hoteleiro. 
+§ 2º  Para fins do §1º, inciso II, consideram -se pessoas vinculadas à sociedade incorporadora a 
+pessoa natural ou jurídica, fundo ou universalidade de direitos que atue em conjunto ou representando 
+o mesmo interesse da sociedade incorporadora, observado o § 3º. 
+§ 3º  Presume -se agindo em conjunto ou representando o mesmo interesse da sociedade 
+incorporadora: 
+I – seu controlador, direto ou indireto, ou quem seja por ela controlado ou esteja com ela submetido 
+a controle comum; e 
+II – seus administradores, bem como os respectivos cônjuges ou companheiros, ascendentes, 
+descendentes e colaterais até o 2º grau, e as sociedades por eles controladas direta ou indiretamente. 
+• §§ 1º, 2º e 3º incluídos pela Resolução CVM nº 221, de 10 de dezembro de 2024.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+Art. 2º  Para os fins desta Resolução, considera-se: 
+I – CIC hoteleiro : conjunto de instrumentos contratuais ofertados publicamente, que contenha 
+promessa de remuneração vinculada à participação em resultado de empreendimento hoteleiro 
+organizado por meio de condomínio edilício; 
+II – ofertante: sociedade incorporadora ou qualquer outra pessoa que realize atos de distribuição 
+pública de CIC hoteleiro; e 
+III – página do empreendimento: página na rede mundial de computadores que opera sem restrição 
+de acesso pelo público em geral e que fornece as informações requeridas por esta Resolução. 
+Art. 3º  A presente Resolução não se aplica às ofertas públicas de distribuição de contratos de 
+investimento coletivo envolvendo esforços de venda de partes ideais de condomínios voluntários, as quais 
+continuam sujeitas à regulamentação específica da CVM sobre ofertas públicas de distribuição de valores 
+mobiliários. 
+CAPÍTULO II – DISTRIBUIÇÃO PÚBLICA 
+Seção I – Regra Geral 
+Art. 4º  Não se aplica às ofertas públicas de distribuição de CIC hoteleiro o disposto na 
+regulamentação específica sobre oferta pública de distribuição de valores mobiliários. 
+Seção II – Registro da Oferta 
+Art. 5º  O pedido de registro de oferta pública de distribuição de CIC hoteleiro deve ser requerido 
+pelo ofertante à Superintendência de Registro de Valores Mobiliários – SRE. 
+Art. 6º  O pedido de registro de oferta pública de distribuição de CIC hoteleiro deve ser instruído 
+com os seguintes documentos e informações: 
+I – prospecto da oferta, contendo, ao menos, as informações previstas no Anexo A; 
+II – estudo de viabilidade econômica e financeira do empreendimento hoteleiro, elaborado por 
+profissional ou empresa independente e que contenha, ao menos, as informações previstas no Anexo B; 
+III – modelo de declaração do investidor elaborado de acordo com o Anexo C; 
+IV – modelos de todos os instrumentos contratuais que compõem o CIC hoteleiro;
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+V – declaração de acordo com o Anexo D, assinada pelos administradores do ofertante, 
+devidamente qualificados; 
+VI – declaração de acordo com o Anexo E, assinada pelos administradores da sociedade operadora 
+do empreendimento hoteleiro, devidamente qualificados; 
+VII – material publicitário a ser utilizado na oferta, se houver; 
+VIII – comprovante do pagamento da taxa de fiscalização dos mercados de títulos e valores 
+mobiliários, relativa ao registro de emissão; 
+IX – minuta de anúncio de início de distribuição, o qual deve conter, no mínimo, as informações 
+previstas no Anexo F; 
+X – minuta de anúncio de encerramento de distribuição, o qual deve conter, no mínimo, as 
+informações previstas no Anexo G; 
+XI – certidão dentro do prazo de validade, emitida pelo cartório do Registro Geral de Imóveis em 
+que se encontra matriculado o imóvel, que permita a identificação do proprietário atual e a existência de 
+ônus ou gravames; e 
+XII – endereço da página do empreendimento na rede mundial de computadores. 
+Art. 7º  A SRE deve concluir a análise do requerimento de registro da oferta no prazo máximo de 60 
+(sessenta) dias, contado da data  do protocolo de todos os documentos elencados no art. 6º, sendo o 
+registro automaticamente deferido se não houver manifestação da SRE neste prazo. 
+Art. 8º  Caso qualquer dos documentos elencados no art. 6º, necessários à análise do pedido de 
+registro da oferta, não seja protocolado no momento do requerimento, o prazo de que trata o art. 7º é 
+contado da data do protocolo do último documento que complete a instrução do processo de 
+requerimento de registro. 
+Parágrafo único.  A SRE deve informar, no prazo de até 10 (dez) dias contado do protocolo, sobre a 
+suficiência dos documentos submetidos e quais documentos ou informações estão faltando.  
+§ 1º  A SRE deve informar, no prazo de até 10 (dez) dias contado do protocolo, sobre a insuficiência 
+dos documentos submetidos, se for o caso, e quais documentos ou informações estão faltando.  
+§ 2º  Para a complementação da documentação necessária à instrução do pedido de registro, é 
+concedido prazo de 10 (dez) dias úteis.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+• §§ 1º e 2º incluídos pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+Art. 9º  No prazo de 18 (dezoito) dias úteis da apresentação de todos os documentos necessários à 
+instrução do pedido de registro, a SRE pode suspender o prazo de análise de que trata o art. 7º, mediante 
+emissão de ofício com exigências ao requerente. 
+Art. 9º  No prazo de 20 (vinte) dias úteis da  apresentação de todos os documentos necessários à 
+instrução do pedido de registro, a SRE pode suspender o prazo de análise de que trata o art. 7º, mediante 
+emissão de ofício com exigências ao requerente. 
+• Caput com redação dada pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+§ 1º  Para o atendimento das eventuais exigências  referidas no caput, é concedido prazo de 40 
+(quarenta) dias úteis. 
+§ 2º  O prazo para o cumprimento das exigências pode ser prorrogado uma única vez, por período 
+não superior a 20 (vinte) dias úteis, mediante a prévia apresentação de pedido fundamentado pelos 
+interessados.  
+§ 3º  No atendimento às exigências formuladas pela SRE, os documentos devem ser apresentados 
+em duas versões:  
+I – a primeira, contendo o documento originalmente submetido, incluindo: 
+a) indicação das alterações determinadas pela CVM e aquelas que não decorram do cumprimento 
+de tais determinações; e 
+b) explicação sobre cada questão levantada pela CVM; e 
+a) indicação das alterações determinadas pela SRE e aquelas que não decorram do cumprimento de 
+tais determinações; e 
+b) explicação sobre cada questão levantada pela SRE; e 
+•  Alíneas “a” e “b” com redação dada pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+II – a segunda, sem quaisquer marcas. 
+§ 4º   A partir do recebimento de todos os documentos e informações em cumprimento das 
+exigências formuladas, a SRE tem 8 (oito) dias úteis para se manifestar sobre o pedido de registro, o qual 
+é automaticamente obtido se não houver manifestação da SRE neste prazo.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+§ 4º   A partir do recebimento de todos os documentos e informações em cumprimento das 
+exigências formuladas, a SRE tem 10 (dez) dias úteis para se manifestar sobre o pedido de registro, o qual 
+é automaticamente obtido se não houver manifestação da SRE neste prazo.  
+• § 4º com redação dada pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+§ 5º  Decorrido o prazo previsto no § 4º, caso restem exigências inicialmente formuladas que não 
+tenham sido plenamente atendidas ou caso as alterações em documentos e informações ensejem a 
+necessidade de se realizar novas exigências, preliminarmente ao indefer imento do pedido de registro, a 
+SRE deve enviar ofício ao ofertante, reiterando exigências ou apresentando novas exigências que se 
+mostrarem necessárias, concedendo-lhe para atendimento o prazo de 5 (cinco) dias úteis, sem prejuízo 
+do § 7º. 
+§ 5º-A  O prazo para o cumprimento das novas exigências pode ser prorrogado uma única vez, por 
+período não superior a 5 (cinco) dias úteis, mediante a prévia apresentação de pedido fundamentado 
+pelos interessados, sendo certo que o período da prorrogação não será  computado para os fins do art. 
+7º. 
+• § 5º-A incluído pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+§ 6º O prazo para manifestação da SRE a respeito do cumprimento das exigências em atendimento 
+ao ofício mencionado no § 5º é de 5 (cinco) dias úteis, contado da data do protocolo.  
+§ 7º  Caso, além dos documentos e informações apresentados em resposta aos ofícios previstos no 
+caput ou no § 5º do presente artigo, tenham sido realizadas alterações em documentos ou em 
+informações que não decorram do cumprimento de exigências, a SRE pode apontar a ocorrência de fato 
+novo. 
+§ 8º  A ocorrência de fato novo deve ser comunicada pela SRE ao ofertante dentro dos prazos de 
+que trata o § 4º ou § 6º, e acarreta  nova suspensão de 20 (vinte) dias úteis ou 5 (cinco) dias úteis 
+respectivamente, para cumprimento de exigências e esclarecimentos.   
+§ 6º  O prazo para manifestação da SRE a respeito do cumprimento das exigências em atendimento 
+ao ofício mencionado no § 5º é de 3 (três) dias úteis.  
+§ 7º  Caso, além dos documentos e informações apresentados em resposta aos ofícios previstos no 
+caput ou no § 5º do presente artigo, tenham sido realizadas alterações em documentos ou em
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+informações que não decorram do cumprimento de exigências, a SRE pode apontar a ocorrência de fato 
+novo, a depender da relevância das alterações. 
+§ 8º  A ocorrência de fato novo deve ser comunicada pela SRE ao ofertante dentro dos prazos de 
+que trata o § 4º ou § 6º, e acarreta nova suspensão de 20 (vinte) dias úteis.   
+• §§ 6º, 7º e 8º com redação dada pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+§ 9º  Findos os prazos de que trata o § 8º, a SRE deve se manifestar sobre o requerimento de registro 
+no prazo remanescente previsto no art.  7º, sendo o registro automaticamente deferido se não houver 
+manifestação da SRE neste período. 
+Art. 10.  A SRE pode interromper uma única vez, mediante requerimento assinado pelo ofertante, a 
+análise do pedido de registro por até 60 (sessenta) dias úteis, após o que recomeçarão a fluir os prazos de 
+análise integralmente, como se novo pedido de registro tive sse sido apresentado, independentemente 
+da fase em que se encontrava a análise da SRE. 
+Art. 10.  A SRE deve interromper a análise do pedido de registro uma única vez  a pedido do 
+ofertante, por até 60 (sessenta) dias úteis. 
+• Caput com redação dada pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+§ 1º A ausência de manifestação do requerente sobre sua intenção de prosseguir com o processo 
+de registro dentro do prazo mencionado no caput implica indeferimento automático do pedido de 
+registro. 
+§ 2º O pedido de registro é considerado reapresentado no primeiro dia útil subsequente à 
+manifestação de interesse na continuidade do processo, aplicando -se ao pedido todas as etapas 
+processuais e seus respectivos prazos como se novo fosse, independentemen te da fase em que se 
+encontrava quando da interrupção de sua análise. 
+• §§ 1º e 2º incluídos pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+Art. 11.  O deferimento ou indeferimento do registro deve ser comunicado pela SRE ao ofertante. 
+Parágrafo único.  O registro baseia -se em critérios formais de legalidade e não envolve qualquer 
+garantia quanto ao conteúdo da informação, à situação econômica ou financeira do ofertante ou à sua 
+administração, à viabilidade da oferta ou à qualidade dos contratos de investimento coletivo ofertados.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+Art. 12.  O pedido de registro deve ser indeferido quando não forem cumpridas as exigências 
+formuladas pela SRE, nos prazos previstos nesta Resolução. 
+§ 1º  Da decisão de indeferimento cabe recurso ao Colegiado da CVM, na forma da regulamentação 
+vigente. 
+§ 2º  Os documentos que instruíram o pedido de registro devem ficar arquivados na CVM. 
+Seção III – Distribuição 
+Art. 13.  Ressalvadas as hipóteses previstas no Capítulo III, antes de deferido o registro e divulgado 
+o anúncio de início de distribuição, é vedada a prática, pelo ofertante, de qualquer ato de distribuição 
+pública do CIC hoteleiro. 
+Art. 13.  Antes de deferido o registro e divulgado o anúncio de início de distribuição, é vedada a 
+prática, pelo ofertante, de qualquer ato de distribuição pública do CIC hoteleiro. 
+• Art. 13 com redação dada pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+Art. 14.  O registro de distribuição do CIC hoteleiro caducará se o anúncio de início de distribuição 
+não for comunicado à SRE em até 180 (cento e oitenta) dias após a sua obtenção. 
+§ 1º  O anúncio de início de distribuição deve ser comunicado à SRE e divulgado na página do 
+empreendimento na rede mundial de computadores. 
+§ 2º  Em até 180 (cento e oitenta) dias após a divulgação do anúncio de início de distribuição, o 
+ofertante deve comunicar à SRE e divulgar na página do empreendimento o memorial de incorporação 
+registrado no competente cartório do Registro Geral de Imóveis. 
+Art. 15.  Na distribuição pública de CIC hoteleiro realizada nos termos desta Resolução, o ofertante 
+fica dispensado da contratação de instituição intermediária integrante do sistema de distribuição de 
+valores mobiliários.  
+Art. 16.  O ofertante deve fiscalizar a atividade dos corretores de imóveis, adotando práticas e 
+procedimentos destinados a assegurar o cumprimento do disposto nesta Resolução. 
+Art. 17.  Enquanto a distribuição do CIC hoteleiro objeto de oferta pública registrada na CVM estiver 
+em curso, o ofertante está obrigado a: 
+I – colocar à disposição do público, na página do empreendimento, os documentos referidos no art. 
+6º, incisos I, II, IV, V e VI;
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+II – fornecer cópia atualizada do prospecto e do estudo de viabilidade econômica e financeira do 
+empreendimento aos corretores de imóveis que participam da distribuição; 
+III – obter dos aceitantes da oferta, por escrito, a declaração prevista no Anexo C; 
+IV – atualizar, anualmente, a partir do registro da oferta, os documentos referidos no art. 6º, incisos 
+I, II, e V, colocando a respectiva atualização à disposição do público na página do empreendimento; e 
+V – obter, anualmente, a partir do registro da oferta, a declaração da operação da operadora do 
+empreendimento hoteleiro, na forma prevista no art. 6º, VI, referente à atualização dos documentos 
+referidos no art. 6º, I e II. 
+Art. 18.  A subscrição do CIC hoteleiro objeto da oferta registrada de distribuição deve ser realizada 
+no prazo máximo de 36 (trinta e seis) meses, contado da data de divulgação do anúncio de início de 
+distribuição, admitindo-se uma única prorrogação por igual período, desde que previamente comunicada 
+à SRE. 
+Parágrafo único. O ofertante deve comunicar à SRE e divulgar na página do empreendimento o 
+anúncio de encerramento da distribuição, no prazo de 5 (cinco) dias úteis do encerramento da oferta. 
+Seção IV – Conteúdo da Oferta 
+ Art. 19.  As informações divulgadas sobre a oferta, durante todo o período da distribuição, devem 
+ser: 
+I – verdadeiras, completas, consistentes e não podem induzir o investidor a erro; 
+II – escritas em linguagem simples, clara, objetiva, serena e moderada; e 
+III – úteis à avaliação do CIC hoteleiro e, em especial, dos riscos do investimento. 
+Parágrafo único.  O ofertante é responsável pelo cumprimento do disposto no caput.  
+Art. 20.  O estudo de viabilidade econômica e financeira do empreendimento hoteleiro deve sempre 
+vir acompanhado da advertência em destaque de que as projeções nele contidas não representam nem 
+devem ser consideradas, em qualquer hipótese, como promessa, garantia ou sugestão de rentabilidade. 
+Seção V – Material Publicitário 
+Art. 21.  O material publicitário deve ser elaborado em linguagem serena e moderada, advertindo 
+seus leitores para os riscos do investimento.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+Art. 22.  O material publicitário não pode conter informações diversas ou inconsistentes com as 
+constantes do prospecto e do estudo de viabilidade econômica e financeira. 
+§ 1º  O material publicitário deve fazer referência expressa de que se trata de material publicitário 
+e conter em destaque a seguinte advertência: “ A presente oferta trata de investimento em valores 
+mobiliários, e não apenas da aquisição de imóvel. Antes de aceitar a oferta, leia com atenção o 
+Prospecto, em especial a seção Fatores de Risco, e o Estudo de Viabilidade Econômica e Financeira do 
+empreendimento hoteleiro”. 
+§ 2º  O material publicitário deve informar ainda o endereço da página do empreendimento. 
+§ 3º  O conteúdo da página do empreendimento é considerado material publicitário para os fins 
+desta Resolução. 
+Art. 23.  A utilização de material publicitário não depende de prévia aprovação da SRE, sendo o 
+ofertante responsável pela observância das disposições desta Seção. 
+§ 1º  É facultado ao ofertante submeter, uma única vez, o material publicitário que pretenda utilizar 
+na oferta à aprovação da SRE, concomitantemente ao pedido de registro da oferta, na forma prevista no 
+art. 6º, VII. 
+§ 2º  Ainda que tenha autorizado a utilização do material publicitário, a SRE pode, a qualquer 
+momento, por decisão motivada, requerer retificações, alterações ou mesmo a cessação da publicidade. 
+Seção VI – Modificação, Suspensão e Cancelamento da Oferta 
+Art. 24.  Havendo, a juízo da SRE, alteração substancial, posterior e imprevisível nas circunstâncias 
+de fato existentes quando da apresentação do pedido de registro de distribuição, ou que o fundamentem, 
+acarretando aumento relevante dos riscos inerentes à própria oferta, a SRE pode: 
+I – acolher pleito de modificação da oferta; ou 
+II – reconhecer a ocorrência de modificação da oferta e tomar as providências cabíveis. 
+§ 1º  Presume-se deferido o pleito de modificação da oferta caso não haja manifestação da SRE em 
+sentido contrário no prazo de 10 (dez) dias úteis, contado do seu protocolo na CVM. 
+§ 2º  É sempre permitida a modificação da oferta para melhorá-la em favor dos investidores. 
+§ 3º  A modificação deve ser divulgada imediatamente por meios ao menos iguais aos utilizados 
+para a divulgação da oferta.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+§ 4º  Na hipótese de modificação da oferta, os investidores que já tiverem aderido à oferta devem 
+ser comunicados diretamente, por correio eletrônico, correspondência física ou qualquer outra forma de 
+comunicação passível de comprovação, a respeito da modi ficação efetuada, para que possam revogar a 
+aceitação da oferta no prazo de 5 (cinco) dias úteis do recebimento da comunicação, presumindo-se a sua 
+manutenção em caso de silêncio. 
+§ 5º  Não se sujeita ao disposto neste artigo a modificação do preço de CIC hoteleiro. 
+§ 6º  As ofertas públicas de distribuição de CIC hoteleiro devem ser realizadas em condições que 
+assegurem tratamento equitativo aos destinatários e aceitantes das ofertas, sem prejuízo do disposto no 
+§ 5º. 
+Art. 25.  A SRE pode suspender ou cancelar, a qualquer tempo, a oferta de distribuição ainda em 
+curso que: 
+I – esteja se processando em condições diversas das constantes da presente Resolução ou do 
+registro; 
+II – esteja se valendo de material publicitário em desconformidade com as regras desta Resolução; 
+ou 
+III – tenha sido havida por ilegal, contrária à regulamentação da CVM ou fraudulenta, ainda que 
+após obtido o respectivo registro. 
+§ 1º  A SRE deve proceder à suspensão da oferta quando verificar ilegalidade ou violação de 
+regulamento sanáveis. 
+§ 2º  O prazo de suspensão da oferta não pode ser superior a 30 (trinta) dias, durante o qual a 
+irregularidade apontada deve ser sanada. 
+§ 3º  Findo o prazo referido no § 2º sem que tenham sido sanados os vícios que determinaram a 
+suspensão, a SRE deve ordenar o cancelamento da oferta. 
+Art. 26.  O ofertante deve dar conhecimento, por correio eletrônico, correspondência física ou 
+qualquer outra forma de comunicação passível de comprovação, da suspensão ou do cancelamento aos 
+investidores que já tenham aceitado a oferta, facultando-lhes, na hipótese de suspensão, a possibilidade 
+de revogar a aceitação da oferta no prazo de 5 (cinco) dias úteis do recebimento da comunicação, 
+presumindo-se a sua manutenção em caso de silêncio.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+Parágrafo único.  Na hipótese prevista no art. 25, inciso II, o direito de retratação deve ser 
+franqueado exclusivamente aos investidores que aceitaram a oferta no período compreendido entre a 
+divulgação do material publicitário irregular e a sua devida retificação. 
+Art. 27.  Tem direito à restituição integral dos valores, bens ou direitos dados em contrapartida aos 
+valores mobiliários ofertados: 
+I – todos os investidores que já tenham aceitado a oferta, nas hipóteses de cancelamento e 
+revogação da oferta; e 
+II – os investidores que tenham exercido o direito de retratação, nas hipóteses de suspensão e 
+modificação da oferta bem como naquela prevista no art. 38. 
+Parágrafo único. O prospecto deve estabelecer o modo e o prazo de restituição integral dos valores, 
+bens ou direitos pelo ofertante. 
+Seção VII – Revogação da Oferta 
+Art. 28.  A sociedade incorporadora deve, nos casos e na forma previstos em lei, dar conhecimento 
+da desistência da incorporação e da consequente revogação da oferta aos aceitantes e restituir -lhes as 
+quantias já pagas. 
+Parágrafo único.  Sem prejuízo do disposto em lei, a revogação deve ser imediatamente comunicada 
+à SRE e divulgada na página do empreendimento. 
+CAPÍTULO III – OFERTAS SUJEITAS A REGIMES DIFERENCIADOS 
+Seção I – Ofertas Não Sujeitas a Registro 
+Art. 29.  A oferta de CIC hoteleiro que não ultrapasse, no mesmo ano calendário, a alienação de 
+frações ideais correspondentes a 10 (dez) unidades autônomas por pessoa natural ou jurídica  não se 
+sujeita ao registro a que se refere o art. 5º. 
+Art. 29 - REVOGADO 
+• Art. 29 revogado pela Resolução CVM nº 221, de 10 de dezembro de 2024.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+Seção II – Ofertas Automaticamente Dispensadas de Registro 
+Art. 30.  Fica automaticamente dispensada do  registro a que se refere o art . 5º , e sujeita, 
+exclusivamente, ao cumprimento dos deveres indicados neste artigo, a oferta pública de distribuição de 
+CIC hoteleiro: 
+I – realizada após a divulgação das demonstrações financeiras anuais auditadas, conforme o art. 33 
+desta Resolução, em que se tiver reconhecido, pela primeira vez, receita operacional hoteleira, 
+independentemente da quantidade de unidades autônomas ofertadas, desde que o empreendimento já 
+tenha sido objeto de distribuição pública registrada ou dispensada de registro pela CVM; ou 
+II – que compreenda a alienação de frações ideais correspondentes a mais de 10 (dez) unidades 
+autônomas, no mesmo ano calendário e seja realizada: 
+a) enquanto estiver em curso a oferta pública registrada promovida pela sociedade incorporadora 
+nos termos desta Resolução; ou 
+b) no período compreendido entre o encerramento de oferta pública, registrada nos termos desta 
+Resolução ou dispensada de registro pela CVM, e a divulgação das demonstrações financeiras anuais 
+auditadas, conforme o art. 33 desta Resolução, em que se tiver reconhecido, pela primeira vez, receita 
+operacional hoteleira. 
+§ 1º  Na hipótese prevista no inciso II, alínea “a”, do caput, o ofertante fica obrigado a obter dos 
+aceitantes da oferta, por escrito, a declaração de que trata o Anexo H. 
+§ 2º  Na hipótese prevista no inciso II, alínea “b” do caput, o ofertante fica obrigado a: 
+I – comunicar à SRE e divulgar os anúncios de início e encerramento da oferta de distribuição pública 
+na página do empreendimento, na forma prevista nos Anexos F e G; 
+II – desde o anúncio de início de oferta até o seu encerramento, colocar à disposição do público, na 
+página do empreendimento, os documentos referidos no art. 6º, incisos I, II, IV e V; 
+III – obter dos aceitantes da oferta, por escrito, a declaração de que trata o Anexo H; 
+IV – atualizar, anualmente, a partir da divulgação do anúncio de início da oferta até o seu 
+encerramento, os documentos referidos no art. 6º, incisos I, II e V, colocando a respectiva atualização à 
+disposição do público na página do empreendimento; e
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+V – preparar qualquer material publicitário em conformidade com disposições da Seção V do 
+Capítulo II desta Resolução, e com a inclusão do seguinte aviso: 
+“A presente oferta de contrato de investimento coletivo hoteleiro foi dispensada de registro pela 
+Comissão de Valores Mobiliários - CVM. A CVM não analisa previamente tais ofertas. A CVM não 
+garante a veracidade das informações prestadas pelo Ofertante nem julga a sua qualidade ou a dos 
+contratos de investimento coletivo hoteleiro ofertados. A presente oferta trata de investimento em 
+valores mobiliários, e não apenas da aquisição de imóvel. Antes de aceitar uma oferta, leia com atenção 
+o Prospecto, em especial a seção Fatores de Risco, e o Estudo de Viabilidade Econômica e Financeira do 
+empreendimento hoteleiro”. 
+§ 3º  Na hipótese prevista no inciso II, alínea “b” do caput, ofertante também deve observar o 
+disposto nos arts. 16, 18, 19, 20 e 24 a 27. 
+§ 4º  Exceto na hipótese de unidades retomadas em função de retratação ou rescisão contratual 
+motivada pelo inadimplemento do adquirente, a sociedade incorporadora não pode valer-se da dispensa 
+automática de que trata o inciso II, alínea “b” do caput antes de decorridos 12 (doze) meses do 
+encerramento de distribuição pública registrada nos termos desta Resolução ou dispensada de registro 
+pela CVM. 
+Art. 30 - REVOGADO 
+• Art. 30 revogado pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+CAPÍTULO IV – SOCIEDADE OPERADORA DE EMPREENDIMENTO HOTELEIRO 
+Art. 31.  A sociedade operadora de empreendimento hoteleiro que for exclusivamente emissora de 
+CIC hoteleiro nos termos desta Resolução é dispensada do registro de emissor de valores mobiliários. 
+Art. 32.  A sociedade operadora pode organizar-se como sociedade anônima ou sociedade limitada. 
+Art. 33.  Durante a operação do empreendimento hoteleiro, a sociedade operadora deve elaborar 
+e colocar à disposição do público, na página do empreendimento, assim como enviar à SRE: 
+Art. 33.  Durante a operação do empreendimento hoteleiro, a sociedade operadora deve elaborar 
+e colocar à disposição do público, na página do empreendimento: 
+•  Caput com redação dada pela Resolução CVM nº 221, de 10 de dezembro de 2024.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+I – no prazo de 90 (noventa) dias contados do encerramento do exercício, demonstrações 
+financeiras anuais do empreendimento hoteleiro, elaboradas de acordo com a Lei nº 6.404, de 1976, e 
+com as normas contábeis editadas pela CVM, e auditadas por auditor in dependente registrado na CVM; 
+e 
+II – no prazo de 45 (quarenta e cinco) dias contados da data de encerramento de cada trimestre, 
+demonstrações financeiras trimestrais do empreendimento hoteleiro, referentes aos 3 (três) primeiros 
+trimestres de cada exercício, acompanhadas de relatório de revisão especial, emitido por auditor 
+independente registrado na CVM. 
+§ 1º  A sociedade operadora deve observar as normas da CVM relacionadas à contratação e ao 
+relacionamento com o auditor independente. 
+§ 2º  O auditor independente deve observar as normas da CVM relacionadas ao exercício da 
+atividade de auditoria independente no âmbito do mercado de valores mobiliários. 
+Art. 34.  A partir do terceiro ano após a data da divulgação das demonstrações financeiras anuais 
+auditadas em que se tiver reconhecido, pela primeira vez, receita operacional hoteleira, os condôminos, 
+reunidos em assembleia, podem dispensar a sociedade operadora do cumprimento de uma ou de ambas 
+as obrigações previstas no art. 33. 
+§ 1º  A deliberação referida no caput deve ser aprovada, em primeira ou segunda convocação, por 
+quórum especial que atenda, cumulativamente, as seguintes condições: 
+I – aprovação pela maioria de votos dos condôminos presentes, computados os votos na forma 
+prevista no parágrafo único do art. 1.352 do Código Civil; e 
+II – aprovação por frações ideais que representem, no mínimo, um quinto do total. 
+§ 2º  A deliberação referida no caput deve constar expressamente da convocação da respectiva 
+assembleia e nela não pode votar a sociedade operadora do empreendimento hoteleiro. 
+CAPÍTULO V – DISPOSIÇÕES FINAIS E TRANSITÓRIAS 
+ Art. 35. Os administradores do ofertante, dentro de suas competências legais e estatutárias, são 
+responsáveis pelo cumprimento das obrigações impostas ao ofertante por esta Resolução.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+Art. 36. Os administradores da sociedade operadora do empreendimento hoteleiro, dentro de suas 
+competências legais e estatutárias, são responsáveis pelo cumprimento das obrigações impostas àquela 
+sociedade por esta Resolução. 
+Art. 37.  O ofertante deve guardar à disposição da CVM, por 5 (cinco) anos a contar de seu 
+encerramento, a documentação utilizada na oferta pública de distribuição de CIC hoteleiro para 
+cumprimento do disposto nesta Resolução. 
+Art. 38.  Se, no curso da análise de pedido de registro de oferta, a SRE constatar que CIC hoteleiro 
+do mesmo empreendimento hoteleiro foi distribuído após 18 de abril de 2016 sem registro ou dispensa 
+de registro da CVM, o registro somente será deferido mediante a demonstração, pelo ofertante, de que 
+o direito de retratação foi assegurado aos aceitantes da oferta irregular. 
+Art. 39.  Adicionalmente à página do empreendimento, as informações cuja divulgação é requerida 
+por esta Resolução podem ser divulgadas por meio de programa, aplicativo ou de outro meio eletrônico, 
+desde que: 
+I – reúna todas as informações requeridas por esta Resolução; 
+II – não contenha restrição de acesso ao público em geral; e 
+III – observem as disposições previstas na Seção V do Capítulo II desta Resolução. 
+Art. 40.  Considera-se infração grave, para os efeitos do § 3º do art. 11 da Lei nº 6.385, de 1976: 
+I – a distribuição de CIC hoteleiro: 
+a) realizada em condições diversas das constantes do registro; 
+b) realizada sem registro ou dispensa de registro da CVM; ou 
+c) realizada em infração ao disposto nos arts. 13, 17, 19, 21, 22, 27 e 29 desta Resolução; e 
+b) realizada sem registro ou dispensa de registro da CVM , observado o disposto no art. 1º, §  1º, 
+inciso I; ou 
+c) realizada em infração ao disposto nos arts. 13, 17, 19, 21, 22 e 27 desta Resolução; e 
+•  Alíneas “b” e “c” com redação dada pela Resolução CVM nº 221, de 10 de dezembro de 2024. 
+II – a não observância do disposto nos arts. 33 e 34 desta Resolução. 
+Art. 41. Fica revogada a Instrução CVM nº 602, de 27 de agosto de 2018.
+RESOLUÇÃO CVM Nº 86, DE 31 DE MARÇO DE 2022 
+ 
+Art. 42.  Esta Resolução entra em vigor em 2 de maio de 2022.

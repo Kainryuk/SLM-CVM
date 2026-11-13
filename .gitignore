@@ -38,3 +38,8 @@ Thumbs.db
 .vscode/
 .idea/
 
+# ==========================================
+# Anexos binários pesados do espelho CVM
+# ==========================================
+docs/**/anexos/
+

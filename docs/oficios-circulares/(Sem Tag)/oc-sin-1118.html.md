@@ -1,0 +1,158 @@
+# Ofício-Circular CVM/SIN 11/18
+
+> **Fonte:** https://conteudo.cvm.gov.br/legislacao/oficios-circulares/sin/oc-sin-1118.html  
+
+> **Espelhado em:** 09/11/2026  
+
+
+## Metadados
+
+- **Ementa (catalogo do site):** Esclarecimentos sobre o investimento indireto em criptoativos pelos fundos de investimento.
+- **Data (pagina de detalhe):** Wed Sep 19 10:06:00 BRT 2018
+- **Epigrafe / Ementa:** Esclarecimentos sobre o investimento indireto em criptoativos pelos fundos de investimento.
+
+## Documentos / Anexos (baixados localmente)
+
+- **Ofício-Circular CVM/SIN 11/18** — arquivo: `../anexos/oc-sin-1118.html/oc-sin-1118.pdf` (formato: pdf)
+
+## Texto completo — Ofício-Circular CVM/SIN 11/18
+
+<sub>Fonte: `oc-sin-1118.pdf` — 3 paginas</sub>
+
+Ofício Circular nº 11/2018/CVM/SIN Rio de Janeiro, 19 de setembro de 2018 
+  
+Aos administradores e gestores  de fundos de investimento regulados pela Instrução CVM nº 
+555/14 
+ 
+Assunto: investimento indireto em criptoativos pelos fundos de investimento 
+ 
+Prezados Senhores, 
+ 
+Este Ofício Circular tem o objetivo de complementar  o Ofício Circular CVM/SIN/nº 1/2018, que 
+tratou da possibilidade e das condições para investimento em criptoativos  pelos fundos de 
+investimento regulados pela Instrução CVM nº 555. 
+ 
+A Instrução CVM nº 555, em seu art s. 98 e seguintes , ao tratar do investimento no exterior, 
+autoriza o investimento indireto em criptoativos por meio, por exemplo, da aquisição de cotas de  
+fundos e derivativos, entre outros ativos negociados em terceiras jurisdições, desde que admitidos 
+e regulamentados naqueles mercados . No entanto , no cumprimento dos deveres que lhe são 
+impostos pela regulamentação, cabe aos administradores, gestores e au ditores independentes 
+observar determinadas diligências na aquisição desses ativos. 
+ 
+Um primeiro que se destaca é aquele já aventado pelos mais diversos órgãos reguladores e 
+supervisores no mundo 1 em relação à possibilidade de financiamento, direta ou ind iretamente, de 
+operações ilegais nesse mercado como a lavagem de dinheiro, práticas não equitativas, realização 
+de operações fraudulentas ou de manipulação de preços, dentre outras práticas similares. 
+ 
+Nesse contexto, e levando em conta também a exigência de combate e prevenção à  lavagem de 
+dinheiro imposta pela Instrução CVM nº 301, entendemos que uma forma adequada de atender a 
+tais preocupações é a realização de tais investimentos por meio de plataformas de negociação 
+(“exchanges”), que estejam submetidas, nessas jurisdições, à supervisão de órgãos reguladores que 
+tenham, reconhecidamente, poderes para coibir tais práticas ilegais, por meio, inclusive, do 
+estabelecimento de requisitos normativos. 
+ 
+Embora se recomende que os investimentos sejam feitos por meio dessas exchanges, como não há 
+vedação explícita a que os investimentos sejam feitos de outra forma, em razão de seus deveres 
+fiduciários administradores e gestores deverão se assegurar que a estrutura escolhida seja capaz de 
+atender plenamente às exigências legais e regulamentares acima referidas. 
+ 
+Ainda sobre o tema da normalidade de funcionamento dos mercados em que são negociados os 
+criptoativos e seus derivativos, é importante que o gestor verifique se determinado criptoativo  não 
+representa uma fraude, como, aliás, tem sido visto com grande recorrência, por exemplo, nas 
+operações recentes de ICO 2 pelo mundo. Assim, é importante que o gestor adote diligências para 
+                                                 
+1 http://www.valor.com.br/financas/5205725/bc-nao-pode-permitir-bolhas-nem-uso-ilicito-de-criptomoedas-diz-
+ilan; 
+https://publications.banque-france.fr/sites/default/files/medias/documents/focus-16_2018_03_05_en.pdf; 
+https://www.reuters.com/article/us-g20-imf-cryptocurrencies/imfs-lagarde-says-cooperation-needed-to-keep-
+crypto-assets-safe-idUSKCN1GP1SX; 
+2 https://medium.com/satis-group/cryptoasset-market-update-b678aeda4c5e
+minimizar o risco de fomentar a oferta de um criptoativo fraudulento, com a verificação das 
+variáveis relevantes associadas à emissão, gestão, governança e demais características do 
+criptoativo.  
+ 
+Exemplos importantes nessa avaliação são (i) s e o software base é livre e de código fonte aberto 
+(free open source software ) ou fechado;  (ii) s e a tecnologia é pública, transparente, acessível e 
+verificável por qualquer usuário; (iii) s e há arranjos que suscitem conflitos de interesse ou a 
+concentração de poderes excessivos no emi ssor ou promotor do criptoativo 3, ou o uso de t écnicas 
+agressivas de venda, (iv) a  liquidez de negociação do criptoativo, (v) a  natureza da rede, dos 
+protocolos de consenso e vali dação, e do software utilizados, ou (vi) o perfil do time de 
+desenvolvedores, bem como seu grau de envolvimento com o projeto. 
+ 
+No caso dos criptoativos representativos, aqui qualificados como aqueles que representam outro 
+ativo, direito ou contrato subjacente, cabe ao gestor do fundo avaliar também outros aspectos 
+decorrentes da concentração de risco vista na figura do emissor  do criptoativo em tais hipóteses, o 
+que exige uma due diligence  especialmente rigorosa sobre esse emissor; as análises de risco 
+naturalmente associadas também ao próprio ativo, direito ou contrato subjacent e a que o 
+criptoativo se refere; e por fim, se ta l criptoativo deve ser considerado ou não como um valor 
+mobiliário, e em caso positivo, se conta com eventual registro prévio exigido. 
+ 
+Mostra-se n atural que, no caso de investimento indireto realizado por meio de fundos de 
+investimento constituídos no ext erior e geridos por terceiros, caiba ao administrador e ao gestor 
+avaliar, nas condições exigidas pelas circunstâncias, se o gestor do fundo investido adota práticas 
+e medidas de mitigação de risco equivalentes às que o gestor do fundo investidor adotaria em sua 
+posição.  
+ 
+Não custa relembrar  também o papel dos auditores independentes contratados pelo fundo , pois, 
+em linha com as atribuições esperadas desse profissional, deve ele ser capaz de conduzir 
+diligências adequadas e proporcionais em relação a eventuais criptoativos detidos pelo fundo. E ao 
+administrador do fundo, no exercício do papel previsto no artigo 79, § 1º, da Instrução CVM nº 
+555, diligenciar para que o fundo contrate auditor capacitado e estruturado para tal função. 
+ 
+De ou tro lado, outro fator de risco associado aos criptoativos é o de que posições em custódia 
+nesses ativos estejam sujeitas a ataques frequentes por parte de especialistas em invasões a 
+sistemas de informação, os conhecidos “hackers”. 
+ 
+É verdade que o curso d e tais operações por meio de plataformas reguladas também já mitiga ria 
+tais riscos , mas, d e toda forma,  é boa evidência de diligência a busca pel os gestores e 
+administradores do fundo de soluções robustas de custódia já disponíveis nesse mercado. 
+ 
+Outra ca racterística bastante relevante nesse mercado, que difere do comumente observado em 
+outros segmentos convencionais do mercado de capitais, é a da governança associada a esses 
+criptoativos. É de especial importância que o gestor do fundo atente para as regras de governança 
+previstas para o critptoativo adquirido, de forma a se cientificar, precificar e monitorar eventuais 
+                                                 
+3 Exemplos são o comissionamento de entes da cadeia, a existência de promessas de rendimento ou retornos 
+quaisquer, ou a existência de um operador centralizado.
+riscos adicionais, como a possibilidade de distribuições não equitativas, manipulações ou mesmo 
+limitações à liquidez de negociação. 
+ 
+Para determinados criptoativos, tais regras possibilitam a ocorrência de operações conhecidas 
+como forks ou airdrops, que impõem aos seus detentores o risco de virem a contar com outros 
+criptoativos, resultantes dessas operações, que diferem em natureza e cara cterísticas daquele 
+original até então detido direta ou indiretamente pelo fundo de investimento. 
+ 
+Naturalmente, como tais operações fogem ao escopo mais tradicional visto em outros ativos 
+financeiros componentes das carteiras dos fundos de investimento re gulados pela Instrução CVM 
+nº 555, é prudente que os administradores e gestores de fundos com tais estratégias deixem claro, 
+nos documentos do fundo, quais políticas adotarão em relação a tais eventos. 
+ 
+Ainda sobre  disclosure, a transparência dos tipos par ticulares de riscos a que se sujeita um 
+investidor exposto aos criptoativos em geral deve ser exposta nos documentos do fundo pelo 
+administrador e gestor que persiga m tal estratégia de investimento. Um indicativo atual e 
+pertinente de quais são esses risco s pode ser consultado, por exemplo, no comunicado divulgado 
+em 7/3/2018 pela CVM intitulado “Initial Coin Offerings (ICOs)”, no que couber. 
+ 
+Um último ponto de preocupação em relação à aplicação em tais criptoativos está relacionado à 
+dificuldade estrutural de precificação, a valor justo, desses investimentos, em especial quando se 
+tratarem de alternativas menos líquidas. 
+ 
+Como sabido, ainda não há modelo consensual ou aceito internacionalmente para o cálculo do 
+valor justo desse tipo de investimento. Assim , é uma evidência de adequada diligência  que o 
+criptoativo investido conte com liquidez compatível com as necessidades de precificação periódica 
+do fundo, conforme determinado para os fundos regulados pela Instrução CVM nº 555, a evitar 
+uma indevida transf erência de riqueza entre cotistas do fundo , risco esse especialmente relevante 
+em fundos constituídos sob a forma de condomínio aberto. 
+ 
+Um parâmetro  possível, nesse sentido, é o investimento em  criptoativos que contem com a 
+divulgação permanente de índice s de preços globalmente reconhecidos, elaborados por terceiros 
+independentes, e que por sua vez seja calculado com base em efetivos negócios realizados pelos 
+investidores em tais criptoativos. 
+Atenciosamente, 
+ 
+Assinado digitalmente por 
+DANIEL WALTER MAEDA BERNARDO 
+Superintendente de Relações com Investidores Institucionais
+
+---
+_Espelho textual gerado automaticamente a partir de conteudo.cvm.gov.br. Texto completo normatizado nos PDFs citados; verificacao final deve ser feita no original (DOU/site CVM)._
