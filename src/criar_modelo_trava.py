@@ -28,13 +28,45 @@ BASE = "qwen2.5-coder:7b"
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTE_INDICE = os.path.join(RAIZ, "data_lake", "processed", "_indice_assuntos.json")
 FONTE_FICHAS = os.path.join(RAIZ, "tests", "compreensao_resolucoes.json")
-MAX_CHARS_ASSUNTO = 95
+MAX_CHARS_ASSUNTO = 90
+
+_MESES_EN = {
+    "Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04",
+    "May": "05", "Jun": "06", "Jul": "07", "Aug": "08",
+    "Sep": "09", "Oct": "10", "Nov": "11", "Dec": "12",
+}
+
+
+def _formatar_data(raw: str) -> str:
+    """Normaliza datas do índice para DD/MM/AA (compacta para economizar contexto)."""
+    raw = (raw or "").strip()
+    m_br = re.match(r"^(\d{2})/(\d{2})/(\d{4})$", raw)
+    if m_br:
+        return f"{m_br.group(1)}/{m_br.group(2)}/{m_br.group(3)[2:]}"
+    m = re.match(r"^[A-Za-z]{3}\s+([A-Za-z]{3})\s+(\d{1,2})\s+.*?(\d{4})$", raw)
+    if m and m.group(1) in _MESES_EN:
+        return f"{int(m.group(2)):02d}/{_MESES_EN[m.group(1)]}/{m.group(3)[2:]}"
+    return raw or "s/d"
+
+
+def _extrair_relacao(assunto: str) -> str:
+    """Extrai menção explícita a altera/revoga na ementa (vazio se não houver)."""
+    limpo = re.sub(r"\s*\((?:Publicad|Retificad|Republicad)[ao] no DOU.*?\)", "", assunto or "")
+    limpo = re.sub(r"\s+", " ", limpo).strip().rstrip(".;")
+    m = re.search(r"\b((?:altera|revoga|prorroga|dá nova redação)\b.*)", limpo, flags=re.IGNORECASE)
+    if not m:
+        return ""
+    rel = re.sub(r"\s*,\s*de\s+\d{1,2}\s+de\s+[a-zç]+\s+de\s+\d{4}", "", m.group(1), flags=re.IGNORECASE)
+    rel = re.sub(r"\s+", " ", rel).strip().rstrip(".;")
+    if len(rel) > 65:
+        rel = rel[:62].rsplit(" ", 1)[0] + "..."
+    return rel
 
 
 def limpar_ementa_compacta(a: str) -> str:
     """Extrai o núcleo temático da ementa, removendo boilerplate repetitivo."""
     a = a or ""
-    # Corta cauda de revogações/alterações secundárias e datas do DOU
+    # Corta cauda de revogações/alterações secundárias (que vão para o campo próprio) e datas do DOU
     a = re.split(r"(?:\s+e\s+|,\s*)(?:revoga|altera|dá nova|prorroga)\b", a, flags=re.IGNORECASE)[0]
     a = re.sub(r"\s*\((?:Publicad|Retificad|Republicad)[ao] no DOU.*?\)", "", a)
     # Remove prefixos verbosos comuns mantendo o sentido
@@ -47,7 +79,7 @@ def limpar_ementa_compacta(a: str) -> str:
 
 
 def montar_indice(fonte: str = FONTE_INDICE, max_chars: int = MAX_CHARS_ASSUNTO) -> str:
-    """Gera a tabela compacta 'NNN: assunto' (3 dígitos, ordenada)."""
+    """Gera a tabela compacta 'NNN (DD/MM/AAAA): assunto | relação' (3 dígitos, ordenada)."""
     d = json.load(open(fonte, encoding="utf-8"))
     raw_items = d if "indice" in fonte else d.get("resultados", [])
 
@@ -56,14 +88,18 @@ def montar_indice(fonte: str = FONTE_INDICE, max_chars: int = MAX_CHARS_ASSUNTO)
         m = re.search(r"(\d+)", str(r.get("norma", "")))
         if not m:
             continue
-        a = limpar_ementa_compacta(str(r.get("assunto", "")))
+        assunto_bruto = str(r.get("assunto", ""))
+        a = limpar_ementa_compacta(assunto_bruto)
         if not a:
             continue
         if len(a) > max_chars:
             a = a[: max_chars - 3].rsplit(" ", 1)[0] + "..."
-        nums.setdefault(m.group(1), a)
+        data_fmt = _formatar_data(str(r.get("data", "")))
+        rel = _extrair_relacao(assunto_bruto)
+        sufixo = f" | {rel}" if rel else ""
+        nums.setdefault(m.group(1), f"{data_fmt}: {a}{sufixo}")
 
-    return "\n".join(f"{int(n):03d}: {nums[n]}" for n in sorted(nums, key=int))
+    return "\n".join(f"[{int(n):03d}] {nums[n]}" for n in sorted(nums, key=int))
 
 
 SISTEMA_TEMPLATE = """\
@@ -81,17 +117,22 @@ REGRAS ESTRITAS DE DOMÍNIO:
      * Se NÃO tiver nenhuma relação com a CVM (ex.: script Python genérico, receita culinária, história geral, esportes, clima, piadas):
        Responda EXATAMENTE esta frase e mais nada:
        "Não consta na base de conhecimento da CVM."
-4. NÚMERO DE RESOLUÇÃO:
-   - Localize o número com 3 dígitos na BIBLIOTECA (ex.: nº 1 -> 001; nº 11 -> 011).
-   - Se o número NÃO existir na BIBLIOTECA (ex.: 999), responda EXATAMENTE: "Não consta na base de conhecimento da CVM."
-   - Se a pergunta afirmar uma premissa falsa sobre a Resolução N, corrija dizendo o que a linha N realmente trata e aponte a norma correta da tabela se existir.
+4. NÚMERO DE RESOLUÇÃO E TRAVA ANTI-ALUCINAÇÃO:
+   - Localize o marcador exato `[NNN]` com 3 dígitos na BIBLIOTECA (ex.: nº 1 -> `[001]`; nº 24 -> `[024]`; nº 86 -> `[086]`).
+   - Se `[NNN]` NÃO existir na BIBLIOTECA (ex.: `[999]`), responda EXATAMENTE: "Não consta na base de conhecimento da CVM."
+   - LEITURA ESTRITA: Responda EXCLUSIVAMENTE com base no texto literal da linha `[NNN]` correspondente. Nunca leia a linha de outra resolução.
+   - PROIBIÇÃO DE INVENÇÃO RELACIONAL: NUNCA afirme que uma resolução altera, revoga ou substitui outra norma se isso NÃO estiver escrito após `|` na própria linha `[NNN]`. Se não houver `|` na linha `[NNN]`, informe que não consta alteração ou revogação de outras normas na ementa.
+   - NÃO misture números de resoluções de perguntas anteriores. Comece citando exatamente: `Conforme o registro [NNN] (data): ...`
+   - Se a pergunta afirmar uma premissa falsa sobre a Resolução N, corrija dizendo o que a linha `[NNN]` realmente trata.
 
-BIBLIOTECA DE RESOLUÇÕES DA CVM (número 3 dígitos: assunto):
+BIBLIOTECA DE RESOLUÇÕES DA CVM ([NNN] data: assunto | relação opcional):
 {indice}
 
 EXEMPLOS DE RESPOSTAS CORRETAS:
 - P: "O que regula a Resolução CVM nº 1?"
-  R: "A Resolução CVM nº 1 estabelece a nomenclatura de atos a serem expedidos pela Comissão de Valores Mobiliários."
+  R: "Conforme o registro [001] (14/09/20): a Resolução CVM nº 1 estabelece a nomenclatura de atos a serem expedidos pela Comissão de Valores Mobiliários, sem alteração ou revogação citada na ementa."
+- P: "O que faz a Resolução CVM nº 24?"
+  R: "Conforme o registro [024] (05/03/21): a Resolução CVM nº 24 aprova o Regimento Interno da Comissão de Valores Mobiliários, sem alteração ou revogação citada na ementa."
 - P: "Escreva em Python um script que faz merge de duas listas de dicionários."
   R: "Não consta na base de conhecimento da CVM."
 - P: "Me fale sobre a Revolução Francesa."
@@ -107,6 +148,7 @@ EXEMPLOS DE RESPOSTAS CORRETAS:
 
 LEMBRETE FINAL OBRIGATÓRIO:
 - Se a pergunta for sobre programação pura, história, receitas, esportes ou qualquer assunto sem vínculo com Resoluções da CVM, responda APENAS: "Não consta na base de conhecimento da CVM."
+- NUNCA invente que uma resolução altera ou revoga outra norma se isso não constar literalmente na linha dela na BIBLIOTECA.
 - Nunca escreva código de programação. Responda sempre em pt-BR.
 """
 
@@ -168,6 +210,8 @@ def main() -> int:
             "system": sistema,
             "parameters": {
                 "temperature": 0,
+                "top_k": 1,
+                "top_p": 0.1,
                 "num_ctx": args.num_ctx,
                 "repeat_penalty": 1.1,
             },

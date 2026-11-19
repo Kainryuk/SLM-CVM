@@ -226,7 +226,24 @@ python src/testar_trava_cvm.py
 ollama run cvm-resolucoes
 ```
 
+### 8. Consulta com Pré-Filtro Automático (100% de precisão sem RAG/pgvector)
+
+Para evitar erros de ponteiro (*Lost in the Middle*) do modelo 7B ao consultar 250 resoluções no mesmo prompt, use o pré-filtro determinístico em Python (que também inicia o `ollama serve` automaticamente se estiver fechado):
+
+```powershell
+# Chat interativo no terminal (ou comando global `cvm-chat` de qualquer pasta)
+python src/consultar_cvm.py --num-gpu 16
+
+# Pergunta única ou bateria de validação
+python src/consultar_cvm.py -p "O que faz a Resolução CVM nº 86?" --num-gpu 16
+python src/consultar_cvm.py --lote-teste --num-gpu 16
+
+# Proxy automático compatível com Ollama (/api/chat, /api/generate) e OpenAI (/v1/chat/completions)
+python src/proxy_cvm.py --port 11435 --num-gpu 16
+```
+
 > **Requisitos e Desempenho:** consulte **[`DESEMPENHO.md`](./DESEMPENHO.md)** para ver os testes reais de consumo de RAM/VRAM, limite de núcleos (`num_thread`) e simulação em GPU de 4 GB (`num_gpu=16`).
+> **Análise de Alucinações:** consulte **[`Relatorio Tecnicos/ANALISE_ALUCINACOES_SEM_RAG.md`](./Relatorio%20Tecnicos/ANALISE_ALUCINACOES_SEM_RAG.md)** para o comparativo antes/depois do pré-filtro.
 
 > **Backend nativo vs Docker:** os scripts usam `OLLAMA_HOST` (padrão `http://127.0.0.1:11434`).
 > O modelo padrão é `qwen2.5-coder:7b`; troque com `--modelo` (ex.: `--modelo qwen2.5:3b` se

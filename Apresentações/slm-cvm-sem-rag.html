@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SLM-CVM — O que foi realizado sem RAG e sem pgvector</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Archivo:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   === TEMA "CARTÓRIO DIGITAL" — tinta verde-escura + ouro ===
+   ============================================================ */
+:root {
+  --bg: #0f1210;
+  --panel: #171d19;
+  --panel2: #1c231e;
+  --ink: #e9e5d8;
+  --muted: #9aa396;
+  --gold: #d9a441;
+  --teal: #64b6a0;
+  --red: #e06c5a;
+  --border: #2b332c;
+  --display: "Fraunces", Georgia, "Times New Roman", serif;
+  --body: "Archivo", "Segoe UI", Helvetica, sans-serif;
+  --mono: "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  background:
+    radial-gradient(ellipse 90% 60% at 70% -10%, rgba(217,164,65,.07), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 10% 110%, rgba(100,182,160,.06), transparent 60%),
+    repeating-linear-gradient(0deg, transparent 0 clamp(28px,4vh,44px), rgba(233,229,216,.022) clamp(28px,4vh,44px) calc(clamp(28px,4vh,44px) + 1px)),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--body);
+  overflow: hidden;
+}
+
+/* === SLIDES — viewport fitting (inegociável) === */
+.deck { position: relative; height: 100vh; height: 100dvh; }
+.slide {
+  position: absolute; inset: 0;
+  height: 100vh; height: 100dvh;
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(1.2rem, 4.5vh, 3.2rem) clamp(1.4rem, 6vw, 6rem);
+  gap: clamp(.5rem, 1.6vh, 1.1rem);
+}
+.slide.active { display: flex; animation: slideIn .45s ease both; }
+@keyframes slideIn { from { opacity: 0; transform: translateY(clamp(6px,1.2vh,14px)); } to { opacity: 1; transform: none; } }
+
+/* === TIPOGRAFIA === */
+.kicker {
+  font-family: var(--mono); font-size: clamp(.62rem, 1.2vw, .8rem);
+  letter-spacing: .22em; text-transform: uppercase; color: var(--gold);
+}
+h1 { font-family: var(--display); font-weight: 900; font-size: clamp(1.9rem, 5.6vw, 4.2rem); line-height: 1.04; }
+h2 { font-family: var(--display); font-weight: 600; font-size: clamp(1.35rem, 3.4vw, 2.5rem); line-height: 1.1; }
+h2 em, h1 em { font-style: italic; color: var(--gold); }
+.sub { color: var(--muted); font-size: clamp(.82rem, 1.6vw, 1.05rem); line-height: 1.5; max-width: 72ch; }
+b { color: var(--ink); }
+.hl { color: var(--gold); font-weight: 700; }
+.ok { color: var(--teal); font-weight: 700; }
+.bad { color: var(--red); font-weight: 700; }
+code { font-family: var(--mono); font-size: .92em; background: var(--panel2); border: 1px solid var(--border); border-radius: 4px; padding: .06em .35em; color: var(--teal); }
+
+/* === LISTAS / CARDS / TABELAS === */
+.bullets { list-style: none; display: flex; flex-direction: column; gap: clamp(.4rem, 1.3vh, .85rem); max-width: 88ch; }
+.bullets li {
+  font-size: clamp(.85rem, 1.7vw, 1.12rem); line-height: 1.45;
+  padding-left: clamp(1rem, 2vw, 1.5rem); position: relative; color: var(--ink);
+}
+.bullets li::before { content: "§"; position: absolute; left: 0; color: var(--gold); font-family: var(--display); }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(.5rem, 1.4vw, 1rem); }
+.grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(.5rem, 1.4vw, 1rem); }
+.card {
+  background: var(--panel); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+  border-radius: 6px; padding: clamp(.6rem, 1.6vh, 1.1rem) clamp(.7rem, 1.6vw, 1.2rem);
+}
+.card.teal { border-left-color: var(--teal); }
+.card.red { border-left-color: var(--red); }
+.card h3 { font-family: var(--display); font-size: clamp(.92rem, 1.8vw, 1.2rem); color: var(--gold); margin-bottom: clamp(.2rem,.6vh,.4rem); }
+.card.teal h3 { color: var(--teal); }
+.card.red h3 { color: var(--red); }
+.card p { font-size: clamp(.76rem, 1.4vw, .95rem); line-height: 1.45; color: var(--muted); }
+.card p b { color: var(--ink); }
+table { border-collapse: collapse; width: 100%; font-size: clamp(.68rem, 1.35vw, .92rem); }
+th { font-family: var(--mono); text-transform: uppercase; letter-spacing: .08em; font-size: .82em; color: var(--gold); text-align: left; padding: clamp(.25rem,.7vh,.5rem) clamp(.4rem,.9vw,.7rem); border-bottom: 2px solid var(--gold); }
+td { padding: clamp(.25rem,.7vh,.5rem) clamp(.4rem,.9vw,.7rem); border-bottom: 1px solid var(--border); color: var(--muted); line-height: 1.35; vertical-align: top; }
+td b, td strong { color: var(--ink); }
+tr:nth-child(even) td { background: rgba(233,229,216,.025); }
+
+/* === CÓDIGO === */
+pre.code {
+  font-family: var(--mono); font-size: clamp(.62rem, 1.25vw, .88rem); line-height: 1.55;
+  background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
+  padding: clamp(.7rem, 1.8vh, 1.2rem) clamp(.8rem, 1.8vw, 1.4rem);
+  overflow: hidden; max-height: 62vh; color: #cfd6c9;
+}
+pre.code .k { color: var(--gold); } pre.code .s { color: var(--teal); }
+pre.code .n { color: #e8b7d4; } pre.code .c { color: #6d7a6e; font-style: italic; }
+pre.code .f { color: #8fc7e8; }
+
+/* === NÚMEROS GRANDES === */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(.5rem,1.4vw,1rem); }
+.stat { background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: clamp(.5rem,1.5vh,1rem) clamp(.6rem,1.4vw,1rem); text-align: center; }
+.stat .v { font-family: var(--display); font-weight: 900; font-size: clamp(1.3rem, 3.4vw, 2.6rem); color: var(--gold); line-height: 1.1; }
+.stat .l { font-family: var(--mono); font-size: clamp(.56rem, 1.05vw, .74rem); color: var(--muted); text-transform: uppercase; letter-spacing: .1em; margin-top: .3em; }
+
+/* === SELO / ASSINATURA === */
+.stamp {
+  font-family: var(--mono); font-size: clamp(.6rem,1.1vw,.78rem); color: var(--muted);
+  border: 1px dashed var(--border); border-radius: 4px; padding: .35em .8em;
+  display: inline-block; letter-spacing: .12em;
+}
+.blink { animation: blink 1.1s steps(2) infinite; color: var(--gold); }
+@keyframes blink { 50% { opacity: 0; } }
+
+/* === HUD / PROGRESSO / TOC === */
+.pbar { position: fixed; top: 0; left: 0; height: 3px; width: 0; background: linear-gradient(90deg, var(--gold), var(--teal)); z-index: 60; }
+.hud {
+  position: fixed; bottom: clamp(.5rem,1.6vh,1rem); left: 50%; transform: translateX(-50%);
+  display: flex; gap: clamp(.3rem,.7vw,.5rem); align-items: center; z-index: 50;
+  background: rgba(15,18,16,.82); border: 1px solid var(--border); border-radius: 8px;
+  padding: clamp(.25rem,.6vh,.4rem) clamp(.4rem,.9vw,.7rem); backdrop-filter: blur(6px);
+  max-width: 96vw;
+}
+.hud button {
+  background: var(--panel); border: 1px solid var(--border); color: var(--ink);
+  font-family: var(--mono); font-size: clamp(.62rem, 1.1vw, .78rem); padding: .3rem .6rem; border-radius: 4px;
+  cursor: pointer; white-space: nowrap; transition: border-color .2s, color .2s;
+}
+.hud button:hover { border-color: var(--gold); color: var(--gold); }
+.hud button.on { border-color: var(--teal); color: var(--teal); }
+.hud .counter { margin-left: auto; color: var(--muted); font-size: clamp(.62rem, 1.1vw, .78rem); font-family: var(--mono); }
+.hud .counter b { color: var(--gold); }
+.toc {
+  position: fixed; inset: 0; background: rgba(15,18,16,.96); z-index: 70;
+  display: none; padding: clamp(1.5rem,5vh,3rem) clamp(1.5rem,7vw,6rem); overflow-y: auto;
+}
+.toc.open { display: block; }
+.toc h2 { font-family: var(--display); margin-bottom: clamp(.6rem,2vh,1.2rem); }
+.toc ol { columns: 2; column-gap: clamp(1.5rem,4vw,3rem); list-style: none; counter-reset: t; }
+.toc li { counter-increment: t; margin-bottom: clamp(.3rem,.9vh,.55rem); break-inside: avoid; }
+.toc li::before { content: counter(t, decimal-leading-zero); font-family: var(--mono); color: var(--gold); margin-right: .7em; font-size: .8em; }
+.toc a { color: var(--ink); text-decoration: none; font-size: clamp(.82rem,1.6vw,1.02rem); }
+.toc a:hover { color: var(--gold); }
+.toc .close { position: absolute; top: clamp(.6rem,1.5vh,1.2rem); right: clamp(.8rem,2vw,2rem); background: none; border: 1px solid var(--border); color: var(--muted); font-size: clamp(.85rem,1.3vw,1rem); border-radius: 4px; cursor: pointer; padding: .25rem .6rem; }
+
+/* === BREAKPOINTS DE ALTURA === */
+@media (max-height: 700px) { .slide { gap: clamp(.35rem,1.1vh,.7rem); } .bullets { gap: clamp(.3rem,.9vh,.55rem); } }
+@media (max-height: 600px) { .slide { padding-top: clamp(.8rem,2.5vh,1.4rem); padding-bottom: clamp(2.2rem,6vh,3rem); } pre.code { max-height: 56vh; } }
+@media (max-height: 500px) { .sub { display: none; } .stat .l { display: none; } }
+@media (max-width: 760px) { .grid2, .grid3, .stats { grid-template-columns: 1fr 1fr; } .toc ol { columns: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .slide.active { animation: none; } .blink { animation: none; }
+  * { transition: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+
+<!-- 01 CAPA -->
+<section class="slide" data-title="Capa" data-duration="12000"
+  data-narration="SLM-CVM. Iniciação científica de Kelvin e Yuri. Esta apresentação mostra o que foi efetivamente realizado no projeto sem implementar pgvector e sem RAG: acervo espelhado, dados limpos, modelo local com trava de domínio, diagnóstico de alucinações e um pré-filtro determinístico em Python que levou a precisão de vinte por cento a cem por cento nos testes direcionados.">
+  <div class="kicker">iniciação científica · kelvin &amp; yuri · 2026</div>
+  <h1>SLM-CVM:<br>inteligência regulatória <em>sem RAG</em></h1>
+  <p class="sub">O que foi realizado com um modelo local de 7B, prompt engineering e Python puro — antes de qualquer banco vetorial.</p>
+  <span class="stamp">PROCESSO Nº 001/2026 · TRILHA B — IA &amp; SLM · ETAPA 01 CONCLUÍDA</span>
+</section>
+
+<!-- 02 DESAFIO -->
+<section class="slide" data-title="O desafio" data-duration="14000"
+  data-narration="A pergunta de pesquisa: um modelo pequeno, rodando localmente, consegue responder com fidelidade sobre as resoluções da CVM usando apenas prompt e contexto? Sem nuvem, sem fine-tuning, sem banco vetorial. A resposta curta: consegue, mas não do jeito óbvio. O caminho até lá é o conteúdo desta apresentação.">
+  <div class="kicker">01 · a pergunta de pesquisa</div>
+  <h2>Um SLM local pode ser <em>fiel</em> à norma?</h2>
+  <ul class="bullets">
+    <li><b>253 Resoluções CVM</b> espelhadas, limpas e indexadas — o dado é o ativo.</li>
+    <li>Modelo: <code>qwen2.5-coder:7b</code> via Ollama, 100% local, custo zero de API.</li>
+    <li>Restrição da etapa: <span class="hl">sem pgvector, sem RAG vetorial</span> — só prompt + Python.</li>
+    <li>Fidelidade normativa não é luxo: número, data e ementa errados = parecer inútil.</li>
+    <li>Tese comprovada: <b>pré-filtro determinístico &gt; prompt stuffing</b> em modelo 7B.</li>
+  </ul>
+</section>
+
+<!-- 03 TRILHAS -->
+<section class="slide" data-title="As duas trilhas" data-duration="13000"
+  data-narration="O projeto tem duas trilhas complementares. Kelvin cuida da trilha B: infraestrutura de inferência local, organização do acervo, compreensão por prompt e validação estruturada. Yuri cuida da trilha A: modelagem de dados, governança do data lake e ingestão. Esta apresentação cobre o que foi entregue na etapa um. A etapa dois, com Postgres e pgvector, está preparada mas não implementada.">
+  <div class="kicker">02 · organização da pesquisa</div>
+  <h2>Duas trilhas, <em>uma etapa</em> concluída</h2>
+  <div class="grid2">
+    <div class="card"><h3>Kelvin — Trilha B · IA &amp; SLM</h3><p>Inferência local (Ollama), organização do acervo, compreensão por prompt-trava, validação Pydantic, modelo-alias <code>cvm-resolucoes</code>, pré-filtro e proxy.</p></div>
+    <div class="card teal"><h3>Yuri — Trilha A · Dados &amp; Banco</h3><p>Governança do Data Lake (raw / processed / quarantine / silo), ingestão documental, deduplicação SHA-256, catalogação e modelagem relacional.</p></div>
+  </div>
+  <p class="sub">Etapa 01 (esta apresentação): tudo acima, <b>sem vetor</b>. Etapa 02: <code>db/init.sql</code> + <code>docker-compose.yml</code> já prontos para PostgreSQL 16 + pgvector — <span class="hl">deliberadamente não implementada ainda</span>.</p>
+</section>
+
+<!-- 04 CORPUS -->
+<section class="slide" data-title="O acervo espelhado" data-duration="14000"
+  data-narration="O scraping espelhou duas mil quinhentas e setenta e cinco normas nas oito categorias do portal da CVM, mais três páginas do gov.br. Medido no disco: dois mil setecentos e trinta e um arquivos markdown, oitenta e três vírgula seis megabytes de texto. As maiores zonas: deliberações, novecentos e vinte e dois; instruções, seiscentos e sessenta e um; ofícios circulares, seiscentos; resoluções, duzentos e noventa e dois. Zero falhas de download no portal principal.">
+  <div class="kicker">03 · scraping — números medidos no disco</div>
+  <h2>O acervo: <em>2.575 normas</em> espelhadas</h2>
+  <div class="stats">
+    <div class="stat"><div class="v">2.731</div><div class="l">arquivos .md em docs/</div></div>
+    <div class="stat"><div class="v">83,6 MB</div><div class="l">texto extraído</div></div>
+    <div class="stat"><div class="v">8+3</div><div class="l">categorias CVM + gov.br</div></div>
+    <div class="stat"><div class="v">0</div><div class="l">falhas de download</div></div>
+  </div>
+  <table>
+    <tr><th>Zona</th><th>Arquivos</th><th>Zona</th><th>Arquivos</th></tr>
+    <tr><td><b>deliberações</b></td><td>922</td><td>pareceres de orientação</td><td>87</td></tr>
+    <tr><td><b>instruções</b></td><td>661</td><td>notas explicativas (SNC)</td><td>83</td></tr>
+    <tr><td><b>ofícios circulares</b></td><td>600</td><td>portarias</td><td>69</td></tr>
+    <tr><td><b>resoluções</b></td><td>292</td><td>audiências públicas + gov.br</td><td>17</td></tr>
+  </table>
+</section>
+
+<!-- 05 DIFICULDADES -->
+<section class="slide" data-title="Dificuldades vencidas" data-duration="15000"
+  data-narration="O caminho teve obstáculos reais. O catálogo do portal era dinâmico: só mostrava dez itens, e foi preciso simular os parâmetros de consulta do servidor com paginação para categorias de quinhentos itens. Dois layouts de anexos no mesmo portal. Texto integral preso em PDFs com cabeçalhos repetidos. Links quebrados no gov.br resolvidos por cruzamento local. No Windows, caminhos acima de duzentos e sessenta caracteres bloquearam o Git, e trezentos e vinte e seis megabytes de binários foram excluídos do versionamento. Duas normas multi-etiqueta colidiam em nome e foram separadas por subpasta.">
+  <div class="kicker">04 · engenharia de coleta</div>
+  <h2>O que <em>quase</em> parou o pipeline</h2>
+  <ul class="bullets">
+    <li><b>Catálogo oculto:</b> portal exibia só 10 itens → parâmetros de consulta + paginação simulados (&gt;500 itens por categoria).</li>
+    <li><b>Dois layouts:</b> anexos em tabela (normas antigas) vs links soltos (novas) — coleta adaptada aos dois.</li>
+    <li><b>PDFs:</b> texto integral preso em anexos; cabeçalhos/rodapés institucionais filtrados na extração.</li>
+    <li><b>gov.br 404:</b> links antigos quebrados → recuperados por cruzamento com o acervo local.</li>
+    <li><b>Windows:</b> paths &gt;260 chars travaram o Git → suporte a caminhos longos habilitado.</li>
+    <li><b>Git leve:</b> 326 MB de binários (PDF/DOC) fora do versionamento; colisão multi-tag resolvida por subpasta.</li>
+  </ul>
+</section>
+
+<!-- 06 LIMPEZA -->
+<section class="slide" data-title="Limpeza e índice" data-duration="14000"
+  data-narration="O script organizar resoluções removeu o ruído de espelhamento: linhas de fonte, seções de download, marcações sub, rodapés e assinaturas. Sobrou metadado mais texto normativo puro: duzentos e cinquenta e três arquivos limpos, três vírgula sete megabytes, em trinta e cinco pastas temáticas. O índice de assuntos tem seis campos por norma: órgão, norma, data, etiqueta, ementa e caminho do arquivo limpo. Duzentos e cinquenta e três registros, da resolução um à duzentos e cinquenta e um.">
+  <div class="kicker">05 · src/organizar_resolucoes.py</div>
+  <h2>De 83,6 MB de ruído a <em>3,7 MB de norma</em></h2>
+  <div class="grid2">
+    <div class="card"><h3>O que saiu</h3><p>Linhas de fonte/espelho · seção de anexos PDF/DOC · marcações <code>&lt;sub&gt;</code> · rodapé institucional · bloco de assinatura.</p></div>
+    <div class="card teal"><h3>O que ficou</h3><p><b>253 .md limpos</b> (metadados + texto normativo) em <b>35 pastas temáticas</b> — Normas Contábeis (98), Sem Tag (78), Ofertas Públicas (13)…</p></div>
+  </div>
+<pre class="code"><span class="c">// data_lake/processed/_indice_assuntos.json — 253 registros (nº 1 → 251)</span>
+{ <span class="s">"orgao"</span>: <span class="s">"CVM"</span>, <span class="s">"norma"</span>: <span class="s">"Resolução CVM nº 1"</span>, <span class="s">"data"</span>: <span class="s">"6/08/2020"</span>,
+  <span class="s">"tag"</span>: <span class="s">"Atos expedidos pela CVM"</span>,
+  <span class="s">"assunto"</span>: <span class="s">"Estabelece a nomenclatura de atos a serem expedidos..."</span>,
+  <span class="s">"arquivo_limpo"</span>: <span class="s">"processed/Atos_expedidos_pela_CVM/resol001.md"</span> }</pre>
+</section>
+
+<!-- 07 COMPREENSÃO -->
+<section class="slide" data-title="Leitura pelo SLM: 253/253" data-duration="14000"
+  data-narration="Todas as duzentos e cinquenta e três resoluções limpas foram submetidas ao modelo local com um prompt-trava: português do Brasil, apenas o objeto da norma, sem código, sem história. A saída foi forçada a um schema Pydantic com quatro campos. Resultado medido: duzentos e cinquenta e três fichas, zero erros, mil cento e quarenta segundos — dezenove minutos. Uma segunda passada de extração de metadados confirmou: duzentos e cinquenta e três processados, zero falhas, mil e sessenta segundos.">
+  <div class="kicker">06 · src/compreender_resolucoes.py</div>
+  <h2>O SLM leu <em>100%</em> do acervo limpo</h2>
+  <div class="stats">
+    <div class="stat"><div class="v">253/253</div><div class="l">fichas estruturadas</div></div>
+    <div class="stat"><div class="v">0</div><div class="l">erros / falhas</div></div>
+    <div class="stat"><div class="v">~19 min</div><div class="l">1.140 s medidos</div></div>
+    <div class="stat"><div class="v">4 campos</div><div class="l">schema Pydantic</div></div>
+  </div>
+<pre class="code"><span class="c">// ficha real — tests/compreensao_resolucoes.json</span>
+{ <span class="s">"norma"</span>: <span class="s">"Resolução CVM nº 21"</span>,
+  <span class="s">"assunto"</span>: <span class="s">"Exercício profissional de administração de carteiras de valores mobiliários"</span>,
+  <span class="s">"se_aplica_a"</span>: <span class="s">"Administradores de carteiras de valores mobiliários"</span>,
+  <span class="s">"tem_prazo_ou_multa"</span>: <span class="k">false</span> }</pre>
+  <p class="sub">Trava do prompt: pt-BR · só o objeto da norma · sem código · sem história · só CVM. Segunda passada (<code>treino_resolucoes.py</code>): 253 processados, 0 erros, 1.060 s.</p>
+</section>
+
+<!-- 08 MODELO -->
+<section class="slide" data-title="O modelo cvm-resolucoes" data-duration="14000"
+  data-narration="O script criar modelo trava registrou no Ollama um alias chamado cvm-resolucoes, derivado do qwen2.5-coder sete bilhões, com o system prompt queimado dentro do modelo: uma biblioteca compacta de duzentas e cinquenta resoluções, vinte e três mil setecentos e vinte e quatro caracteres, cerca de oito mil seiscentos e setenta e um tokens, janela de dezesseis mil trezentos e oitenta e quatro, temperatura zero. A trava de domínio foi testada: sete de sete — responde CVM, bloqueia Python, história, receita e esportes com a frase exata: não consta na base de conhecimento da CVM.">
+  <div class="kicker">07 · src/criar_modelo_trava.py</div>
+  <h2><em>cvm-resolucoes</em>: a trava queimada no modelo</h2>
+  <div class="grid2">
+    <div class="card"><h3>Configuração</h3><p>Base <code>qwen2.5-coder:7b</code> (~4,7 GB) · <code>num_ctx 16384</code> · <code>temperature 0</code> · <code>repeat_penalty 1.1</code> · SYSTEM embutido: <b>250 normas, 23.724 chars ≈ 8.671 tokens</b>.</p></div>
+    <div class="card teal"><h3>Trava de domínio — 7/7</h3><p>Triagem temática antes de recusar: se a pergunta toca a biblioteca, responde sob a ótica da CVM (sem código). Fora do domínio → <b>"Não consta na base de conhecimento da CVM."</b></p></div>
+  </div>
+  <p class="sub">Consumível por qualquer cliente: <code>ollama run cvm-resolucoes</code> · <code>/api/chat</code> · rota OpenAI <code>/v1/chat/completions</code> — a mesma receita para VS Code/Cline, Cursor, Aider, OpenCode.</p>
+</section>
+
+<!-- 09 DESEMPENHO -->
+<section class="slide" data-title="Desempenho medido" data-duration="15000"
+  data-narration="Benchmarks reais, não estimativas. Só CPU: o prompt de oito mil seiscentos tokens não terminou em trezentos segundos — timeout, seis gigabytes de RAM. Híbrido com dezesseis camadas na GPU: quatro vírgula dois gigabytes, oitenta e um por cento GPU; leitura do prompt em dezoito vírgula dois segundos, quatrocentos e setenta e seis tokens por segundo; geração a cinco tokens por segundo; total de cinquenta e seis vírgula nove segundos com reload. Com quatro núcleos, três vírgula dois tokens por segundo; com dois, dois vírgula um. Mínimo viável: quatro gigabytes de GPU e quatro núcleos.">
+  <div class="kicker">08 · DESEMPENHO.md — benchmarks reais</div>
+  <h2>O preço do <em>prompt stuffing</em></h2>
+  <table>
+    <tr><th>Cenário</th><th>Memória</th><th>Leitura (8.671 tok)</th><th>Geração</th><th>Total</th></tr>
+    <tr><td><b>100% CPU</b> (<code>num_gpu 0</code>)</td><td>6,0 GB RAM</td><td class="bad">&gt;300 s — timeout</td><td>—</td><td class="bad">inviável</td></tr>
+    <tr><td><b>Híbrido</b> (<code>num_gpu 16</code>)</td><td>4,2 GB · 81% GPU</td><td>18,2 s (476,5 tok/s)</td><td class="ok">5,0 tok/s</td><td>56,9 s</td></tr>
+    <tr><td>Híbrido + 4 núcleos</td><td>4,2 GB</td><td>17,8 s</td><td>3,2 tok/s</td><td>59,6 s</td></tr>
+    <tr><td>Híbrido + 2 núcleos</td><td>4,2 GB</td><td>17,8 s</td><td class="bad">2,1 tok/s</td><td>67,8 s</td></tr>
+  </table>
+  <p class="sub">Mínimo viável: ~4 GB de GPU/iGPU + 4 núcleos + 16 GB de RAM. Recomendado: 6–8 GB de VRAM dedicada. <span class="hl">O prompt gigante é o gargalo — não o modelo.</span></p>
+</section>
+
+<!-- 10 ALUCINAÇÕES -->
+<section class="slide" data-title="Diagnóstico: alucinações" data-duration="15000"
+  data-narration="Cinco resoluções testadas contra o texto oficial. Número e data: cinco de cinco. Conteúdo: apenas uma de cinco — vinte por cento. O padrão: o modelo inventava relações, dizia que a resolução vinte e quatro alterava a trinta e cinco e a oitenta, quando ela aprova o Regimento Interno. Pior: efeito eco — os números inventados contaminavam os turnos seguintes; a oitenta e seis citava a cento e sessenta e um, e a cento e sessenta e um citava de volta a oitenta e seis. E o parâmetro num_gpu não corrige nada disso: é informação que falta, não hardware.">
+  <div class="kicker">09 · Relatorio Tecnicos/ANALISE_ALUCINACOES_SEM_RAG.md</div>
+  <h2>5/5 em número e data. <em>1/5</em> em conteúdo.</h2>
+  <table>
+    <tr><th>Norma</th><th>O modelo disse</th><th>O texto oficial diz</th><th></th></tr>
+    <tr><td><b>Res. 24</b></td><td>"altera as Res. 35 e 80"</td><td>Aprova o Regimento Interno da CVM</td><td class="bad">✗</td></tr>
+    <tr><td><b>Res. 175</b></td><td>fundos de investimento</td><td>Confere com a ementa oficial</td><td class="ok">✓</td></tr>
+    <tr><td><b>Res. 86</b></td><td>"altera a Res. 161"</td><td>CIC hoteleiro; revoga a Instr. 602/18</td><td class="bad">✗</td></tr>
+    <tr><td><b>Res. 161</b></td><td>"altera a Res. 86"</td><td>Coordenadores de ofertas públicas</td><td class="bad">✗</td></tr>
+    <tr><td><b>Res. 193</b></td><td>"altera as Res. 175 e 86"</td><td>Relatório de sustentabilidade — ISSB</td><td class="bad">✗</td></tr>
+  </table>
+  <p class="sub">Padrões: <b>relações inventadas</b> (clichê jurídico preenche lacuna) · <b>efeito eco</b> entre turnos · <code>num_gpu</code> só muda velocidade — <span class="hl">a causa é informacional</span>.</p>
+</section>
+
+<!-- 11 PROMPT V2 -->
+<section class="slide" data-title="Prompt v2 e o limite físico" data-duration="15000"
+  data-narration="A segunda versão do prompt atacou a causa: âncoras com o número entre colchetes, data compacta, extração explícita de altera e revoga das ementas, regra proibitiva no topo e no rodapé, temperatura zero e top k um. As relações inventadas morreram. Mas apareceu outro erro: lost in the middle. Com duzentas e cinquenta linhas e trinta e dois mil novecentos caracteres no system, o modelo sete bilhões errava o ponteiro — citava o registro vinte e sete no lugar do oitenta e seis, o duzentos e vinte e dois no lugar do cento e sessenta e um. É o limite físico de atenção do modelo, não falta de instrução.">
+  <div class="kicker">10 · iteração 2 — prompt engineering</div>
+  <h2>Matou a invenção. <em>Bateu no teto</em> da atenção.</h2>
+  <div class="grid2">
+    <div class="card teal"><h3>O que funcionou</h3><p>Âncoras <code>[NNN]</code> + data <code>DD/MM/AA</code> + campo <code>altera/revoga</code> extraído da ementa · proibição explícita no topo e rodapé · <code>temp 0, top_k 1, top_p 0.1</code> → <b>zero relações inventadas</b> nas normas localizadas.</p></div>
+    <div class="card red"><h3>O que sobrou — Lost in the Middle</h3><p>250 linhas / <b>32.899 chars</b> no SYSTEM → erro de ponteiro: citou <code>[027]</code> no lugar de <code>[086]</code>, <code>[222]</code> no lugar de <code>[161]</code>; misturou conteúdo de linhas distantes. <b>Limite físico de atenção do 7B.</b></p></div>
+  </div>
+  <p class="sub">Conclusão do relatório: antes de qualquer vetor, <span class="hl">enviar menos linhas</span> — pré-filtro leve em Python sobre o índice, 1 a 5 normas por pergunta.</p>
+</section>
+
+<!-- 12 PRÉ-FILTRO -->
+<section class="slide" data-title="O pré-filtro determinístico" data-duration="15000"
+  data-narration="A solução implementada em consultar CVM ponto py: três rotas determinísticas. Rota um: regex captura o número citado na pergunta — resolução oitenta e seis, CVM vinte e quatro — e devolve o registro exato. Rota dois: palavras-chave sem acentos e sem stopwords, pontuadas contra norma, etiqueta e ementa; as cinco melhores. Rota três: perguntas panorâmicas sobre as mais recentes devolvem as oito normas de maior número. Quando há match único, o contexto inclui os primeiros novecentos caracteres do texto oficial. A janela caiu de dezesseis mil para quatro mil tokens.">
+  <div class="kicker">11 · src/consultar_cvm.py — a virada</div>
+  <h2>Pré-filtro: <em>3 rotas</em>, zero vetor</h2>
+  <div class="grid3">
+    <div class="card"><h3>① Número explícito</h3><p>Regex captura "nº 86", "Resolução 175", "CVM 24" → <b>match exato</b> no índice. Sem chance de ponteiro errado.</p></div>
+    <div class="card"><h3>② Palavras-chave</h3><p>Normaliza acentos, remove stopwords, pontua <code>norma+tag+assunto</code> → <b>top-5</b> por score de tokens.</p></div>
+    <div class="card"><h3>③ Panorâmica</h3><p>"mais recentes / principais / 2026" → as <b>8 normas de maior número</b> (251, 250, 249…).</p></div>
+  </div>
+  <ul class="bullets">
+    <li>Match único → contexto ganha os <b>900 primeiros chars do texto oficial</b> da norma.</li>
+    <li><code>num_ctx</code> caiu de <b>16384 → 4096</b>; contexto vazio → bloqueio imediato, sem gastar GPU.</li>
+  </ul>
+</section>
+
+<!-- 13 CÓDIGO -->
+<section class="slide" data-title="Código do pré-filtro" data-duration="15000"
+  data-narration="O coração do filtro em dez linhas. A regex procura o número depois de resolução, CVM ou número. Se achou, filtra o índice pelo número exato e retorna. Senão, tokeniza a pergunta sem acentos, descarta stopwords, e soma um ponto por token presente na linha norma, etiqueta e assunto. Ordena por score e devolve as cinco melhores. Cem por cento Python padrão — nenhuma dependência externa, nenhum embedding, nenhum banco.">
+  <div class="kicker">12 · o coração — buscar_normas()</div>
+  <h2>Dez linhas que <em>venceram</em> o 7B</h2>
+<pre class="code">nums = re.findall(<span class="s">r"(?:resolu[çc][ãa]o(?:\s+cvm)?\s*(?:n[º°o.]*\s*)?|cvm\s*|n[º°]\s*)(\d{1,3})\b"</span>,
+                  pergunta, flags=re.IGNORECASE)
+<span class="k">if</span> nums:                                   <span class="c"># rota ①: número explícito → exato</span>
+    <span class="k">return</span> [i <span class="k">for</span> i <span class="k">in</span> indice <span class="k">if</span> num(i[<span class="s">"norma"</span>]) <span class="k">in</span> alvos][:top_k]
+
+tokens = [t <span class="k">for</span> t <span class="k">in</span> re.findall(<span class="s">r"[a-z0-9]+"</span>, sem_acento(pergunta))
+          <span class="k">if</span> len(t) &gt;= <span class="n">3</span> <span class="k">and</span> t <span class="k">not in</span> STOPWORDS]
+score = <span class="k">lambda</span> i: sum(<span class="n">1</span> <span class="k">for</span> tok <span class="k">in</span> tokens
+                      <span class="k">if</span> tok <span class="k">in</span> sem_acento(i[<span class="s">"norma"</span>] + i[<span class="s">"tag"</span>] + i[<span class="s">"assunto"</span>]))
+<span class="k">return</span> sorted((i <span class="k">for</span> i <span class="k">in</span> indice <span class="k">if</span> score(i) &gt; <span class="n">0</span>),
+              key=score, reverse=<span class="k">True</span>)[:top_k]   <span class="c"># rota ②: top-5</span></pre>
+  <p class="sub">Python padrão (<code>re</code>, <code>json</code>, <code>unicodedata</code>, <code>urllib</code>) — <span class="hl">zero dependência externa</span>. O "RAG" aqui é um <code>for</code> com contador.</p>
+</section>
+
+<!-- 14 RESULTADO 7/7 -->
+<section class="slide" data-title="Resultado: 7/7" data-duration="15000"
+  data-narration="A mesma bateria que antes falhava, agora com pré-filtro: sete de sete. As cinco resoluções corretas em número, data e ementa. O pedido de script Python bloqueado com a frase exata. E a pergunta de negócio — plataforma de investimento coletivo para pequenas empresas — encontrou a resolução oitenta e oito, com a revogação da instrução quinhentos e oitenta e oito. Esta consulta foi reexecutada ao vivo na preparação desta apresentação: o filtro selecionou a oitenta e oito e a resposta saiu fiel ao texto oficial.">
+  <div class="kicker">13 · --lote-teste --num-gpu 16</div>
+  <h2>De 20% a <em>7/7 (100%)</em></h2>
+  <table>
+    <tr><th>Caso</th><th>Pré-filtro selecionou</th><th>Resultado</th></tr>
+    <tr><td>Res. 24 / 175 / 86 / 161 / 193</td><td>a norma exata, uma a uma</td><td class="ok">5/5 ✓ ementa, data e relações fiéis</td></tr>
+    <tr><td>"Escreva um script Python…"</td><td>nenhuma → bloqueio imediato</td><td class="ok">✓ "Não consta na base de conhecimento da CVM."</td></tr>
+    <tr><td>"plataforma de investimento coletivo…"</td><td>top-5 temático → <b>nº 88</b></td><td class="ok">✓ CIC + revogação da Instr. 588/17</td></tr>
+  </table>
+<pre class="code"><span class="c">$ python src/consultar_cvm.py -p "O que faz a Resolução CVM nº 88?"   # reexecutado ao vivo</span>
+[Pré-filtro]: [<span class="s">'Resolução CVM nº 88'</span>]
+A Resolução CVM nº 88, de 27 de abril de 2022, dispõe sobre a oferta pública de
+distribuição de valores mobiliários de emissão de sociedades empresárias de pequeno
+porte (...) por meio de plataforma eletrônica de investimento participativo e
+revoga a Instrução CVM nº 588, de 13 de julho de 2017.</pre>
+</section>
+
+<!-- 15 PROXY -->
+<section class="slide" data-title="Proxy transparente" data-duration="14000"
+  data-narration="Para que qualquer aplicativo ganhe o pré-filtro sem mudar uma linha: o proxy CVM na porta onze mil quatrocentos e trinta e cinco fala os dois protocolos — Ollama, com api chat, api generate e api tags, e OpenAI, com v1 chat completions. Toda UI, extensão ou agente apontado para ele passa automaticamente pelo filtro. O garantir ollama verifica a porta padrão e sobe o ollama serve sozinho se estiver morto. O comando cvm-chat fica global no terminal, com chat interativo, barra gpu e barra sair. E há instalador de autostart no Windows.">
+  <div class="kicker">14 · src/proxy_cvm.py + cvm-chat.cmd</div>
+  <h2>O filtro virou <em>infraestrutura</em></h2>
+  <div class="grid2">
+    <div class="card"><h3>Proxy :11435 — dois dialetos</h3><p>Compatível <b>Ollama</b> (<code>/api/chat</code>, <code>/api/generate</code>, <code>/api/tags</code>) e <b>OpenAI</b> (<code>/v1/chat/completions</code>). Qualquer UI/IDE/agente apontado para ele ganha o pré-filtro <b>sem alterar código</b>.</p></div>
+    <div class="card teal"><h3>Auto-ativação + onipresença</h3><p><code>garantir_ollama()</code>: porta 11434 morta → sobe <code>ollama serve</code> sozinho (20 s de espera). <code>cvm-chat</code> global no terminal (<code>/gpu N</code>, <code>/sair</code>, <code>-p</code>). Autostart Windows via <code>instalar_autostart_windows.ps1</code>.</p></div>
+  </div>
+  <p class="sub">Validado nos endpoints <code>/health</code>, <code>/api/chat</code> e <code>/v1/chat/completions</code> — <span class="hl">a precisão deixou de depender de quem pergunta</span>.</p>
+</section>
+
+<!-- 16 CASO 2026 -->
+<section class="slide" data-title="O caso das normas de 2026" data-duration="15000"
+  data-narration="O teste mais duro: pergunta sobre as principais e mais recentes resoluções. Direto na porta padrão, sem filtro: zero de dez confiáveis — o modelo escreveu resolução X altera a resolução X em oito itens, inventou português e espanhol na cento e setenta e cinco, repetiu os itens um a quatro nos itens sete a dez, e omitiu todas as normas de dois mil e vinte e seis. Pelo proxy: três de três exatas — duzentos e cinquenta e um e duzentos e cinquenta, de cinco de novembro, e duzentos e quarenta e nove, o Programa Piloto DLT. Mesmo modelo, mesma pergunta. A diferença é a rota.">
+  <div class="kicker">15 · VERIFICACAO_RESPOSTA_RECENTES.md</div>
+  <h2>Mesma pergunta, mesmo 7B: <em>0/10 vs 3/3</em></h2>
+  <div class="grid2">
+    <div class="card red"><h3>Direto :11434 (sem filtro)</h3><p><b>0/10 confiáveis.</b> "Res. X altera a Res. X" em 8 itens · ementas trocadas · "em português e espanhol" inventado na 175 · loop: itens 7–10 = cópia de 1–4 · <b>omitiu todas as normas de 2026</b>.</p></div>
+    <div class="card teal"><h3>Via proxy :11435 (com filtro)</h3><p><b>3/3 exatas</b> em número, data e ementa literal: <b>251</b> e <b>250</b> (05/11/2026) e <b>249</b> — Programa Piloto DLT CVM (13/10/2026). Zero alucinação, zero repetição.</p></div>
+  </div>
+  <p class="sub">Causa raiz documentada: o app Desktop do Ollama ignora <code>OLLAMA_HOST</code> e fala direto com a 11434. <span class="hl">A rota é parte do sistema</span> — terminal <code>cvm-chat</code> ou proxy explícito.</p>
+</section>
+
+<!-- 17 AVALIAÇÃO HONESTA -->
+<section class="slide" data-title="Avaliação quantitativa honesta" data-duration="14000"
+  data-narration="Números honestos, inclusive os ruins. A bateria automática de trinta normas contra o modelo-alias puro, sem pré-filtro: quatorze ok, seis parciais, nove divergentes, um falso negativo — quarenta e sete por cento de acerto pleno, sessenta e sete por cento aceitável. A versão cinco do prompt caiu para quarenta por cento. Isso não contradiz o sete de sete: são baterias diferentes. O alias puro sofre com a biblioteca inteira no prompt; o pré-filtro resolve as perguntas direcionadas. O que ainda falta: recall em paráfrases longas e perguntas sobre o corpo do texto, além das ementas.">
+  <div class="kicker">16 · src/avalia_bateria_cvm.py — 30 casos</div>
+  <h2>Os números <em>que não embelezamos</em></h2>
+  <table>
+    <tr><th>Configuração avaliada</th><th>ok</th><th>parcial</th><th>divergente</th><th>taxa ok</th><th>aceitável</th></tr>
+    <tr><td><b>alias puro</b> (biblioteca no SYSTEM, sem filtro)</td><td>14/30</td><td>6</td><td>9</td><td>47%</td><td>67%</td></tr>
+    <tr><td>alias v5 (prompt reescrito)</td><td>12/30</td><td>7</td><td>10</td><td class="bad">40%</td><td>63%</td></tr>
+    <tr><td><b>pré-filtro</b> (bateria direcionada, 7 casos)</td><td class="ok">7/7</td><td>0</td><td>0</td><td class="ok">100%</td><td class="ok">100%</td></tr>
+  </table>
+  <ul class="bullets">
+    <li>Over-triggers da trava: <b>0</b> · falso negativo: <b>1</b> — a trava não bloqueia CVM por engano.</li>
+    <li>Limite conhecido: o filtro casa <b>ementa/número</b>; pergunta sobre o <b>corpo</b> da norma ainda pede a etapa 02.</li>
+  </ul>
+</section>
+
+<!-- 18 ETAPA 02 -->
+<section class="slide" data-title="O que ficou pronto para a etapa 02" data-duration="13000"
+  data-narration="O pgvector não foi implementado — e isso é decisão de projeto, não esquecimento. O que já está pronto para a etapa dois: o init.sql com a tabela chunks regulatórios e embedding vector de mil e vinte e quatro dimensões, pensada para o BGE-M3; o docker-compose com Postgres dezesseis e Ollama; as zonas do data lake separadas; e o índice limpo que alimenta o pré-filtro hoje e alimentará a ingestão vetorial amanhã. O pré-filtro determinístico continua como primeira rota: número exato não precisa de embedding.">
+  <div class="kicker">17 · fronteira da etapa</div>
+  <h2>pgvector: <em>preparado</em>, não implementado</h2>
+  <div class="grid2">
+    <div class="card"><h3>Já no repositório</h3><p><code>db/init.sql</code>: tabela <code>chunks_regulatorios</code> com <code>embedding vector(1024)</code> (BGE-M3) · <code>docker-compose.yml</code>: PostgreSQL 16 + Ollama · zonas do Data Lake: raw / processed / quarantine / silo.</p></div>
+    <div class="card teal"><h3>Por que esperar</h3><p>O pré-filtro entrega <b>100% nas consultas direcionadas</b> com custo zero de infra. O vetor entra onde o filtro não alcança: <b>paráfrase semântica e busca no corpo</b> das normas — não antes.</p></div>
+  </div>
+  <p class="sub">Arquitetura alvo: número exato → rota determinística (hoje) · pergunta difusa → busca híbrida no pgvector (etapa 02). <span class="hl">O filtro não será descartado — será a primeira camada.</span></p>
+</section>
+
+<!-- 19 AUTO-GUIADO -->
+<section class="slide" data-title="Modo auto-guiado" data-duration="14000"
+  data-narration="Esta apresentação é auto-guiada, como a anterior. Botão auto: ela avança sozinha no ritmo de cada slide. Botão narração: voz em português do navegador, e no modo auto o slide só vira quando a fala termina. Tecla I abre o índice clicável, F tela cheia, setas e espaço navegam, e o endereço com hash leva direto a qualquer slide. Um arquivo HTML, zero dependência de build — roda offline, igual ao pipeline que ela descreve.">
+  <div class="kicker">18 · meta</div>
+  <h2>Isto aqui é <em>auto-guiado</em></h2>
+  <ul class="bullets">
+    <li><b>▶ auto</b> — avança sozinha; cada slide tem seu <code>data-duration</code>.</li>
+    <li><b>🔊 narração</b> — voz pt-BR do navegador (Web Speech); no auto, o slide só vira <span class="hl">quando a fala acaba</span>.</li>
+    <li><b>⌨ teclado</b> — ← → / espaço / PgUp PgDn · <code>I</code> índice · <code>F</code> fullscreen · <code>A</code> auto · <code>N</code> narração · <code>0–9</code> salto.</li>
+    <li><b>#/N</b> deep-link — <code>#/14</code> abre direto no resultado 7/7.</li>
+    <li>Um arquivo, zero build, roda offline — <b>como o pipeline que ela descreve</b>.</li>
+  </ul>
+</section>
+
+<!-- 20 FECHAMENTO -->
+<section class="slide" data-title="Fechamento" data-duration="13000"
+  data-narration="Fechamento. Três verdades da etapa um. Primeira: o dado é o fosso — duas mil quinhentas e setenta e cinco normas espelhadas, limpas e indexadas valem mais que qualquer modelo. Segunda: a atenção do sete bilhões é física — duzentas e cinquenta linhas no prompt quebram o ponteiro, e nenhum num_gpu conserta. Terceira: um for com contador em Python levou a precisão de vinte a cem por cento nas consultas direcionadas, sem vetor, sem nuvem, sem custo. O pgvector vem depois — e vai encontrar a casa arrumada. Fim do processo.">
+  <div class="kicker">fim do processo · etapa 01</div>
+  <h2>O que fica: <em>três verdades</em></h2>
+  <ul class="bullets">
+    <li><b>O dado é o fosso.</b> 2.575 normas espelhadas → 253 limpas → índice de 6 campos. O modelo é substituível; o acervo não.</li>
+    <li><b>Atenção é física.</b> 250 linhas no SYSTEM = ponteiro errado no 7B. Menos contexto certo &gt; mais contexto errado.</li>
+    <li><b>Determinístico venceu.</b> 20% → 100% com regex + score + top-5. Sem vetor, sem nuvem, sem custo de API.</li>
+    <li>A etapa 02 (pgvector + BGE-M3) encontra a casa arrumada — e o filtro como primeira camada.</li>
+  </ul>
+  <p class="sub">o arquivo oficial é a verdade ground.<span class="blink">_</span></p>
+</section>
+
+</div>
+
+<!-- === HUD === -->
+<div class="pbar" id="pbar"></div>
+<div class="hud" id="hud">
+  <button id="btnAuto" title="Auto-play (A)">▶ auto</button>
+  <button id="btnNarr" title="Narração pt-BR (N)">🔊 narração</button>
+  <button id="btnToc"  title="Índice (I)">☰ índice</button>
+  <button id="btnFs"   title="Fullscreen (F)">⛶</button>
+  <span class="counter"><b id="cur">1</b> / <span id="tot"></span></span>
+</div>
+
+<!-- === TOC === -->
+<div class="toc" id="toc">
+  <button class="close" id="tocClose">✕</button>
+  <h2 style="color:var(--gold)">Índice do processo</h2>
+  <ol id="tocList"></ol>
+</div>
+
+<script>
+/* ============================================================
+   === MOTOR — navegação, auto-play, narração pt-BR ===
+   ============================================================ */
+(() => {
+  const slides = [...document.querySelectorAll('.slide')];
+  const N = slides.length;
+  let cur = 0, auto = false, narr = false, timer = null;
+
+  const $ = id => document.getElementById(id);
+  const pbar = $('pbar'), curEl = $('cur');
+  $('tot').textContent = N;
+
+  /* --- TOC --- */
+  const tocList = $('tocList');
+  slides.forEach((s, i) => {
+    const li = document.createElement('li');
+    li.innerHTML = `<a href="#/${i+1}">${s.dataset.title}</a>`;
+    tocList.appendChild(li);
+  });
+
+  /* --- navegação --- */
+  function go(i, pushHash = true) {
+    i = Math.max(0, Math.min(N - 1, i));
+    slides[cur].classList.remove('active');
+    cur = i;
+    slides[cur].classList.add('active');
+    curEl.textContent = cur + 1;
+    if (pushHash) history.replaceState(null, '', '#/' + (cur + 1));
+    pbar.style.transition = 'width .25s linear';
+    pbar.style.width = ((cur + 1) / N * 100) + '%';
+    schedule();
+    speak();
+  }
+
+  /* --- auto-play: timer por slide OU fim da fala --- */
+  function schedule() {
+    clearTimeout(timer);
+    if (!auto) return;
+    const ms = +slides[cur].dataset.duration || 12000;
+    if (narr && 'speechSynthesis' in window) return; // avanço no onend da narração
+    timer = setTimeout(() => (cur < N - 1 ? go(cur + 1) : stopAuto()), ms);
+  }
+  function stopAuto() { auto = false; $('btnAuto').classList.remove('on'); $('btnAuto').textContent = '▶ auto'; clearTimeout(timer); }
+
+  /* --- narração Web Speech (pt-BR) --- */
+  let voices = [];
+  const loadVoices = () => { voices = speechSynthesis.getVoices(); };
+  if ('speechSynthesis' in window) {
+    loadVoices(); speechSynthesis.onvoiceschanged = loadVoices;
+  }
+  function speak() {
+    if (!narr || !('speechSynthesis' in window)) return;
+    speechSynthesis.cancel();
+    const text = slides[cur].dataset.narration || slides[cur].dataset.title;
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'pt-BR';
+    const v = voices.find(x => /^pt[-_]BR/i.test(x.lang)) || voices.find(x => /^pt/i.test(x.lang));
+    if (v) u.voice = v;
+    u.rate = 1.02;
+    u.onend = () => { if (auto && cur < N - 1) go(cur + 1); else if (auto) stopAuto(); };
+    speechSynthesis.speak(u);
+  }
+
+  /* --- controles HUD --- */
+  $('btnAuto').onclick = () => {
+    auto = !auto;
+    $('btnAuto').classList.toggle('on', auto);
+    $('btnAuto').textContent = auto ? '⏸ auto' : '▶ auto';
+    if (auto) schedule(); else clearTimeout(timer);
+  };
+  $('btnNarr').onclick = () => {
+    narr = !narr;
+    $('btnNarr').classList.toggle('on', narr);
+    if (!narr && 'speechSynthesis' in window) speechSynthesis.cancel();
+    if (narr) speak(); schedule();
+  };
+  $('btnToc').onclick = toggleToc;
+  $('tocClose').onclick = toggleToc;
+  $('btnFs').onclick = () => document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
+  function toggleToc() { $('toc').classList.toggle('open'); }
+
+  tocList.addEventListener('click', e => {
+    if (e.target.tagName === 'A') { e.preventDefault(); toggleToc(); go(+e.target.getAttribute('href').split('/')[1] - 1); }
+  });
+
+  /* --- teclado --- */
+  addEventListener('keydown', e => {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    const k = e.key;
+    if (k === 'ArrowRight' || k === ' ' || k === 'PageDown') { e.preventDefault(); go(cur + 1); }
+    else if (k === 'ArrowLeft' || k === 'PageUp') { e.preventDefault(); go(cur - 1); }
+    else if (k === 'Home') go(0);
+    else if (k === 'End') go(N - 1);
+    else if (k.toLowerCase() === 'f') $('btnFs').click();
+    else if (k.toLowerCase() === 'i' || k.toLowerCase() === 'm') toggleToc();
+    else if (k.toLowerCase() === 'a') $('btnAuto').click();
+    else if (k.toLowerCase() === 'n') $('btnNarr').click();
+    else if (k === 'Escape') $('toc').classList.remove('open');
+    else if (/^[0-9]$/.test(k)) { const n = +(k === '0' ? 10 : k); if (n <= N) go(n - 1); }
+  });
+
+  /* --- toque / swipe + zonas de clique --- */
+  let tx = 0;
+  addEventListener('touchstart', e => tx = e.changedTouches[0].clientX, {passive:true});
+  addEventListener('touchend', e => {
+    const d = e.changedTouches[0].clientX - tx;
+    if (Math.abs(d) > 50) go(cur + (d < 0 ? 1 : -1));
+  }, {passive:true});
+  addEventListener('click', e => {
+    if (e.target.closest('.hud, .toc, a, button')) return;
+    const x = e.clientX / innerWidth;
+    if (x > 0.72) go(cur + 1); else if (x < 0.12) go(cur - 1);
+  });
+
+  /* --- deep link #/N --- */
+  const m = location.hash.match(/^#\/(\d+)/);
+  go(m ? Math.min(N - 1, +m[1] - 1) : 0, false);
+})();
+</script>
+</body>
+</html>
