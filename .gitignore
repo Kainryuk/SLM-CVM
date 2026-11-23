@@ -1,10 +1,10 @@
 # ==========================================
 # Tasks e anotações individuais de trabalho
 # ==========================================
-task-*.md
+tasks/
 KELVIN_TASKS.md
 *tasks*.md
-tasks/
+task-*.md
 
 # ==========================================
 # Ambientes virtuais e dependências
@@ -15,12 +15,29 @@ env/
 ENV/
 
 # ==========================================
-# Bytecode e caches do Python
+# Bytecode, caches e qualidade de código
 # ==========================================
 __pycache__/
 *.py[cod]
 *$py.class
+*.egg-info/
 .pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Logs, documentos e arquivos temporários
+# ==========================================
+*.log
+*.tmp
+*.docx
+~$*.docx
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
 # ==========================================
 # Variáveis de ambiente e segredos
@@ -29,17 +46,6 @@ __pycache__/
 *.env
 
 # ==========================================
-# Arquivos de sistema e temporários
-# ==========================================
-.DS_Store
-Thumbs.db
-*.tmp
-~$*.docx
-.vscode/
-.idea/
-
-# ==========================================
 # Anexos binários pesados do espelho CVM
 # ==========================================
 docs/**/anexos/
-

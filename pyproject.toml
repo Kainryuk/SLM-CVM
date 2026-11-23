@@ -1,0 +1,20 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = [
+    "src/avalia_bateria_cvm.py",
+    "src/compreender_resolucoes.py",
+    "src/consultar_cvm.py",
+    "src/criar_modelo_trava.py",
+    "src/garantir_proxy.py",
+    "src/organizar_resolucoes.py",
+    "src/proxy_cvm.py",
+    "src/testar_trava_cvm.py",
+    "src/teste_bateria_cvm.py",
+    "src/teste_extracao_slm.py",
+    "src/treino_resolucoes.py",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
