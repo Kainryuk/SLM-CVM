@@ -13,12 +13,63 @@ services:
       - pgdata:/var/lib/postgresql/data
       - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
 
+  # Padrão (CPU / genérico — sobe com: docker compose up -d)
   ollama:
     image: ollama/ollama:latest
     container_name: ollama
     restart: always
     ports:
       - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  # Intel Arc / XPU via IPEX-LLM (subir com: docker compose --profile intel up -d postgres_vector ollama-intel)
+  ollama-intel:
+    profiles: ["intel"]
+    image: intelanalytics/ipex-llm-inference-cpp-xpu:latest
+    container_name: ollama_intel
+    restart: always
+    ports:
+      - "11434:11434"
+    devices:
+      - /dev/dri:/dev/dri
+    environment:
+      - OLLAMA_HOST=0.0.0.0:11434
+      - OLLAMA_NUM_GPU=999
+      - ZES_ENABLE_SYSMAN=1
+      - ONEAPI_DEVICE_SELECTOR=level_zero:0
+    volumes:
+      - ollama_data:/root/.ollama
+
+  # NVIDIA CUDA (subir com: docker compose --profile nvidia up -d postgres_vector ollama-nvidia)
+  ollama-nvidia:
+    profiles: ["nvidia"]
+    image: ollama/ollama:latest
+    container_name: ollama_nvidia
+    restart: always
+    ports:
+      - "11434:11434"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    volumes:
+      - ollama_data:/root/.ollama
+
+  # AMD ROCm (subir com: docker compose --profile amd up -d postgres_vector ollama-amd)
+  ollama-amd:
+    profiles: ["amd"]
+    image: ollama/ollama:rocm
+    container_name: ollama_amd
+    restart: always
+    ports:
+      - "11434:11434"
+    devices:
+      - /dev/kfd:/dev/kfd
+      - /dev/dri:/dev/dri
     volumes:
       - ollama_data:/root/.ollama
 

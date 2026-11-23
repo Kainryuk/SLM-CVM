@@ -1,0 +1,90 @@
+[
+  {
+    "orgao": "CVM",
+    "tipo_norma": "Resolucao_CVM",
+    "tipo_e_numero": "21",
+    "status_vigencia": "ALTERADA",
+    "entidades_citadas": [
+      "CVM"
+    ],
+    "normas_revogadas_ou_alteradas": [
+      "426",
+      "557",
+      "558",
+      "597",
+      "51",
+      "740",
+      "764"
+    ],
+    "resumo_tecnico": "Dispõe sobre o exercício profissional de administração de carteiras de valores mobiliários e revoga outras normas anteriores.",
+    "hash_sha256": "f069a6fd12b77e868cebebe1b9c838fbf087500ed7ccd4033f2d4deacd06737f",
+    "caminho_arquivo": "data_lake/processed/Administradores_de_Carteiras/resol021.md",
+    "documento_id": null
+  },
+  {
+    "orgao": "CVM",
+    "tipo_norma": "Resolucao_CVM",
+    "tipo_e_numero": "22",
+    "status_vigencia": "ALTERADA",
+    "entidades_citadas": [
+      "COMISSÃO_DE_VALORES_MOBILIÁRIOS_CVM"
+    ],
+    "normas_revogadas_ou_alteradas": [
+      "Instrução CVM nº 61 de 17 de fevereiro de 1987",
+      "Instrução CVM nº 87 de 3 de novembro de 1988"
+    ],
+    "resumo_tecnico": "Dispõe sobre a administração e as operações de Planos de Poupança e Investimento – PAIT, fixa o patrimônio líquido da instituição administradora e revoga a Instrução CVM nº 61, de 17 de fevereiro de 1987, e a Instrução CVM nº 87, de 3 de novembro de 1988.",
+    "hash_sha256": "a7a6bfaa0b4a75fa6fb6d83580a1f554a4dc5ce15a8335355ba1291192b0367a",
+    "caminho_arquivo": "data_lake/processed/Administradores_de_Carteiras/resol022.md",
+    "documento_id": null
+  },
+  {
+    "orgao": "CVM",
+    "tipo_norma": "Resolucao_CVM",
+    "tipo_e_numero": "9",
+    "status_vigencia": "VIGENTE",
+    "entidades_citadas": [
+      "CVM"
+    ],
+    "normas_revogadas_ou_alteradas": [
+      "Resolução CVM nº 185/23"
+    ],
+    "resumo_tecnico": "Dispõe sobre a atividade de classificação de risco de crédito no âmbito do mercado de valores mobiliários.",
+    "hash_sha256": "4c8e9837dcf8f5e33d19b1c41dc03c4fa5766d5773f0bcece64b8498c4d88762",
+    "caminho_arquivo": "data_lake/processed/Agencias_de_Classificacao_de_Risco_de_Credito/resol009.md",
+    "documento_id": null
+  },
+  {
+    "orgao": "CVM",
+    "tipo_norma": "Resolucao_CVM",
+    "tipo_e_numero": "17",
+    "status_vigencia": "ALTERADA",
+    "entidades_citadas": [
+      "COMISSAO_DE_VALORES_MOBILIARIOS - CVM"
+    ],
+    "normas_revogadas_ou_alteradas": [
+      "Instrucao_CVM_nº_583"
+    ],
+    "resumo_tecnico": "Dispõe sobre o exercício da função de agente fiduciário e revoga a Instrução CVM nº 583, de 20 de dezembro de 2016.",
+    "hash_sha256": "d526056e39563e9b14361d349b63aa9cc3c91924a6800a9d0637ac454b721af4",
+    "caminho_arquivo": "data_lake/processed/Agentes_Fiduciarios/resol017.md",
+    "documento_id": 12
+  },
+  {
+    "orgao": "CVM",
+    "tipo_norma": "Resolucao_CVM",
+    "tipo_e_numero": "20",
+    "status_vigencia": "ALTERADA",
+    "entidades_citadas": [
+      "CVM"
+    ],
+    "normas_revogadas_ou_alteradas": [
+      "Deliberação CVM nº 633, de 6 de julho de 2010",
+      "Instrução CVM nº 598, de 3 de maio de 2018"
+    ],
+    "resumo_tecnico": "Dispõe sobre a atividade de analista de valores mobiliários e revoga a Deliberação CVM nº 633, de 6 de julho de 2010, e a Instrução CVM nº 598, de 3 de maio de 2018.",
+    "hash_sha256": "471cfbe157ce88b8c096ed751265188f7038e0b9f2098907af098c43e674ac79",
+    "caminho_arquivo": "data_lake/processed/Analistas_de_Valores_Mobiliarios/resol020.md",
+    "documento_id": 13
+  }
+]

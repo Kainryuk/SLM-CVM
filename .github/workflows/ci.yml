@@ -10,8 +10,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Instalar dependências leves de teste
-        run: pip install ruff pytest pydantic
+      - name: Instalar dependências de teste e projeto
+        run: pip install ruff pytest -r requirements.txt
       - name: Verificar estilo com Ruff
         run: ruff check .
       - name: Executar testes com Pytest

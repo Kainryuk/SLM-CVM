@@ -1,4 +1,5 @@
-# UC01 Sem01 — Kelvin (Trilha B: IA & SLM)
-# Ollama client + Pydantic (ficha rígida / JSON Schema)
+# UC01 Sem01/Sem03 — Kelvin (Trilha B: IA & Worker) — CVM
+# Ollama client + Pydantic (ficha rígida / JSON Schema) + driver PostgreSQL
 ollama>=0.4
 pydantic>=2.0
+psycopg2-binary>=2.9

@@ -43,6 +43,7 @@ def extrair_metadados(trecho: str, modelo: str = "qwen2.5:3b") -> MetadadosExtra
         model=modelo,
         messages=[{"role": "user", "content": prompt}],
         format=MetadadosExtraidosNorma.model_json_schema(),
+        options={"num_gpu": 16, "num_thread": 4},
     )
     msg = resposta["message"] if isinstance(resposta, dict) else resposta.message
     conteudo = msg["content"] if isinstance(msg, dict) else msg.content
